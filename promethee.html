@@ -1,0 +1,41 @@
+<p>Desenvolvido utilizando o que havia de melhor na Sociologia e na Matemática em seu tempo, o método PROMETHEE permite que tomemos uma decisão racional baseado tanto nas suas preferências pessoais como na matemática. O procedimento pode parecer um pouco complicado à primeira vista mas ele pode te ajudar a fazer escolhas melhores em momentos muito difíceis, quando há várias opções e/ou critérios demais para avaliar.</p>
+
+<p>Neste artigo, vamos tentar escolher um carro utilizando o método PROMETHEE. Para isso, vamos precisar de um programa de manipulação de planilhas como o LibreOffice Calc ou o Microsoft Excel.</p>
+
+<p>O procedimento começa com as escolhas dos critérios que gostaríamos de utilizar para avaliação. Por exemplo, vamos comparar os carros a partir do seu preço, do consumo, do conforto e da beleza. Cada um destes critérios deve ter um peso. O critério mais importante possuirá o maior peso. Para que o método funcione, é necessário que a soma de todos os pesos seja igual a 1. Em termos matemáticos, teremos <code>q</code> pesos e um vetor <code>w</code> com os pesos de cada critério. Queremos que:</p>
+
+<p>$$\sum\limits_{k=1}^q w_k = 1$$</p>
+
+<p>Uma sugestão para os valores dos pesos é utilizar a fórmula de <em>rankings</em> ROC, <a href="http://dx.doi.org/10.1155/2015/530615">como sugerido pela engenheira Danielle Costa Morais</a>:</p>
+
+<p>$$w_k = \frac{1}{q} \sum \limits_{x=k}^{q} \frac{1}{x}$$</p>
+
+<p>Com ela, podemos listar o critério mais importante como 1; o segundo mais importante como 2; e assim sucessivamente. Neste exemplo, vou considerar que os meus critérios estejam organizados da seguinte forma:</p>
+
+<table class="pure-table"><thead><tr><th>Critério</th><th>Peso</th><th>Peso ROC</th></tr></thead><tbody><tr><td>Preço</td><td>1</td><td>0.52</td></tr><tr><td>Consumo</td><td>3</td><td>0.15</td></tr><tr><td>Conforto</td><td>2</td><td>0.27</td></tr><tr><td>Beleza</td><td>4</td><td>0.06</td></tr></tbody></table><p>Em seguida, vamos listar todas as <code>p</code> opções. Aqui, vamos considerar que as nossas opções sejam os seguintes carros:</p>
+
+<ul><li>Fusca</li>
+<li>Chevette</li>
+<li>Uno</li>
+<li>Corcel</li>
+</ul><p>Com estas opções em mãos, vamos considerar, para um dos critérios, quais as melhores e as piores opções. Os rankings devem ser feitos com a nota 1 para a pior opção; 2 para a 2ª pior; e por aí vai até a melhor opção. Vamos supor que, depois de analisar cada um dos critérios para os carros, eu cheguei à seguinte tabela, que vou chamar de <code>f</code>:</p>
+
+<table class="pure-table"><thead><tr><th>Opção</th><th>Preço</th><th>Consumo</th><th>Conforto</th><th>Beleza</th></tr></thead><tbody><tr><td>Fusca</td><td>4</td><td>3</td><td>1</td><td>3</td></tr><tr><td>Chevette</td><td>2</td><td>1</td><td>4</td><td>2</td></tr><tr><td>Uno</td><td>3</td><td>4</td><td>2</td><td>1</td></tr><tr><td>Corcel</td><td>1</td><td>2</td><td>3</td><td>4</td></tr></tbody></table><p>Com a lista de pesos para cada um dos critérios e a tabela de comparativos, podemos finalmente aplicar as fórmulas do PROMETHEE para escolher a melhor opção. Inicialmente, vamos construir a chamada matriz de preferências que mostra, entre duas opções <code>a</code> e <code>b</code>, qual é mais indicada. Vamos definir que a preferência <code>π</code> de <code>a</code> sobre <code>b</code> é:</p>
+
+<p>$$\pi (a, b) = \sum \limits_{j=1}^{q} (f_j(a)-f_j(b)) \cdot w_j$$</p>
+
+<p>Com a tabela de preferências construída, vamos partir para o fluxo total <code>ϕ</code>, que é calculado a partir da diferença entre os fluxos positivo e negativo de uma opção <code>a</code>:</p>
+
+<p>$$\phi(a) = \phi^+(a)-\phi^-(a)$$</p>
+
+<p>$$: \phi^+(a)= \frac{1}{p} \sum \limits_{x=1}^{p} \pi (a,x)$$</p>
+
+<p>$$: \phi^-(a)= \frac{1}{p} \sum \limits_{x=1}^{p} \pi (x,a)$$</p>
+
+<p>A melhor opção é a que possuir o maior fluxo entre todas. Realizando os cálculos necessários com os nosso critérios e as opções listadas, vamos chegar à seguinte lista de fluxos:</p>
+
+<table class="pure-table"><thead><tr><th>Opção</th><th>Fluxo</th></tr></thead><tbody><tr><td>Fusca</td><td>1.31</td></tr><tr><td>Chevette</td><td>0.65</td></tr><tr><td>Uno</td><td>-1.52</td></tr><tr><td>Corcel</td><td>-0.44</td></tr></tbody></table><p>Logo, a melhor opção, no nosso exemplo, é o Fusca, já que ele possui o maior fluxo.</p>
+
+<p>Para facilitar este processo, a Liberdade possui uma implementação deste algoritmo que pode ser utilizada no Microsoft Excel! <a href="https://github.com/liberdade-organizacao/promethee/releases">Basta baixá-la no GitHub</a>. Todo este procedimento se tornaria algo como da figura a seguir:</p>
+
+<p><figure class="tmblr-full" data-orig-height="248" data-orig-width="368" data-orig-src="https://github.com/liberdade-organizacao/promethee/raw/master/example.png"><img src="https://66.media.tumblr.com/face73fde61c1b00e8be2733baa6940c/tumblr_inline_pjnl6x3nne1qgsfmv_540.png" alt="Tabela de exemplo" data-orig-height="248" data-orig-width="368" data-orig-src="https://github.com/liberdade-organizacao/promethee/raw/master/example.png"></figure></p>
