@@ -1,26 +1,32 @@
 [
     {
         "title": "Screen",
+        "description": "Referência rápida para o comando screen",
         "path": "screen.md"
     },
     {
         "title": "PostgreSQL",
+        "description": "Setup do banco de dados PostgreSQL",
         "path": "postgresql.md"
     },
     {
         "title": "PROMETHEE",
+        "description": "Fundamentos do método PROMETHEE para tomada de decisão",
         "path": "promethee.html"
     },
     {
         "title": "Deploy de aplicação no Heroku",
+        "description": "Exemplo de como levantar uma aplicação web no Heroku",
         "path": "heroku.md"
     },
     {
         "title": "Ruby on Rails + Vagrant",
+        "description": "Uso do Vagrant para executar aplicações Ruby on Rails",
         "path": "vagrant.md"
     },
     {
         "title": "Technology Readiness Level",
+        "description": "Lista da NASA para indicar o nível de maturidade de um projeto",
         "path": "trl.md"
     }
 ]
