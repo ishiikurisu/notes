@@ -1,5 +1,15 @@
 [
     {
+        "title": "Lógica Matemática & Computacional",
+        "description": "Introdução à Lógica Proposicional e à Lógica de Predicados",
+        "path": "lmc.html"
+    },
+    {
+        "title": "Análise de Sinais",
+        "description": "Séries e Transformada de Fourier",
+        "path": "as.html"
+    },
+    {
         "title": "Screen",
         "description": "Referência rápida para o comando screen",
         "path": "screen.md"
