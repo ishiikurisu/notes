@@ -1,1451 +1,1436 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Lógica Matemática &amp; Computacional</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
-    <script type="text/javascript" async
-        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
-    </script>
-</head>
-<body>
-    <h1>Lógica Matemática &amp; Computacional</h1>
-    <p>
-        Pela professora
-        <a href="http://www.mat.unb.br/~dnantes/Welcome.html">Daniele Nantes</a>
-    </p>
+<h1>Lógica Matemática &amp; Computacional</h1>
+<p>
+    Pela professora
+    <a href="http://www.mat.unb.br/~dnantes/Welcome.html">Daniele Nantes</a>
+</p>
 
-    <h2>Índice</h2>
+<h2>Índice</h2>
+<ol>
+    <li><a href="#s-1">Introdução</a></li>
     <ol>
-        <li><a href="#s-1">Introdução</a></li>
-        <ol>
-            <li><a href="#s-1-1">Paradoxo de Russel</a></li>
-        </ol>
+        <li><a href="#s-1-1">Paradoxo de Russel</a></li>
+    </ol>
 
-        <li><a href="#s-2">Lógica Proposicional</a></li>
+    <li><a href="#s-2">Lógica Proposicional</a></li>
+    <ol>
+        <li><a href="#s-2-1">Alfabeto da Lógica</a></li>
+        <li><a href="#s-2-2">Dedução natural</a></li>
         <ol>
-            <li><a href="#s-2-1">Alfabeto da Lógica</a></li>
-            <li><a href="#s-2-2">Dedução natural</a></li>
+            <li><a href="#s-2-2-1">Notação</a></li>
+            <li><a href="#s-2-2-2">Regras</a></li>
             <ol>
-                <li><a href="#s-2-2-1">Notação</a></li>
-                <li><a href="#s-2-2-2">Regras</a></li>
-                <ol>
-                    <li><a href="#s-2-2-2-1">Regras para conjunção</a></li>
-                    <li><a href="#s-2-2-2-2">Regras para negação</a></li>
-                    <li><a href="#s-2-2-2-3">Regras para implicação</a></li>
-                    <li><a href="#s-2-2-2-4">Regras para disjunção</a></li>
-                </ol>
+                <li><a href="#s-2-2-2-1">Regras para conjunção</a></li>
+                <li><a href="#s-2-2-2-2">Regras para negação</a></li>
+                <li><a href="#s-2-2-2-3">Regras para implicação</a></li>
+                <li><a href="#s-2-2-2-4">Regras para disjunção</a></li>
             </ol>
-            <li><a href="#s-2-2-3">Propriedades</a></li>
+        </ol>
+        <li><a href="#s-2-2-3">Propriedades</a></li>
+        <ol>
+            <li><a href="#s-2-2-3-1">Propriedades da negação</a></li>
+            <li><a href="#s-2-2-3-2">Propriedades da implicação</a></li>
+        </ol>
+        <li><a href="#s-2-3">Lógicas Intuicionista e Clássica</a></li>
+        <ol>
+            <li><a href="#s-2-3-1">Propriedades diversas</a></li>
+        </ol>
+        <li><a href="#s-2-4">Semântica da Lógica Proposicional</a></li>
+        <ol>
+            <li><a href="#s-2-4-1">Propriedades semânticas</a></li>
+            <li><a href="#s-2-4-2">Semântica da implicação</a></li>
             <ol>
-                <li><a href="#s-2-2-3-1">Propriedades da negação</a></li>
-                <li><a href="#s-2-2-3-2">Propriedades da implicação</a></li>
+                <li><a href="#s-2-4-1-1">Examplos da Álgebra</a></li>
+                <li><a href="#s-2-4-1-2">Causalidade</a></li>
             </ol>
-            <li><a href="#s-2-3">Lógicas Intuicionista e Clássica</a></li>
+            <li><a href="#s-2-4-3">Contradição</a></li>
+            <li><a href="#s-2-4-4">Relação entre proposições semânticas</a></li>
             <ol>
-                <li><a href="#s-2-3-1">Propriedades diversas</a></li>
+                <li><a href="#s-2-4-4-1">Tautologia e contradição</a></li>
+                <li><a href="#s-2-4-4-2">Tautologia e satisfatibilidade</a></li>
+                <li><a href="#s-2-4-4-3">Implicação semântca e implicação sintática</a></li>
+                <li><a href="#s-2-4-4-4">Equivalência semântica e "se, e somente se"</a></li>
+                <li><a href="#s-2-4-4-5">Equivalência e implicações semânticas</a></li>
+                <li><a href="#s-2-4-4-6">Transitividade de \(= \parallel = \)</a></li>
+                <li><a href="#s-2-4-4-7">Satisfatibilidade</a></li>
             </ol>
-            <li><a href="#s-2-4">Semântica da Lógica Proposicional</a></li>
+            <li><a href="#s-2-4-5">Teorema da dedução, versão semântica</a></li>
             <ol>
-                <li><a href="#s-2-4-1">Propriedades semânticas</a></li>
-                <li><a href="#s-2-4-2">Semântica da implicação</a></li>
-                <ol>
-                    <li><a href="#s-2-4-1-1">Examplos da Álgebra</a></li>
-                    <li><a href="#s-2-4-1-2">Causalidade</a></li>
-                </ol>
-                <li><a href="#s-2-4-3">Contradição</a></li>
-                <li><a href="#s-2-4-4">Relação entre proposições semânticas</a></li>
-                <ol>
-                    <li><a href="#s-2-4-4-1">Tautologia e contradição</a></li>
-                    <li><a href="#s-2-4-4-2">Tautologia e satisfatibilidade</a></li>
-                    <li><a href="#s-2-4-4-3">Implicação semântca e implicação sintática</a></li>
-                    <li><a href="#s-2-4-4-4">Equivalência semântica e "se, e somente se"</a></li>
-                    <li><a href="#s-2-4-4-5">Equivalência e implicações semânticas</a></li>
-                    <li><a href="#s-2-4-4-6">Transitividade de \(= \parallel = \)</a></li>
-                    <li><a href="#s-2-4-4-7">Satisfatibilidade</a></li>
-                </ol>
-                <li><a href="#s-2-4-5">Teorema da dedução, versão semântica</a></li>
-                <ol>
-                    <li><a href="#s-2-4-5-1">Corolários</a></li>
-                </ol>
+                <li><a href="#s-2-4-5-1">Corolários</a></li>
             </ol>
-            <li><a href="#s-2-5">Princípio da indução</a></li>
+        </ol>
+        <li><a href="#s-2-5">Princípio da indução</a></li>
+        <ol>
+            <li><a href="#s-2-5-1">Indução natural</a></li>
+            <li><a href="#s-2-5-2">Indução estrutural</a></li>
+        </ol>
+        <li><a href="#s-2-6">Correção e completude</a></li>
+        <ol>
+            <li><a href="#s-2-6-1">Correção da lógica proposicional</a></li>
+            <li><a href="#s-2-6-2">Corretude da lógica proposicional</a></li>
+        </ol>
+        <li><a href="#s-2-7">Fórmulas Equivalentes</a></li>
+        <ol>
+            <li><a href="#s-2-7-1">Equivalências importantes</a></li>
+            <li><a href="#s-2-7-2">Formas normais conjuntivas e disjuntivas</a></li>
             <ol>
-                <li><a href="#s-2-5-1">Indução natural</a></li>
-                <li><a href="#s-2-5-2">Indução estrutural</a></li>
+                <li><a href="#s-2-7-2-1">Método da tabela verdade</a></li>
             </ol>
-            <li><a href="#s-2-6">Correção e completude</a></li>
+            <li><a href="#s-2-7-3">Resolução</a></li>
+            <li><a href="#s-2-7-4">Cláusulas</a></li>
+            <li><a href="#s-2-7-5">Procedimento de Davis-Putnam</a></li>
             <ol>
-                <li><a href="#s-2-6-1">Correção da lógica proposicional</a></li>
-                <li><a href="#s-2-6-2">Corretude da lógica proposicional</a></li>
-            </ol>
-            <li><a href="#s-2-7">Fórmulas Equivalentes</a></li>
-            <ol>
-                <li><a href="#s-2-7-1">Equivalências importantes</a></li>
-                <li><a href="#s-2-7-2">Formas normais conjuntivas e disjuntivas</a></li>
-                <ol>
-                    <li><a href="#s-2-7-2-1">Método da tabela verdade</a></li>
-                </ol>
-                <li><a href="#s-2-7-3">Resolução</a></li>
-                <li><a href="#s-2-7-4">Cláusulas</a></li>
-                <li><a href="#s-2-7-5">Procedimento de Davis-Putnam</a></li>
-                <ol>
-                    <li><a href="#s-2-7-5-1">
-                        Correção e completudo do DPP
-                    </a></li>
-                    <li><a href="#s-2-7-5-2">
-                        Compacidade da lógica proposicional
-                    </a></li>
-                    <li><a href="#s-2-7-5-3">
-                        Caso geral de correção e completude da resolução
-                    </a></li>
-                </ol>
-                <li><a href="#s-2-7-6">Cláusulas de Horn</a></li>
-                <li><a href="#s-2-7-7">Cláusulas de grafos</a></li>
-                <li><a href="#s-2-7-7-1">
-                    Teorema de Tseitin
+                <li><a href="#s-2-7-5-1">
+                    Correção e completudo do DPP
+                </a></li>
+                <li><a href="#s-2-7-5-2">
+                    Compacidade da lógica proposicional
+                </a></li>
+                <li><a href="#s-2-7-5-3">
+                    Caso geral de correção e completude da resolução
                 </a></li>
             </ol>
+            <li><a href="#s-2-7-6">Cláusulas de Horn</a></li>
+            <li><a href="#s-2-7-7">Cláusulas de grafos</a></li>
+            <li><a href="#s-2-7-7-1">
+                Teorema de Tseitin
+            </a></li>
         </ol>
-        <li><a href="#s-3">Lógica de Predicados</a></li>
     </ol>
+    <li><a href="#s-3">Lógica de Predicados</a></li>
+</ol>
 
-    <!-- Página 1 -->
-    <a id="s-1"></a>
-    <h1>Introdução</h1>
+<!-- Página 1 -->
+<a id="s-1"></a>
+<h1>Introdução</h1>
 
-    <a id="s-1-1"></a>
-    <h2>Paradoxo de Russel</h2>
-    <p>
-        Considere o conjunto de todos os conjuntos que
-        não são membros de si mesmos:
-    </p>
-    <p class="math">
-        ` Q := \{ P | P !in Q \} `
-        ` :. A in Q => A !in Q `
-    </p>
-    <p>
-        Este paradoxo levou Russel a desenvolver começar a desenvolver a lógica
-        prosicional a fim de explicar a matemática.
-    </p>
+<a id="s-1-1"></a>
+<h2>Paradoxo de Russel</h2>
+<p>
+    Considere o conjunto de todos os conjuntos que
+    não são membros de si mesmos:
+</p>
+<p class="math">
+    ` Q := \{ P | P !in Q \} `
+    ` :. A in Q => A !in Q `
+</p>
+<p>
+    Este paradoxo levou Russel a desenvolver começar a desenvolver a lógica
+    prosicional a fim de explicar a matemática.
+</p>
 
-    <a id="s-2"></a>
-    <h1>Lógica Proposicional</h1>
+<a id="s-2"></a>
+<h1>Lógica Proposicional</h1>
 
-    <p>
-        O objetivo da lógica e da Matemática é modelar situações ou
-        problemas de forma que seja possível raciocinar sobre eles
-        formalmente. A fim de fazer argumentos formais, vamos
-        desenvolver uma lógica simbólica a partir da qual podemos
-        expressar sentenças declarativas (ou proposições) e mostrar
-        suas estruturas lógicas. Para isso, vamos definir a linguagem
-        da lógica.
-    </p>
+<p>
+    O objetivo da lógica e da Matemática é modelar situações ou
+    problemas de forma que seja possível raciocinar sobre eles
+    formalmente. A fim de fazer argumentos formais, vamos
+    desenvolver uma lógica simbólica a partir da qual podemos
+    expressar sentenças declarativas (ou proposições) e mostrar
+    suas estruturas lógicas. Para isso, vamos definir a linguagem
+    da lógica.
+</p>
 
-    <a id="s-2-1"></a>
-    <h2>Alfabeto de Lógica</h2>
-    <p>O alfabeto da lógica é constituído por:</p>
-    <ul>
-        <li>Símbolos de pontuação: <em>(),;.</em></li>
-        <li>Símbolos proposicionais: letras romanas e gregas</li>
-        <li>Conectivos proposicionais: `^^ vv => <=> not`</li>
-    </ul>
+<a id="s-2-1"></a>
+<h2>Alfabeto de Lógica</h2>
+<p>O alfabeto da lógica é constituído por:</p>
+<ul>
+    <li>Símbolos de pontuação: <em>(),;.</em></li>
+    <li>Símbolos proposicionais: letras romanas e gregas</li>
+    <li>Conectivos proposicionais: `^^ vv => <=> not`</li>
+</ul>
 
-    <p>
-        As fórmulas da lógica proposicional são constituídas
-        indutivamente a partir dos símbolos do alfabeto
-        conforme as regras a seguir:
-    </p>
-    <ul>
-        <li>
-            Se `H` é uma fórmula, então `not H` é
-            fórmula.
-        </li>
-        <li>
-            Se `H, G` são fórmulas, então `H ^^ G`;
-            `H vv G`; `H => G`; e `H <=> G` também são
-            fórmulas.
-        </li>
-        <li>Hipótese `=>` Conclusão</li>
-    </ul>
+<p>
+    As fórmulas da lógica proposicional são constituídas
+    indutivamente a partir dos símbolos do alfabeto
+    conforme as regras a seguir:
+</p>
+<ul>
+    <li>
+        Se `H` é uma fórmula, então `not H` é
+        fórmula.
+    </li>
+    <li>
+        Se `H, G` são fórmulas, então `H ^^ G`;
+        `H vv G`; `H => G`; e `H <=> G` também são
+        fórmulas.
+    </li>
+    <li>Hipótese `=>` Conclusão</li>
+</ul>
 
-    <p>Os conectivos lógicos satisfazem a seguinte ordem:</p>
-    <ol>
-        <li>`not`</li>
-        <li>`^^ > vv`</li>
-        <li>`=> > <=>`</li>
-    </ol>
+<p>Os conectivos lógicos satisfazem a seguinte ordem:</p>
+<ol>
+    <li>`not`</li>
+    <li>`^^ > vv`</li>
+    <li>`=> > <=>`</li>
+</ol>
 
-    <p>Convenciona-se que a implicação é associativa à direita.</p>
-    <p>Seja `H` uma fórmula da lógica proposicional (LP). Então:</p>
-    <ul>
-        <li>
-            `H` é uma subfórmula de `H` (`H in suf(H)`)
-        </li>
-        <li>
-            Se `H` é uma fórmula do tipo `not G`,
-            então `G in suf(H)`
-        </li>
-        <li>
-            Se `H` é uma fórmula do tipo
-            `P ^^ Q`; `P vv Q`; `P => Q`; ou `P <=> Q`,
-            então `P, Q in suf(H)`
-        </li>
-        <li>
-            `G in suf(H) => suf(G) sube suf(H)`
-        </li>
-    </ul>
+<p>Convenciona-se que a implicação é associativa à direita.</p>
+<p>Seja `H` uma fórmula da lógica proposicional (LP). Então:</p>
+<ul>
+    <li>
+        `H` é uma subfórmula de `H` (`H in suf(H)`)
+    </li>
+    <li>
+        Se `H` é uma fórmula do tipo `not G`,
+        então `G in suf(H)`
+    </li>
+    <li>
+        Se `H` é uma fórmula do tipo
+        `P ^^ Q`; `P vv Q`; `P => Q`; ou `P <=> Q`,
+        então `P, Q in suf(H)`
+    </li>
+    <li>
+        `G in suf(H) => suf(G) sube suf(H)`
+    </li>
+</ul>
 
-    <a id="s-2-2"></a>
-    <h2>Dedução natural</h2>
+<a id="s-2-2"></a>
+<h2>Dedução natural</h2>
 
-    <p>Considere o seguinte argumento:</p>
-    <ol>
-        <li>
-            Se o trem chegar tarde e não existirem taxis na estação,
-            então Carlos está atrasado para a reunião.
-        </li>
-        <li>
-            Carlos não está atrasado para a reunião.
-        </li>
-        <li>
-            O trem chegou tarde.
-        </li>
-    </ol>
-    <p>
-        Dela conclui-se que havia taxis na estação. Podemos modelar a
-        situação da seguinte forma:
-    </p>
-    <p>
-        `P := ` "O trem chegar tarde"
-    </p>
-    <p>
-        `Q := ` "Existem taxis na estação"
-    </p>
-    <p>
-        `R := ` "Carlos está atrasado para reunião"
-    </p>
-    <ol>
-        <li>
-            `P ^^ not Q => R`
-        </li>
-        <li>
-            `not R`
-        </li>
-        <li>
-            `P`
-        </li>
-        <li>
-            `Q`
-        </li>
-    </ol>
-    <!-- Página 2 -->
-    <p>
-        Vamos ter um conjunto de regras de prova que permitirão
-        inferir derivar, concluir fórmulas a partir de outras fórmulas.
-        Aplicando estas regras sucessivamente, podemos inferir uma
-        conclusão a partir de um conjunto de premissas, que são
-        proposições inciais que servem de base oara uma argumentação
-        ou para um raciocínio.
-    </p>
+<p>Considere o seguinte argumento:</p>
+<ol>
+    <li>
+        Se o trem chegar tarde e não existirem taxis na estação,
+        então Carlos está atrasado para a reunião.
+    </li>
+    <li>
+        Carlos não está atrasado para a reunião.
+    </li>
+    <li>
+        O trem chegou tarde.
+    </li>
+</ol>
+<p>
+    Dela conclui-se que havia taxis na estação. Podemos modelar a
+    situação da seguinte forma:
+</p>
+<p>
+    `P := ` "O trem chegar tarde"
+</p>
+<p>
+    `Q := ` "Existem taxis na estação"
+</p>
+<p>
+    `R := ` "Carlos está atrasado para reunião"
+</p>
+<ol>
+    <li>
+        `P ^^ not Q => R`
+    </li>
+    <li>
+        `not R`
+    </li>
+    <li>
+        `P`
+    </li>
+    <li>
+        `Q`
+    </li>
+</ol>
+<!-- Página 2 -->
+<p>
+    Vamos ter um conjunto de regras de prova que permitirão
+    inferir derivar, concluir fórmulas a partir de outras fórmulas.
+    Aplicando estas regras sucessivamente, podemos inferir uma
+    conclusão a partir de um conjunto de premissas, que são
+    proposições inciais que servem de base oara uma argumentação
+    ou para um raciocínio.
+</p>
 
-    <a id="s-2-2-1"></a>
-    <h3>Notação</h3>
-    <p>
-        Suponha que tenhamos um conjunto `\{ phi_i \}_(i=1)^(n)` de proposições
-        (as nossas premissas) e uma fórmula `psi` que será a nossa conclusão
-        (ou <em>sequente</em>).
-    </p>
-    <p class="math">
-        `\{ phi_i \}_(i=1)^(n) |-- psi`
-    </p>
-    <p>
-        Suas premissas provam a conclusão. Um sequente é válido se existe uma
-        prova para ele.
-    </p>
+<a id="s-2-2-1"></a>
+<h3>Notação</h3>
+<p>
+    Suponha que tenhamos um conjunto `\{ phi_i \}_(i=1)^(n)` de proposições
+    (as nossas premissas) e uma fórmula `psi` que será a nossa conclusão
+    (ou <em>sequente</em>).
+</p>
+<p class="math">
+    `\{ phi_i \}_(i=1)^(n) |-- psi`
+</p>
+<p>
+    Suas premissas provam a conclusão. Um sequente é válido se existe uma
+    prova para ele.
+</p>
 
-    <a id="s-2-2-2"></a>
-    <h3>Regras</h3>
-    <a id="s-2-2-2-1"></a>
-    <h4>Regras para conjunção</h4>
-    <ul>
-        <li>
-            <p>
-                Introdução: sejam `phi, psi` premissas. Então `phi ^^ psi` é
-                conclusão. Em notação de árvore:
-            </p>
-            <p  class="math">
-                `(phi \ \ psi)/(phi ^^ psi)`
-            </p>
-        </li>
-        <li>
-            <p>
-                Eliminação:
-            </p>
-            <p  class="math">
-                `(phi ^^ psi)/(phi)`
-            </p>
-            <p  class="math">
-                `(phi ^^ psi)/(psi)`
-            </p>
-        </li>
-    </ul>
+<a id="s-2-2-2"></a>
+<h3>Regras</h3>
+<a id="s-2-2-2-1"></a>
+<h4>Regras para conjunção</h4>
+<ul>
+    <li>
+        <p>
+            Introdução: sejam `phi, psi` premissas. Então `phi ^^ psi` é
+            conclusão. Em notação de árvore:
+        </p>
+        <p  class="math">
+            `(phi \ \ psi)/(phi ^^ psi)`
+        </p>
+    </li>
+    <li>
+        <p>
+            Eliminação:
+        </p>
+        <p  class="math">
+            `(phi ^^ psi)/(phi)`
+        </p>
+        <p  class="math">
+            `(phi ^^ psi)/(psi)`
+        </p>
+    </li>
+</ul>
 
-    <!-- Exemplo -->
-    <p>
-        Exemplo: prove que `P ^^ Q, R |-- Q ^^ R`
-    </p>
-    <p  class="math">
-        \(
-            \cfrac
-                {\cfrac
-                    {P \wedge Q}
-                    {Q}
-                    \ R
-                }
-                {Q \wedge R}
+<!-- Exemplo -->
+<p>
+    Exemplo: prove que `P ^^ Q, R |-- Q ^^ R`
+</p>
+<p  class="math">
+    \(
+        \cfrac
+            {\cfrac
+                {P \wedge Q}
+                {Q}
+                \ R
+            }
+            {Q \wedge R}
 
-        \)
-    </p>
+    \)
+</p>
 
-    <p>
-        Exercício: `(P ^^ Q) ^^ R, S ^^ T |-- Q ^^ S`
-    </p>
+<p>
+    Exercício: `(P ^^ Q) ^^ R, S ^^ T |-- Q ^^ S`
+</p>
 
-    <a id="s-2-2-2-2"></a>
-    <h4>Regras para negação</h4>
-    <ul>
-        <li>
-            <p>
-                Introdução da dupla negação
-            </p>
-            <p class="math">
-                `(phi)/(not not phi)`
-            </p>
-        </li>
+<a id="s-2-2-2-2"></a>
+<h4>Regras para negação</h4>
+<ul>
+    <li>
+        <p>
+            Introdução da dupla negação
+        </p>
+        <p class="math">
+            `(phi)/(not not phi)`
+        </p>
+    </li>
 
-        <li>
-            <p>
-                Eliminação da dupla negação
-            </p>
-            <p class="math">
-                `(not not phi)/(phi)`
-            </p>
-        </li>
-    </ul>
+    <li>
+        <p>
+            Eliminação da dupla negação
+        </p>
+        <p class="math">
+            `(not not phi)/(phi)`
+        </p>
+    </li>
+</ul>
 
-    <p>Exercício: `P, not not (Q ^^ R) |-- not not P ^^ R`</p>
+<p>Exercício: `P, not not (Q ^^ R) |-- not not P ^^ R`</p>
 
-    <a id="s-2-2-2-3"></a>
-    <h4>Regras para implicação</h4>
-    <ul>
-        <li>
-            <p>
-                Modus Ponens
-            </p>
-            <p class="math">
-                `(phi => psi \ \ phi)/(psi)`
-            </p>
-        </li>
+<a id="s-2-2-2-3"></a>
+<h4>Regras para implicação</h4>
+<ul>
+    <li>
+        <p>
+            Modus Ponens
+        </p>
+        <p class="math">
+            `(phi => psi \ \ phi)/(psi)`
+        </p>
+    </li>
 
-        <li>
-            <p>
-                Modus Tollens
-            </p>
-            <p class="math">
-                `(phi => psi \ \ not psi)/(phi)`
-            </p>
-        </li>
+    <li>
+        <p>
+            Modus Tollens
+        </p>
+        <p class="math">
+            `(phi => psi \ \ not psi)/(phi)`
+        </p>
+    </li>
 
-        <li>
-            <p>
-                Introdução
-            </p>
-            <p class="math">
-                `({: ([phi]^u), (vdots), (psi) :})/(phi => psi)`
-            </p>
-        </li>
-    </ul>
+    <li>
+        <p>
+            Introdução
+        </p>
+        <p class="math">
+            `({: ([phi]^u), (vdots), (psi) :})/(phi => psi)`
+        </p>
+    </li>
+</ul>
 
-    <a href="s-2-2-2-4"></a>
-    <h4>Regras para disjunção</h4>
-    <ul>
-        <li>
-            <p>
-                Introdução
-            </p>
-            <p  class="math">
-                `(phi)/(phi vv psi)`
-            </p>
-            <p  class="math">
-                `(psi)/(phi vv psi)`
-            </p>
-            <p>
-                A partir de provas de `phi`, podemos inferir `phi vv psi` verdadeiro para qualquer `psi`.
-            </p>
-        </li>
+<a href="s-2-2-2-4"></a>
+<h4>Regras para disjunção</h4>
+<ul>
+    <li>
+        <p>
+            Introdução
+        </p>
+        <p  class="math">
+            `(phi)/(phi vv psi)`
+        </p>
+        <p  class="math">
+            `(psi)/(phi vv psi)`
+        </p>
+        <p>
+            A partir de provas de `phi`, podemos inferir `phi vv psi` verdadeiro para qualquer `psi`.
+        </p>
+    </li>
 
-        <li>
-            <p>
-                Eliminação
-            </p>
-            <p>
-                `
-                    (
-                        phi vv psi \ \
-                        {: ([phi]^u), (vdots), (x) :} \ \
-                        {: ([psi]^v), (vdots), (x) :}
-                    )
-                    /
-                    (x)
-                `
-            </p>
-        </li>
-    </ul>
+    <li>
+        <p>
+            Eliminação
+        </p>
+        <p>
+            `
+                (
+                    phi vv psi \ \
+                    {: ([phi]^u), (vdots), (x) :} \ \
+                    {: ([psi]^v), (vdots), (x) :}
+                )
+                /
+                (x)
+            `
+        </p>
+    </li>
+</ul>
 
-    <!-- Página 3 -->
-    <p>
-        Fórmulas lógicas `phi` com sequentes `|-- phi` são chamados <em>Teoremas</em>.
-    </p>
+<!-- Página 3 -->
+<p>
+    Fórmulas lógicas `phi` com sequentes `|-- phi` são chamados <em>Teoremas</em>.
+</p>
 
 
-    <a id="s-2-2-3"></a>
-    <h3>Propriedades</h3>
+<a id="s-2-2-3"></a>
+<h3>Propriedades</h3>
 
-    <p>
-        A conjunção e a disjunção são distributivas:
-    </p>
-    <p>
-        `(P vv Q) vv R |-- P vv (Q vv R)` e vice-versa
-    </p>
-    <p>
-        `P ^^ (Q vv R) |-- (P ^^ Q) vv (P ^^ R)` e vice-versa
-    </p>
+<p>
+    A conjunção e a disjunção são distributivas:
+</p>
+<p>
+    `(P vv Q) vv R |-- P vv (Q vv R)` e vice-versa
+</p>
+<p>
+    `P ^^ (Q vv R) |-- (P ^^ Q) vv (P ^^ R)` e vice-versa
+</p>
 
-    <a id="s-2-2-3-1"></a>
-    <h4>Propriedades da negação</h4>
-    <p>
-        Elas involvem a noção de alguma contradição, que são expressões da forma
-        `phi ^^ not phi`, onde `hi` é uma fórmula qualquer.
-    </p>
+<a id="s-2-2-3-1"></a>
+<h4>Propriedades da negação</h4>
+<p>
+    Elas involvem a noção de alguma contradição, que são expressões da forma
+    `phi ^^ not phi`, onde `hi` é uma fórmula qualquer.
+</p>
 
-    <ul>
-        <li>
-            <p>
-                Eliminação da contradição:
-            </p>
-            <p>
-                `(_|_)/(phi) AA phi`
-            </p>
-        </li>
-        <li>
-            <p>
-                Eliminação da negação:
-            </p>
-            <p>
-                `(phi \ \ not phi)/(_|_)`
-            </p>
-        </li>
-        <li>
-            <p>
-                Introdução da negação:
-            </p>
-            <p>
-                `({: ([phi]^u), (vdots), (_|_) :})/(not phi)`
-            </p>
-        </li>
-    </ul>
+<ul>
+    <li>
+        <p>
+            Eliminação da contradição:
+        </p>
+        <p>
+            `(_|_)/(phi) AA phi`
+        </p>
+    </li>
+    <li>
+        <p>
+            Eliminação da negação:
+        </p>
+        <p>
+            `(phi \ \ not phi)/(_|_)`
+        </p>
+    </li>
+    <li>
+        <p>
+            Introdução da negação:
+        </p>
+        <p>
+            `({: ([phi]^u), (vdots), (_|_) :})/(not phi)`
+        </p>
+    </li>
+</ul>
 
-    <p>
-        Exercícios:
-    </p>
-    <ul>
-        <li>
-            `P => Q, P => not Q |-- not P`
-        </li>
-        <li>
-            `P => (Q => R), P, not R |-- not Q`
-        </li>
-    </ul>
+<p>
+    Exercícios:
+</p>
+<ul>
+    <li>
+        `P => Q, P => not Q |-- not P`
+    </li>
+    <li>
+        `P => (Q => R), P, not R |-- not Q`
+    </li>
+</ul>
 
-    <a href="s-2-2-3-2"></a>
-    <h4>Propridades da implicação</h4>
-    <p>
-        A regra "Inclusão da Implicação" pode ser aplicada sem descarregar nenhuma
-        hipótese: quando se sabe que `psi` é verdadeiro, `phi => psi AA phi` e
-        `not phi => psi AA phi`
-    </p>
-    <p>
-        `([R]^U \ \ Q)/(R => Q)`
-    </p>
-    <p>
-        `:. Q |-- R => R AA R`
-    </p>
-    <p>
-        Observe que a "Inclusão da Implicação" sem descarregamento de premissas pode ser
-        substituído por uma derivação com descarregamento.
-    </p>
-    <p>
-        Convenção para descarregamento de hipótese temporária: a
-        aplicação de regras com suposições temporárias podem
-        descarregar nenhuma ou várias ocorrências de determinada fórmula.
-    </p>
-    <p>
-        Exemplo: `|-- phi => ((phi vv psi) ^^ (phi vv lambda))` é um descarregamento completo.
-    </p>
+<a href="s-2-2-3-2"></a>
+<h4>Propridades da implicação</h4>
+<p>
+    A regra "Inclusão da Implicação" pode ser aplicada sem descarregar nenhuma
+    hipótese: quando se sabe que `psi` é verdadeiro, `phi => psi AA phi` e
+    `not phi => psi AA phi`
+</p>
+<p>
+    `([R]^U \ \ Q)/(R => Q)`
+</p>
+<p>
+    `:. Q |-- R => R AA R`
+</p>
+<p>
+    Observe que a "Inclusão da Implicação" sem descarregamento de premissas pode ser
+    substituído por uma derivação com descarregamento.
+</p>
+<p>
+    Convenção para descarregamento de hipótese temporária: a
+    aplicação de regras com suposições temporárias podem
+    descarregar nenhuma ou várias ocorrências de determinada fórmula.
+</p>
+<p>
+    Exemplo: `|-- phi => ((phi vv psi) ^^ (phi vv lambda))` é um descarregamento completo.
+</p>
 
-    <p>
-        A negação de uma fórmula `phi`, dada por `not phi` pode ser representada
-        por `not phi := phi => _|_`.
-    </p>
+<p>
+    A negação de uma fórmula `phi`, dada por `not phi` pode ser representada
+    por `not phi := phi => _|_`.
+</p>
 
-    <a id="s-2-3"></a>
-    <h2>Lógicas Intuicionista e Clássica</h2>
-    <p>
-        A lógica intuicionista (LI) é composta das regras
-    </p>
-    <ul>
-        <li>Inclusão da conjunção</li>
-        <li>Eliminação da conjunção</li>
-        <li>Inclusão da disjunção</li>
-        <li>Eliminação da disjunção</li>
-        <li>Inclusão da implicação</li>
-        <li>Eliminação da implicação</li>
-        <li>Inclusão da negação</li>
-        <li>Eliminação da negação</li>
-        <li>Eliminação da contradição</li>
-    </ul>
-    <p>
-        Ela é base da matemática construtiva, que não admite a lei do meio
-        excluído (`psi vv not psi`). Em LI, esta lei vale se, e somente se,
-        (see) há uma prova para `psi` ou `not psi`, enquanto que, na lógica clássica (LC), `psi vv not psi`  é um axioma. Portanto, `LI sube LC`.
-    </p>
-    <p>
-        Para alcançarmos a lógica proposional clássica, adicionaremos uma das
-        seguintes regras:
-    </p>
-    <ul>
-        <li>Dupla negação</li>
-        <li>Lei do meio excluído</li>
-        <li>Prova por contradição</li>
-    </ul>
-    <p>
-        Exercícios:
-    </p>
-    <ul>
-        <li>
-            Prove que `not not e, LI` são suficientes para provar `LME,PPC`.
-        </li>
-        <li>
-            Prove `not not e, LME` por `PPC,LI`.
-        </li>
-    </ul>
+<a id="s-2-3"></a>
+<h2>Lógicas Intuicionista e Clássica</h2>
+<p>
+    A lógica intuicionista (LI) é composta das regras
+</p>
+<ul>
+    <li>Inclusão da conjunção</li>
+    <li>Eliminação da conjunção</li>
+    <li>Inclusão da disjunção</li>
+    <li>Eliminação da disjunção</li>
+    <li>Inclusão da implicação</li>
+    <li>Eliminação da implicação</li>
+    <li>Inclusão da negação</li>
+    <li>Eliminação da negação</li>
+    <li>Eliminação da contradição</li>
+</ul>
+<p>
+    Ela é base da matemática construtiva, que não admite a lei do meio
+    excluído (`psi vv not psi`). Em LI, esta lei vale se, e somente se,
+    (see) há uma prova para `psi` ou `not psi`, enquanto que, na lógica clássica (LC), `psi vv not psi`  é um axioma. Portanto, `LI sube LC`.
+</p>
+<p>
+    Para alcançarmos a lógica proposional clássica, adicionaremos uma das
+    seguintes regras:
+</p>
+<ul>
+    <li>Dupla negação</li>
+    <li>Lei do meio excluído</li>
+    <li>Prova por contradição</li>
+</ul>
+<p>
+    Exercícios:
+</p>
+<ul>
+    <li>
+        Prove que `not not e, LI` são suficientes para provar `LME,PPC`.
+    </li>
+    <li>
+        Prove `not not e, LME` por `PPC,LI`.
+    </li>
+</ul>
 
-    <a id="s-2-3-1"></a>
-    <h3>Propriedades diversas</h3>
-    <p>
-        Podemos transformar uma prova de
-    </p>
-    <p class="math">
-        `phi_1, phi_2, ..., phi_n |-- psi`
-    </p>
-    <p>
-        em uma prova de
-    </p>
-    <p class="math">
-        `|-- phi_1 => (phi_2 => (... => (phi_n => psi)))`
-    </p>
-    <br>
-    <p>
-        Em qualquer estágio de prova, é permitido fazer uma suposição temporária
-        desde que ela seja descarregada.
-    </p>
-    <p>
-        Premissas podem ser utilizadas repetidamente (quantas vezes forem
-        necessárias).
-    </p>
-    <p>
-        Sejam `phi,psi` fórmulas da LP. Dizemos que elas são equivalentes se
-        os sequentes `phi |-- psi` e `psi |-- phi` são válidos. Denota-se por
-        \( \phi \dashv \vdash \psi \).
-    </p>
-    <p>
-        Exercícios:
-    </p>
-    <ul>
-        <li>
-            \( \neg (p \wedge q) \dashv \vdash \neg p \vee \neg q \)
-        </li>
-        <li>
-            \( p \to q \dashv \vdash \neg q \to \neg p \)
-        </li>
-        <li>
-            \( \neg (p \vee q) \dashv \vdash \neg p \wedge \neg q \)
-        </li>
-        <li>
-            \( p \to q \dashv \vdash \neg p \vee q \)
-        </li>
-        <li>
-            \( (p \wedge q) \to r \dashv \vdash p \to (q \to r) \)
-        </li>
-    </ul>
+<a id="s-2-3-1"></a>
+<h3>Propriedades diversas</h3>
+<p>
+    Podemos transformar uma prova de
+</p>
+<p class="math">
+    `phi_1, phi_2, ..., phi_n |-- psi`
+</p>
+<p>
+    em uma prova de
+</p>
+<p class="math">
+    `|-- phi_1 => (phi_2 => (... => (phi_n => psi)))`
+</p>
+<br>
+<p>
+    Em qualquer estágio de prova, é permitido fazer uma suposição temporária
+    desde que ela seja descarregada.
+</p>
+<p>
+    Premissas podem ser utilizadas repetidamente (quantas vezes forem
+    necessárias).
+</p>
+<p>
+    Sejam `phi,psi` fórmulas da LP. Dizemos que elas são equivalentes se
+    os sequentes `phi |-- psi` e `psi |-- phi` são válidos. Denota-se por
+    \( \phi \dashv \vdash \psi \).
+</p>
+<p>
+    Exercícios:
+</p>
+<ul>
+    <li>
+        \( \neg (p \wedge q) \dashv \vdash \neg p \vee \neg q \)
+    </li>
+    <li>
+        \( p \to q \dashv \vdash \neg q \to \neg p \)
+    </li>
+    <li>
+        \( \neg (p \vee q) \dashv \vdash \neg p \wedge \neg q \)
+    </li>
+    <li>
+        \( p \to q \dashv \vdash \neg p \vee q \)
+    </li>
+    <li>
+        \( (p \wedge q) \to r \dashv \vdash p \to (q \to r) \)
+    </li>
+</ul>
 
-    <a id="s-2-4"></a>
-    <h2>Semântica da Lógica Proposicional</h2>
-    <p>
-        A interpretação ou a semântica dis elementos sintáticos da linguagem
-        da lógica proposicional é determinada por uma função
-        `fr I` denominada "interpretação", que associa a cada fórmula da
-        LPum valor verdadeiro (`TT`) ou falso (`_|_`)
-    </p>
-    <p>
-        `fr(I): LP -> \{ TT,_|_ \}`
-    </p>
-    <p>
-        `varphi |-> fr(I)(varphi) = TT,_|_`
-    </p>
-    <p>
-        onde o domínio LP é o conjunto de todas as fórmulas da lógica
-        prosicional.
-    </p>
-    <p>
-        As regras da interpretação semântica são dadas pelas
-        <em>tabela-verdade</em>.
-    </p>
-    <table>
-        <thead>
-            <tr>
-                <th>`P`</th>
-                <th>`Q`</th>
-                <th>`P ^^ Q`</th>
-                <th>`P vv Q`</th>
-                <th>`P => Q`</th>
-                <th>`P <=> Q`</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>`TT`</td>
-                <td>`TT`</td>
-                <td>`TT`</td>
-                <td>`TT`</td>
-                <td>`TT`</td>
-                <td>`TT`</td>
-            </tr>
-            <tr>
-                <td>`TT`</td>
-                <td>`_|_`</td>
-                <td>`_|_`</td>
-                <td>`TT`</td>
-                <td>`_|_`</td>
-                <td>`_|_`</td>
-            </tr>
-            <tr>
-                <td>`_|_`</td>
-                <td>`TT`</td>
-                <td>`_|_`</td>
-                <td>`TT`</td>
-                <td>`TT`</td>
-                <td>`_|_`</td>
-            </tr>
-            <tr>
-                <td>`_|_`</td>
-                <td>`_|_`</td>
-                <td>`_|_`</td>
-                <td>`_|_`</td>
-                <td>`TT`</td>
-                <td>`TT`</td>
-            </tr>
-        </tbody>
-    </table>
-
-    <a id="s-2-4-1"></a>
-    <h3>Propriedades Semânticas</h3>
-    <p>
-        Sejam `H,G, \{ H_i \}_(i=1)^(n)` fórmulas da LP. As propriedades
-        semânticas são definidas por:
-    </p>
-    <ul>
-        <li>
-            `H` é dita <em>tautologia</em> se `fr(I)(H) = TT AA fr(I)`
-        </li>
-        <li>
-            `H` é satisfatível see `EE fr I : fr(I)(H) = TT`
-        </li>
-        <li>
-            `H` é contingente see existem duas interpretações `fr(I)_1`, `fr(I)_2`
-            tais que `fr(I)_1(H) = TT` e `fr(I)_2(H) = _|_`.
-        </li>
-        <li>
-            <p>
-                `H` implica semanticamente `G` (ou `G` é consequência lógica de
-                `H`) see `fr(I)(H) = TT => fr(I)(G) = TT AA fr(I)`.
-            </p>
-            <p>
-                Denota-se `H |== G`.
-            </p>
-        </li>
-        <li>
-           `H` equivale semanticamente a `G` see `fr(I)(H) = fr(I)(G) AA fr(I)`
-        </li>
-        <li>
-            Dada uma interpretação `fr(I)`, se `fr(I)(H) = TT`, então diz-se que
-            `fr(I)(H)` satisfaz `H`.
-        </li>
-        <li>
-            `H` é contraditório see `fr(I)(H) = _|_ AA fr(I)`
-        </li>
-    </ul>
-
-    <a id="s-2-4-2"></a>
-    <h3>Semântica da Implicação</h3>
-    <p><em>
-        NÃO NECESSARIAMENTE UMA IMPLICAÇÃO POSSUI UMA RELAÇÃO DE CAUSA E EFEITO!
-    </em></p>
-    <p>
-        Na lógica, a fórmula `H => G` representa uma implicação
-        material, em que não há necessariamente uma conexão causal
-        entre `H` e `G`. O objetivo é dizer que, quando `H` é verdade e
-        `fr(I)(H) = TT`, então `G` é verdade, i.e. `fr(I)(G) = TT`. Quando
-        falamos da interpretação de `P => Q`, tratamos da fórmula como
-        um todo.
-    </p>
-    <p>
-        Se `fr(I)(P) = _|_`, então `fr(I)(P => Q) != TT AA Q`. Informalmente,
-        justifica-se que, a partir de uma afirmação falsa, pode-se concluir
-        qualquer tipo de declaração.
-    </p>
-    <h3>
-        Exemplos
-    </h3>
-    <h4>
-        Exemplo de Bertrand Russel
-    </h4>
-    <blockquote>
-        Se `2+2=5`, então minha namorada é o Papa.
-    </blockquote>
-    <ol>
-        <li>
-            Suponha que `2+2=5`.
-        </li>
-        <li>
-            É fácil que, se este for o caso, então `2=1`.
-        </li>
-        <li>
-            Minha namorada e o Papa são 2 indivíduos. Como `2=1`,
-            então minha namorada e o Papa são o mesmo indivíduo.
-        </li>
-    </ol>
-    <a id="s-2-4-1-1"></a>
-    <h4>
-        Exemplo da Álgebra
-    </h4>
-    <p>
-        `P := \{ x in RR | x < 10 \}`
-    </p>
-    <p>
-        `Q := \{ x in RR | x^2 < 100 \}`
-    </p>
-    <p>
-        ` x = 5 :. fr(I)(P) = TT ; fr(I)(Q) = TT :. fr(I)(P => Q) = TT `
-    </p>
-    <p>
-        ` x = -20 :. fr(I)(P) = TT ; fr(I)(Q) = _|_ :. fr(I)(P => Q) = _|_ `
-    </p>
-
-    <a id="s-2-4-1-2"></a>
-    <h4>Causalidade</h4>
-    <p>
-        Conforme a tabela-verdade da implicação `P => Q`, se `fr(I)(Q) = TT`,
-        então `fr(I)(P => Q) = TT AA P`. Logo, `P` e `Q` são independentes.
-    </p>
-    <ul>
-        <li>
-            Prove que `P vv not P` é uma tautologia.
-        </li>
-    </ul>
-
-    <p>
-        O conjunto `beta = \{ H_n \}_(n=1)^(oo)` é satisfatível see
-        `EE fr(I) | \{ fr(I)(H_n) \}_(n=1)^(oo) -= TT`. Nesse caso, dizemos que
-        `fr(I)` satisfaz `beta`. Denota-se `fr(I)(beta) = TT`.
-    </p>
-    <p>
-        Seja `S = \{\}`. Convenciona-se que `fr(I)(\{\}) = TT AA fr(I)`.
-    </p>
-    <p>
-        O conjunto `beta = \{ H_n \}_(n=1)^(oo)` implica semanticamente uma
-        fórmula `H` quando existe uma interpretação `fr(I)` tal que, se
-        `fr(I)(beta) = TT`, então `fr(I)(H) = TT`. Nesse caso, `H` é
-        consequeência semântica de `beta`. Denota-se `B |== H`. No caso em que
-        `beta` não implica semanticamente `H`, temos \( \beta \nvDash H \)
-    </p>
-    <strong>
-        Exercícios
-    </strong>
-    <ul>
-        <li>
-            <p>
-                Considere as seguintes fórmulas:
-            </p>
-            <p>
-                `H_1 := (P_1 ^^ P_2 ^^ P_3 ^^ P_4) => Q`
-            </p>
-            <p>
-                `H_2 := (P_1 ^^ P_2 ^^ P_3 ^^ Q) => Q`
-            </p>
-            <p>
-                `H_3 := (P vv not P) => (Q ^^ not Q)`
-            </p>
-            <p>
-                Qual dessas fórmulas é uma tautologia? Qual é satisfatível?
-                Qual é contraditória?
-            </p>
-        </li>
-        <li>
-            Mostre que `beta := \{ P, not P, Q \}` é insatisfatível.
-        </li>
-        <li>
-            Mostre que
-            `beta := \{ P => Q, Q => R, R => S, S => P, not (S => Q) \}`
-            é satisfatível.
-        </li>
-    </ul>
-
-    <a id="s-2-4-3"></a>
-    <h3>Contradição</h3>
-    <p>
-        A fórmula `P ^^ not P` está relacionada com o princípio da
-        não-contradição da lógica clássica (LC): dada uma proposição e a sua
-        negação, pelo menos uma delas é falsa.
-    </p>
-    <ul>
-        <li>
-            As fórmulas `H = P ^^ Q` e `G = P` são tais que `H |== G`?
-        </li>
-    </ul>
-
-    <a id="s-2-4-4"></a>
-    <h3>Relações entre proposições semânticas</h3>
-    <a id="s-2-4-4-1"></a>
-    <h4>Tautologia e contradição</h4>
-    <p>
-        `H` é uma tautologia see `not H` é contraditória.
-    </p>
-    <p>
-        `not H` não é satisfatível see `not H` é contraditória.
-    </p>
-    <a id="s-2-4-4-2"></a>
-    <h4>Tautologia e satisfatibilidade</h4>
-    <p>
-        Dada uma fórmula `H`, se `H` é tautologia, então `H` é satisfatível.
-    </p>
-    <a id="s-2-4-4-3"></a>
-    <h4>Implicação semântica e implicação sintática</h4>
-    <p>
-        `H |== G <=> fr(I)(H => G) AA fr(I)`.
-    </p>
-    <a id="s-2-4-4-4"></a>
-    <h4>Equivalência semântica e "se, e somente se"</h4>
-    <p>
-        Dadas as fórmulas `H, G`, `H` equivale semanticamente `G` see `H <=> G` é tautologia.
-    </p>
-    <a id="s-2-4-4-5"></a>
-    <h4>Equivalência e implicações semânticas</h4>
-    <p>
-        Dadas as fórmulas `H` e `G`, \( H = \parallel = G \)
-        `<=> (H |== G ^^ G |== H)`.
-    </p>
-    <a id="s-2-4-4-6"></a>
-    <h4>Transitividade de \(= \parallel = \)</h4>
-    <p>
-        Dadas as fórmulas `E`, `G` e `H`, se \(E = \parallel = G\) e \(G = \parallel = H\),
-        então \( E = \parallel = H \).
-    </p>
-    <a id="s-2-4-4-7"></a>
-    <h4>Satisfatibilidade</h4>
-    <p>
-        Seja `\{ H_i \}_(i=1)^(n)` um conjunto de fórmulas. `\{ H_i \}_(i=1)^(n)`
-        é satisfatível see `^^^_(i=1)^(n) H_i` é satisfatível.
-    </p>
-
-    <a id="s-2-4-5"></a>
-    <h3>Teorema da dedução, versão semântica</h3>
-    <p>
-        Considere `beta` um conjunto de fórmulas; e `A, B` duas fórmulas da LP.
-    </p>
-    <p>
-        `beta cup \{ A \} |== B  <=> beta |== A -> B`
-    </p>
-    <a id="s-2-4-5-1"></a>
-    <h4>Corolários</h4>
-    <ul>
-        <li>
-            Sejam `H, G` fórmulas da LP. Se `H |== G` e `H` é tautologia, então
-            `G` é tautologia.
-        </li>
-        <li>
-            Dadas três fórmulas `A,B,C`: `(A ^^ B) -> C |== A -> (B -> C)`
-        </li>
-        <li>
-            Sejam `H, G` fórmulas.
-            Se `\{ H |== G \}`,
-            então `\{ \{ |== H \} => \{ |== G \} \}`.
-        </li>
-        <li>
-            Equivalência e tautologia: se `\{ H |== G \}`, então
-            `\{ \{ |== H \} <=> \{ |== G \} \}`.
-    </ul>
-
-    <a id="s-2-5"></a>
-    <h2>Princípio da Indução</h2>
-    <a id="s-2-5-1"></a>
-    <h3>Indução Natural</h3>
-    <p>
-        Permite provar que todo número natural satistaz certa propriedade.
-        Suponha que saibamos os seguintes fatos sobre uma propriedade `P`:
-    </p>
-    <ul>
-        <li>
-            <strong>Caso base:</strong> `P` vale para o número natural `1`.
-            Ou seja, `P(1) = TT`.
-        </li>
-        <li>
-            <strong>Passo indutivo:</strong> Suponha que `P(n)` vale para algum
-            natural `n`, é possível provar que `P(n+1)` vale.
-        </li>
-    </ul>
-
-    <a id="s-2-5-2"></a>
-    <h3>Indução estrutural</h3>
-    <p>
-        Na Matemática e na Computação, é necessário realizar indução sobre
-        estruturas mais elaboradas do que os números naturais. Aqui
-        realizaremos indução nos comprimentos das fórmulas da LP.
-    </p>
-    <p>
-        Seja `B(E)` uma afirmação sobre uma fórmula proposicional `E`. Se a
-        base e o passo de indução indicados a seguir são verdadeiros, então
-        concluímos que `B(E)` é verdadeiro para qualquer fórmula proposicional
-        `E`. Assim, o algoritmo é:
-    </p>
-    <ol>
-        <li>
-            <strong>Base indutiva:</strong> `B(P)` é válido para qualquer
-            fórmula atômica `P`.
-        </li>
-        <li>
-            <strong>Passo indutivo:</strong> Sejam `H, G` duas fórmulas
-            proposicionais. Se `B(G)` e `B(H)` são verdadeiras então
-            `B(not G), B(H ^^ G), B(H vv G), B(H => G), B(H <=> G)`
-            são verdadeiras.
-        </li>
-    </ol>
-    <p>
-        <strong>Exercício:</strong>
-        Seja `E` uma fórmula proposional. Considere `gamma (E)`
-        o número de conectivos lógicos; e `pi (E)`, o número de
-        parênteses. Então `gamma(E) = 1/2 pi(E)`.
-    </p>
-    <p>
-        Vamos mostrar utilizando indução estrutural que a estrutura de árvores
-        de derivação corresponde à estrutura de fórmulas bem formadas.
-    </p>
-    <p>
-        Indutivamente, uma fórmula `phi` bem-formada é associada a uma árvore
-        `T_(phi)` da seguinte forma:
-    </p>
-    <ul>
-        <li>
-            No caso em que `phi` é uma fórmula atômica `P` ou uma constante
-            `\{ TT, _|_ \}`, a estrutura de árvore associada consiste de um
-            único nó rotulado da proposição `P`.
-        </li>
-        <li>
-            Caso `phi := not psi`, para uma fórmula `phi`, a estrutura de
-            árvore associada corresponde a um nó rotulado com o conectivo `not`
-            e um único nó descendente, que será a raíz da árvore associada a
-            `psi`.
-        </li>
-        <li>
-            Caso `phi := psi square varphi` onde
-            `square in \{ ^^, vv, =>, <=> \}` para fórmulas bem-formadas `psi`
-            e `varphi`: a estrutura associada consiste de um nó rotulado por
-            `square` e dois nós descentes rotulados pelas raízes das árvores de
-            `psi` e `varphi`.
-        </li>
-    </ul>
-
-    <a id="s-2-6"></a>
-    <h2>Correção e Completude</h2>
-    <a id="s-2-6"></a>
-    <h3>Correção da Lógica Proposicional</h3>
-    <p>
-        As regras de dedução natural permitem uma argumentação rigorosa, pela
-        qual chegamos a uma conclusão `varphi` assumindo outras proposições
-        `\{ psi_i \}_(i=1)^(n)`. Neste caso, temos que o sequente
-        `psi_1, ..., psi_n |-- varphi` é válido. Vamos mostrar que esssas
-        regras são corretas no sentido que "sequentes válidos" preserva, a
-        verdade calculada pela tabela-verdade semântica.
-    </p>
-    <p><strong>Exercícios:</strong></p>
-    <ul>
-        <li>
-            `p ^^ q |== p?`
-        </li>
-        <li>
-            `p vv q |== p?`
-        </li>
-        <li>
-            `p ^^ q, not q |== p?`
-        </li>
-    </ul>
-
-    <a id="s-2-6-1"></a>
-    <h3>Completude da Lógica Proposicional</h3>
-    <p>
-        Sejam `\{ psi_i \}_(i=1)^(n)` fórmulas proposicionais.
-        `psi_1, ..., psi_n |-- varphi` é válida see
-        `psi_1, ..., psi_n |== varphi` acontece.
-    </p>
-    <p>
-        Se `\{ psi_i \}_(i=1)^(n) |-- varphi` é válida, existe uma prova de
-        `varphi` a partir de `\{ psi_i \}_(i=1)^(n)`. A demonstração deste
-        teorema será por indução no comprimento da prova do sequente
-        `psi_1, ..., psi_n |-- varphi`.
-    </p>
-    <p>
-        A saber, o cumprimento de uma prova é a quantidade de linhas que esta
-        prova possui.
-    </p>
-    <p>
-        Hipótese da indução: suponha qie p resultado seja válido para toda
-        prova de tamanho `k`.
-    </p>
-
-    <a id="s-2-7"></a>
-    <h2>Fórmulas equivalentes</h2>
-    <p>
-        Dadas as fórmulas proposicionais `H` e `G`. já sabemos que
-        \(H = \parallel = G\) denota que `H` e `G` são equivalentes,
-        isto é, `fr(I)(H) = fr(I)(G) AA fr I`.
-    </p>
-    <p>
-        Similarmente, \( H \dashv \vdash G \) significa que `H` e `G` são
-        sintaticamente equivalentes, isto é, tanto `H |-- G` como `G |-- H`
-        são válidos.
-    </p>
-    <p>
-        Pelo da teorema da correção e completude, temos que `H |== G` é o mesmo
-        que `H |-- G` para as regras da dedução natural da lógica clássica.
-        Então, a partir de agora dizemos que `H` e `G` são equivalentes e
-        denotaremos por `H -= G` quando \(H = \parallel = G\) e
-        \( H \dashv \vdash G \).
-    </p>
-    <p>
-        A equivalência entre fórmulas pode ser verificada utilizando
-        tabela-verdade ou árvores de prova.
-    </p>
-    <p>
-        `TT -= P => P`
-    </p>
-    <p>
-        `_|_ -= not (P => P)`
-    </p>
-    <p>
-        `P vv Q -= not P => Q`
-    </p>
-    <p>
-        `P ^^ Q -= not (P => not Q)`
-    </p>
-    <p>
-        `P <=> Q -= not ((P ==> Q) ==> (not Q ==> P))`
-    </p>
-
-    <a id="s-2-7-1"></a>
-    <h3>Equivalências Importantes</h3>
-    <ul>
-        <li>
-            Idempotência 1: `P vv P -= P`
-        </li>
-        <li>
-            Idempotência 2: `P ^^ P -= P`
-        </li>
-        <li>
-            `P vv TT -= TT`
-        </li>
-        <li>
-            `P ^^ _|_ -= _|_`
-        </li>
-        <li>
-            Lei do meio excluído: `P vv not P -= TT`
-        </li>
-        <li>
-            `P ^^ not P -= _|_`
-        </li>
-        <li>
-            `not not P -= P`
-        </li>
-        <li>
-            `P vv Q -= not (not P ^^ not Q)`
-        </li>
-        <li>
-            `P ^^ Q -= not (not P vv not Q)`
-        </li>
-        <li>
-            `P => Q -= not P vv Q`
-        </li>
-        <li>
-            Distributividade 1: `P ^^ (Q vv R) -= (P ^^ Q) vv (P ^^ R)`
-        </li>
-        <li>
-            Distributividade 2: `P vv (Q ^^ R) -= (P vv Q) ^^ (P vv R)`
-        </li>
-        <li>
-            Absorção 1: `P ^^ (P vv Q) -= P`
-        </li>
-        <li>
-            Absorção 2: `P vv (P ^^ Q) -= P`
-        </li>
-        <li>
-            Lei de DeMorgan 1: `not (P vv Q) -= not P ^^ not Q`
-        </li>
-        <li>
-            Lei de DeMorgan 2: `not (P ^^ Q) -= not P vv not Q`
-        </li>
-    </ul>
-
-    <a id="s-2-7-2"></a>
-    <h3>Formas normais conjuntivas e disjuntivas</h3>
-    <p>
-        Já sabemos que `^^` e `vv` são associativos. É comum escrever uma
-        sequência de conjunções ou disjunções sem utilizar parênteses:
-    </p>
-    <p>
-        `(A ^^ (B ^^ (C ^^ D))) -= A ^^ B ^^ C ^^ D`
-    </p>
-    <p>
-        `(A vv (B vv (C vv D))) -= A vv B vv C vv D`
-    </p>
-    <p>
-        Qualquer fórmula proposicional `H` pode ser transformada em uma fórmula
-        normal disjuntiva, isto é, `H` é equivalente a uma disjunção de
-        fórmulas, cada uma sendo uma conjunção.
-    </p>
-    <p>`H -= vvv_(i=1)^(n in NN) H_i`</p>
-    <p>`H_i := ^^^_(j=1)^(m in NN) H_(i_j)`</p>
-
-    <p>
-        Similarmente, temos formas normais conjuntivas: `H` é equivalente a uma
-        conjunção de fórmulas, cada uma endo uma disjunção de fórmulas atômicas
-        ou suas negações.
-    </p>
-    <p>`H -= ^^^_(i=1)^(n in NN) H_i`</p>
-    <p>`H_i := vvv_(j=1)^(m in NN) H_(i_j)`</p>
-
-    <a id="s-2-7-2-1"></a>
-    <h4>Método da tabela-verdade</h4>
-    <p>
-        Observe a seguinte fórmula:
-    </p>
-    <p>
-        `H := (P ^^ Q) vv not P`
-    </p>
-    <p>
-        Façamos a tabela verdade de H:
-    </p>
-    <table>
-        <thead>
+<a id="s-2-4"></a>
+<h2>Semântica da Lógica Proposicional</h2>
+<p>
+    A interpretação ou a semântica dis elementos sintáticos da linguagem
+    da lógica proposicional é determinada por uma função
+    `fr I` denominada "interpretação", que associa a cada fórmula da
+    LPum valor verdadeiro (`TT`) ou falso (`_|_`)
+</p>
+<p>
+    `fr(I): LP -> \{ TT,_|_ \}`
+</p>
+<p>
+    `varphi |-> fr(I)(varphi) = TT,_|_`
+</p>
+<p>
+    onde o domínio LP é o conjunto de todas as fórmulas da lógica
+    prosicional.
+</p>
+<p>
+    As regras da interpretação semântica são dadas pelas
+    <em>tabela-verdade</em>.
+</p>
+<table>
+    <thead>
+        <tr>
             <th>`P`</th>
             <th>`Q`</th>
-            <th>`(P ^^ Q) vv not P`</th>
-            <th>FN`vv`</th>
-            <th>FN`^^`</th>
-        </thead>
+            <th>`P ^^ Q`</th>
+            <th>`P vv Q`</th>
+            <th>`P => Q`</th>
+            <th>`P <=> Q`</th>
+        </tr>
+    </thead>
+    <tbody>
         <tr>
-            <td>0</td>
-            <td>0</td>
-            <td>1</td>
-            <td>`not P ^^ not Q`</td>
-            <td></td>
+            <td>`TT`</td>
+            <td>`TT`</td>
+            <td>`TT`</td>
+            <td>`TT`</td>
+            <td>`TT`</td>
+            <td>`TT`</td>
         </tr>
         <tr>
-            <td>0</td>
-            <td>1</td>
-            <td>1</td>
-            <td>`not P ^^ Q`</td>
-            <td></td>
+            <td>`TT`</td>
+            <td>`_|_`</td>
+            <td>`_|_`</td>
+            <td>`TT`</td>
+            <td>`_|_`</td>
+            <td>`_|_`</td>
         </tr>
         <tr>
-            <td>1</td>
-            <td>0</td>
-            <td>0</td>
-            <td></td>
-            <td>`not P vv Q`</td>
+            <td>`_|_`</td>
+            <td>`TT`</td>
+            <td>`_|_`</td>
+            <td>`TT`</td>
+            <td>`TT`</td>
+            <td>`_|_`</td>
         </tr>
         <tr>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td>`P ^^ Q`</td>
-            <td></td>
+            <td>`_|_`</td>
+            <td>`_|_`</td>
+            <td>`_|_`</td>
+            <td>`_|_`</td>
+            <td>`TT`</td>
+            <td>`TT`</td>
         </tr>
-    </table>
-    <p>
-        `=> FN vv = (not P ^^ not Q) vv (not P ^^ Q) vv (P ^^ Q)`
-    </p>
-    <p>
-        `FN ^^ = not P vv Q`
-    </p>
+    </tbody>
+</table>
 
-    <a id="s-2-7-3"></a>
-    <h3>Resolução</h3>
-    <p>
-        Resolução é uma regra de inferência utilizada para mostrar que um
-        conjunto de fórmulas proposicionais da forma
-        `vvv_(i=1)^(n) hat(P_i)`
-        não é satisfatível. Aqui, `hat(P_i) = \{ P_i, not P_i \}`, onde
-        `P_i` é uma fórmula atômica.
-    </p>
-    <p>
-        O sequente `phi_1, ..., phi_n |-- phi` é válido see o conjunto
-        `\{ phi1, ..., phi_n, not phi \}` não é satisfatível.
-    </p>
-    <p>
-        Vimos que `F_1, F_2, ..., F_n |-- phi` é válido see
-        `(^^^_(i=1)^(n) F_i) ^^ not phi` não é satisfatível. Vamos colocar cada
-        `F_i` e `not phi` na forma conjuntiva:
-    </p>
-    <p>
-        `F_i := G_(i_1) ^^ G_(i_2) ^^ ... ^^ G_(i_(k_i))`
-    </p>
-    <p>
-        `not phi := G_1 ^^ G_2 ^^ ... ^^ G_m`
-    </p>
-    <p>
-        Além disso, cada `G_(i_j)` e `G_e` são da forma
-        `hat(P_1) vv hat(P_2) vv ... vv hat(P_r)`. Assim, dizer que um
-        argumento/sequente é válido é o mesmo que dizer um certo conjunto de
-        disjunções de fórmulas atômicas e fórmulas atômicas negadas não é
-        satisfatível.
-    </p>
+<a id="s-2-4-1"></a>
+<h3>Propriedades Semânticas</h3>
+<p>
+    Sejam `H,G, \{ H_i \}_(i=1)^(n)` fórmulas da LP. As propriedades
+    semânticas são definidas por:
+</p>
+<ul>
+    <li>
+        `H` é dita <em>tautologia</em> se `fr(I)(H) = TT AA fr(I)`
+    </li>
+    <li>
+        `H` é satisfatível see `EE fr I : fr(I)(H) = TT`
+    </li>
+    <li>
+        `H` é contingente see existem duas interpretações `fr(I)_1`, `fr(I)_2`
+        tais que `fr(I)_1(H) = TT` e `fr(I)_2(H) = _|_`.
+    </li>
+    <li>
+        <p>
+            `H` implica semanticamente `G` (ou `G` é consequência lógica de
+            `H`) see `fr(I)(H) = TT => fr(I)(G) = TT AA fr(I)`.
+        </p>
+        <p>
+            Denota-se `H |== G`.
+        </p>
+    </li>
+    <li>
+       `H` equivale semanticamente a `G` see `fr(I)(H) = fr(I)(G) AA fr(I)`
+    </li>
+    <li>
+        Dada uma interpretação `fr(I)`, se `fr(I)(H) = TT`, então diz-se que
+        `fr(I)(H)` satisfaz `H`.
+    </li>
+    <li>
+        `H` é contraditório see `fr(I)(H) = _|_ AA fr(I)`
+    </li>
+</ul>
 
-    <p>
-        <strong>Exercício:</strong> Determine a validade do sequente:
-    </p>
-    <p>
-        `P => Q, not P => R, Q vv R => S |-- S`
-    </p>
+<a id="s-2-4-2"></a>
+<h3>Semântica da Implicação</h3>
+<p><em>
+    NÃO NECESSARIAMENTE UMA IMPLICAÇÃO POSSUI UMA RELAÇÃO DE CAUSA E EFEITO!
+</em></p>
+<p>
+    Na lógica, a fórmula `H => G` representa uma implicação
+    material, em que não há necessariamente uma conexão causal
+    entre `H` e `G`. O objetivo é dizer que, quando `H` é verdade e
+    `fr(I)(H) = TT`, então `G` é verdade, i.e. `fr(I)(G) = TT`. Quando
+    falamos da interpretação de `P => Q`, tratamos da fórmula como
+    um todo.
+</p>
+<p>
+    Se `fr(I)(P) = _|_`, então `fr(I)(P => Q) != TT AA Q`. Informalmente,
+    justifica-se que, a partir de uma afirmação falsa, pode-se concluir
+    qualquer tipo de declaração.
+</p>
+<h3>
+    Exemplos
+</h3>
+<h4>
+    Exemplo de Bertrand Russel
+</h4>
+<blockquote>
+    Se `2+2=5`, então minha namorada é o Papa.
+</blockquote>
+<ol>
+    <li>
+        Suponha que `2+2=5`.
+    </li>
+    <li>
+        É fácil que, se este for o caso, então `2=1`.
+    </li>
+    <li>
+        Minha namorada e o Papa são 2 indivíduos. Como `2=1`,
+        então minha namorada e o Papa são o mesmo indivíduo.
+    </li>
+</ol>
+<a id="s-2-4-1-1"></a>
+<h4>
+    Exemplo da Álgebra
+</h4>
+<p>
+    `P := \{ x in RR | x < 10 \}`
+</p>
+<p>
+    `Q := \{ x in RR | x^2 < 100 \}`
+</p>
+<p>
+    ` x = 5 :. fr(I)(P) = TT ; fr(I)(Q) = TT :. fr(I)(P => Q) = TT `
+</p>
+<p>
+    ` x = -20 :. fr(I)(P) = TT ; fr(I)(Q) = _|_ :. fr(I)(P => Q) = _|_ `
+</p>
 
-    <a id="s-2-7-4"></a>
-    <h3>Cláusulas</h3>
-    <p>
-        Uma fórmula atômica `P`, bem como sua fórmula atômica negada `not P`,
-        é chamada de literal.
-    </p>
-    <p>
-        Conjuntos finitos de literais `\{ L_i \}_(i=1)^(K)` são chamadas de
-        cláusulas.
-    </p>
-    <p>
-        Uma cláusula `\{ L_i \}_(i=1)^(K)` é satisfatível sse a fórmula
-        proposicional `vvv_(i=1)^(K) L_i` é satisfatível.
-    </p>
-    <p>
-        Uma cláusula vazia `\{\}` não é satisfatível.
-    </p>
-    <p>
-        Um conjunto de cláusulas `fr C` é satisfatível se existe uma
-        interpretação `fr I` que satisfaz cada cláusula de `fr C`.
-    </p>
-    <p>
-        Se `L` é um literal, então o complemento `bar(L)` é definido por:
-    </p>
-    <p>
-        `bar(P) := not P`
-    </p>
-    <p>
-        `bar(not P) := P`
-    </p>
-    <p>
-        Um literal é positivo see for uma fórmula atômica e é negativo caso
-        contrário.
-    </p>
-    <p>
-        Resolução é a regra
-    </p>
-    <p>
-        \( \frac{C \cup \{ L \} \ D \cup \{\bar{L}\}}{C \cup D} \)
-    </p>
-    <p>
-        onde `C` e `D` são cláusulas; e `L` é um literal. Dizemos que estamos
-        "resolvendo" as cláusulas sobre `L`, e a cláusula `C uu D` é chamada
-        resolvente. Uma derivação (por resolução) é uma sequência
-        de cláusulas tais que cada uma está em `C` ou vem de cláusulas
-        anteriores.
-    </p>
-    <p>
-        A resolução preserva a satisfatibilidade. Isto é, se um conjunto de
-        cláusulas `C` é satisfeito or uma interpretação `fr I`, então qualquer
-        resolvente ou um par de cláusulas de `C` também é satisfeito por `fr I`.
-    </p>
-    <p>
-        O algoritmo de resolução é correto e completo.
-    </p>
-    <p>
-        Não é correto aplicar resolução a mais de uma fórmula atômica.
-    </p>
+<a id="s-2-4-1-2"></a>
+<h4>Causalidade</h4>
+<p>
+    Conforme a tabela-verdade da implicação `P => Q`, se `fr(I)(Q) = TT`,
+    então `fr(I)(P => Q) = TT AA P`. Logo, `P` e `Q` são independentes.
+</p>
+<ul>
+    <li>
+        Prove que `P vv not P` é uma tautologia.
+    </li>
+</ul>
 
-    <a id="s-2-7-5"></a>
-    <h3>Procedimento de Davis-Putnam (DPP)</h3>
-    <p>
-        Dado um conjunto de não-vazio finito de cláusulas `C` nas fórmulas
-        atômicas `\{ P_i \}_(i=1)^(n)`, o procedimento DPP repete os seguintes
-        passos até que não restem mais fórmulas atômicas:
-    </p>
-    <ol>
-        <li>
-            Elimine as fórmulas atômicas que contenham tanto o literal `L`
-            quanto `bar L`;
-        </li>
-        <li>
-            Escolha uma fórmula atômica `P` que aparece em uma das cláusulas;
-        </li>
-        <li>
-            Adicione todos os resolventes possíveis usando resolução sobre `P`
-            no conjunto de cláusulas;
-        </li>
-        <li>
-            Elimine todas as cláusulas que contenham `P` ou `not P`.
-        </li>
-    </ol>
-    <p>
-        <strong>Exemplo:</strong>
-        `C = \{ \{ P, Q \}, \{ not P, R \}, \{ not P \} \}`
-    </p>
-    <p>
-        `( \{ P, Q \}\  \{ not P \} )/(\{ Q \})`
-    </p>
-    <p>
-        `( \{ P, Q \}\  \{ not P, R \} )/(\{ Q, R \})`
-    </p>
-    <p>
-        `C = \{ \{ Q \}, \{ R \} \}`
-    </p>
-    <p>
-        `=> \{ \}` sem cláusulas
-    </p>
-    <p>
-        ` .: C` é satisfatível. `square`
-    </p>
-    <p>
-        Se o algoritmo retornar um conjunto sem cláusulas, então o conjunto `C`
-        é satisfatível. Se, em algum passo, tem-se uma cláusula vazia, então o
-        conjunto `C` não é satisfatível.
-    </p>
-    <p>
-        <strong>Exercício:</strong> Aplique DPP em
-        `C := \{ \{not P, Q\}, \{not Q, R, S\}, \{ P \}, \{R\}, \{not S\} \}`
-    </p>
+<p>
+    O conjunto `beta = \{ H_n \}_(n=1)^(oo)` é satisfatível see
+    `EE fr(I) | \{ fr(I)(H_n) \}_(n=1)^(oo) -= TT`. Nesse caso, dizemos que
+    `fr(I)` satisfaz `beta`. Denota-se `fr(I)(beta) = TT`.
+</p>
+<p>
+    Seja `S = \{\}`. Convenciona-se que `fr(I)(\{\}) = TT AA fr(I)`.
+</p>
+<p>
+    O conjunto `beta = \{ H_n \}_(n=1)^(oo)` implica semanticamente uma
+    fórmula `H` quando existe uma interpretação `fr(I)` tal que, se
+    `fr(I)(beta) = TT`, então `fr(I)(H) = TT`. Nesse caso, `H` é
+    consequeência semântica de `beta`. Denota-se `B |== H`. No caso em que
+    `beta` não implica semanticamente `H`, temos \( \beta \nvDash H \)
+</p>
+<strong>
+    Exercícios
+</strong>
+<ul>
+    <li>
+        <p>
+            Considere as seguintes fórmulas:
+        </p>
+        <p>
+            `H_1 := (P_1 ^^ P_2 ^^ P_3 ^^ P_4) => Q`
+        </p>
+        <p>
+            `H_2 := (P_1 ^^ P_2 ^^ P_3 ^^ Q) => Q`
+        </p>
+        <p>
+            `H_3 := (P vv not P) => (Q ^^ not Q)`
+        </p>
+        <p>
+            Qual dessas fórmulas é uma tautologia? Qual é satisfatível?
+            Qual é contraditória?
+        </p>
+    </li>
+    <li>
+        Mostre que `beta := \{ P, not P, Q \}` é insatisfatível.
+    </li>
+    <li>
+        Mostre que
+        `beta := \{ P => Q, Q => R, R => S, S => P, not (S => Q) \}`
+        é satisfatível.
+    </li>
+</ul>
 
-    <a id="s-2-7-5-1"></a>
-    <h4>Correção e completudo do DPP</h4>
-    <p>
-        Seja `S` um conjunto finito de cláusulas. Então `S` não é satisfatível
-        sse a saída do DPP é "cláusula vazia".
-    </p>
+<a id="s-2-4-3"></a>
+<h3>Contradição</h3>
+<p>
+    A fórmula `P ^^ not P` está relacionada com o princípio da
+    não-contradição da lógica clássica (LC): dada uma proposição e a sua
+    negação, pelo menos uma delas é falsa.
+</p>
+<ul>
+    <li>
+        As fórmulas `H = P ^^ Q` e `G = P` são tais que `H |== G`?
+    </li>
+</ul>
 
-    <a id="s-2-7-5-2"></a>
-    <h4>Compacidade da lógica proposicional</h4>
-    <p>
-        Seja `S` um conjunto de fórmulas prposicionais. Todo conjunto finito
-        `S_0 in S` é satisfatível sse `S` é satisfatível.
-    </p>
+<a id="s-2-4-4"></a>
+<h3>Relações entre proposições semânticas</h3>
+<a id="s-2-4-4-1"></a>
+<h4>Tautologia e contradição</h4>
+<p>
+    `H` é uma tautologia see `not H` é contraditória.
+</p>
+<p>
+    `not H` não é satisfatível see `not H` é contraditória.
+</p>
+<a id="s-2-4-4-2"></a>
+<h4>Tautologia e satisfatibilidade</h4>
+<p>
+    Dada uma fórmula `H`, se `H` é tautologia, então `H` é satisfatível.
+</p>
+<a id="s-2-4-4-3"></a>
+<h4>Implicação semântica e implicação sintática</h4>
+<p>
+    `H |== G <=> fr(I)(H => G) AA fr(I)`.
+</p>
+<a id="s-2-4-4-4"></a>
+<h4>Equivalência semântica e "se, e somente se"</h4>
+<p>
+    Dadas as fórmulas `H, G`, `H` equivale semanticamente `G` see `H <=> G` é tautologia.
+</p>
+<a id="s-2-4-4-5"></a>
+<h4>Equivalência e implicações semânticas</h4>
+<p>
+    Dadas as fórmulas `H` e `G`, \( H = \parallel = G \)
+    `<=> (H |== G ^^ G |== H)`.
+</p>
+<a id="s-2-4-4-6"></a>
+<h4>Transitividade de \(= \parallel = \)</h4>
+<p>
+    Dadas as fórmulas `E`, `G` e `H`, se \(E = \parallel = G\) e \(G = \parallel = H\),
+    então \( E = \parallel = H \).
+</p>
+<a id="s-2-4-4-7"></a>
+<h4>Satisfatibilidade</h4>
+<p>
+    Seja `\{ H_i \}_(i=1)^(n)` um conjunto de fórmulas. `\{ H_i \}_(i=1)^(n)`
+    é satisfatível see `^^^_(i=1)^(n) H_i` é satisfatível.
+</p>
 
-    <a id="s-2-7-5-3"></a>
-    <h4>Caso geral de correção e completude da resolução</h4>
-    <p>
-        Um conjunto de não-vazio de cláusulas `S` é não-satisfatível sse existe
-        uma derivação de uma cláusula vazia de `S` utilizando resolução.
-    </p>
+<a id="s-2-4-5"></a>
+<h3>Teorema da dedução, versão semântica</h3>
+<p>
+    Considere `beta` um conjunto de fórmulas; e `A, B` duas fórmulas da LP.
+</p>
+<p>
+    `beta cup \{ A \} |== B  <=> beta |== A -> B`
+</p>
+<a id="s-2-4-5-1"></a>
+<h4>Corolários</h4>
+<ul>
+    <li>
+        Sejam `H, G` fórmulas da LP. Se `H |== G` e `H` é tautologia, então
+        `G` é tautologia.
+    </li>
+    <li>
+        Dadas três fórmulas `A,B,C`: `(A ^^ B) -> C |== A -> (B -> C)`
+    </li>
+    <li>
+        Sejam `H, G` fórmulas.
+        Se `\{ H |== G \}`,
+        então `\{ \{ |== H \} => \{ |== G \} \}`.
+    </li>
+    <li>
+        Equivalência e tautologia: se `\{ H |== G \}`, então
+        `\{ \{ |== H \} <=> \{ |== G \} \}`.
+</ul>
 
-    <a id="s-2-7-6"></a>
-    <h3>Cláusulas de Horn</h3>
-    <p>
-        Uma clásula de Horn é uma cláusula com, no máximo, um literal positivo.
-    </p>
-    <p>
-        As clásulas `\{not Q, not R, not S, not T\}` e `\{not P, Q, not R\}` são
-        cláusulas de Horn.
-    </p>
-    <p>
-        Um resolvente de duas cláusulas de Horn é sempre uma cláusula de Horn.
-    </p>
-    <p>
-        Para saber mais, procure saber sobre o trabalho de David McCallister
-        em lógica em sistemas de segurança.
-    </p>
-    <p>
-        Uma cláusula unitária é uma cláusula do tipo `\{L\}` com um único
-        literal.
-    </p>
-    <p>
-        Resolução unitária refere-se a derivações de resolução nas quais
-        pelo menos uma das cláusulas utilizadas em cada passo é uma cláusula
-        unitária.
-    </p>
-    <p>
-        A resolução unitária é correta e completa para cláusulas de Horn.
-    </p>
+<a id="s-2-5"></a>
+<h2>Princípio da Indução</h2>
+<a id="s-2-5-1"></a>
+<h3>Indução Natural</h3>
+<p>
+    Permite provar que todo número natural satistaz certa propriedade.
+    Suponha que saibamos os seguintes fatos sobre uma propriedade `P`:
+</p>
+<ul>
+    <li>
+        <strong>Caso base:</strong> `P` vale para o número natural `1`.
+        Ou seja, `P(1) = TT`.
+    </li>
+    <li>
+        <strong>Passo indutivo:</strong> Suponha que `P(n)` vale para algum
+        natural `n`, é possível provar que `P(n+1)` vale.
+    </li>
+</ul>
 
-    <a id="s-2-7-7"></a>
-    <h3>Cláusulas de grafos</h3>
-    <p>
-        Dado um grafo `G` finito, um conjunto de vértices `V` e um conjunto de
-        arestas `E`, vamos rotular cada vértice `cc v` com 0 ou 1. Este número é
-        a chamada "carga" do vértice `cc v`. A carga total é:
-    </p>
-    <p>
-        `(sum_(cc v in V) fr(C)(cc v)) mod 2`
-    </p>
-    <p>
-        Vamos rotular cada aresta com uma fórmula atômica, de forma que arestas
-        diferentes são rotuladas com fórmulas atômicas diferentes. Temos então
-        um grafo rotulado `hat G`
-    </p>
-    <p>
-        Para cada vértice `cc v` de `G`, seja `var(cc v)` o conjunto de
-        variáveis proposicionais nas arestas ligadas a `cc v` Para cada vértice
-        `cc v`, construímos o conjunto de cláusulas `cls(cc v)` da seguinte
-        forma:
-    </p>
-    <p>`c in cls(cc v) <=>`</p>
-    <ul>
-        <li>
-            As variáveis proposicionais ocorrendo em `c` são precisamente
-            aquelas de `var(cc v)`;
-        </li>
-        <li>
-            `\{#` literais negativos de `c\} + fr(c)(cc v) -=  1 mod 2`
-        </li>
-    </ul>
-    <p>
-        O conjunto de cláusulas associadas ao grafo `hat G` é dado por
-    </p>
-    <p>
-        `cls(hat G) := uuu_(cc v in V) cls(cc v)`
-    </p>
+<a id="s-2-5-2"></a>
+<h3>Indução estrutural</h3>
+<p>
+    Na Matemática e na Computação, é necessário realizar indução sobre
+    estruturas mais elaboradas do que os números naturais. Aqui
+    realizaremos indução nos comprimentos das fórmulas da LP.
+</p>
+<p>
+    Seja `B(E)` uma afirmação sobre uma fórmula proposicional `E`. Se a
+    base e o passo de indução indicados a seguir são verdadeiros, então
+    concluímos que `B(E)` é verdadeiro para qualquer fórmula proposicional
+    `E`. Assim, o algoritmo é:
+</p>
+<ol>
+    <li>
+        <strong>Base indutiva:</strong> `B(P)` é válido para qualquer
+        fórmula atômica `P`.
+    </li>
+    <li>
+        <strong>Passo indutivo:</strong> Sejam `H, G` duas fórmulas
+        proposicionais. Se `B(G)` e `B(H)` são verdadeiras então
+        `B(not G), B(H ^^ G), B(H vv G), B(H => G), B(H <=> G)`
+        são verdadeiras.
+    </li>
+</ol>
+<p>
+    <strong>Exercício:</strong>
+    Seja `E` uma fórmula proposional. Considere `gamma (E)`
+    o número de conectivos lógicos; e `pi (E)`, o número de
+    parênteses. Então `gamma(E) = 1/2 pi(E)`.
+</p>
+<p>
+    Vamos mostrar utilizando indução estrutural que a estrutura de árvores
+    de derivação corresponde à estrutura de fórmulas bem formadas.
+</p>
+<p>
+    Indutivamente, uma fórmula `phi` bem-formada é associada a uma árvore
+    `T_(phi)` da seguinte forma:
+</p>
+<ul>
+    <li>
+        No caso em que `phi` é uma fórmula atômica `P` ou uma constante
+        `\{ TT, _|_ \}`, a estrutura de árvore associada consiste de um
+        único nó rotulado da proposição `P`.
+    </li>
+    <li>
+        Caso `phi := not psi`, para uma fórmula `phi`, a estrutura de
+        árvore associada corresponde a um nó rotulado com o conectivo `not`
+        e um único nó descendente, que será a raíz da árvore associada a
+        `psi`.
+    </li>
+    <li>
+        Caso `phi := psi square varphi` onde
+        `square in \{ ^^, vv, =>, <=> \}` para fórmulas bem-formadas `psi`
+        e `varphi`: a estrutura associada consiste de um nó rotulado por
+        `square` e dois nós descentes rotulados pelas raízes das árvores de
+        `psi` e `varphi`.
+    </li>
+</ul>
 
-    <a id="s-2-7-7-1"></a>
-    <h4>Teorema de Tseitin</h4>
-    <p>
-        `cls(hat G)` é satisfatível sse a carga total é 0.
-    </p>
+<a id="s-2-6"></a>
+<h2>Correção e Completude</h2>
+<a id="s-2-6"></a>
+<h3>Correção da Lógica Proposicional</h3>
+<p>
+    As regras de dedução natural permitem uma argumentação rigorosa, pela
+    qual chegamos a uma conclusão `varphi` assumindo outras proposições
+    `\{ psi_i \}_(i=1)^(n)`. Neste caso, temos que o sequente
+    `psi_1, ..., psi_n |-- varphi` é válido. Vamos mostrar que esssas
+    regras são corretas no sentido que "sequentes válidos" preserva, a
+    verdade calculada pela tabela-verdade semântica.
+</p>
+<p><strong>Exercícios:</strong></p>
+<ul>
+    <li>
+        `p ^^ q |== p?`
+    </li>
+    <li>
+        `p vv q |== p?`
+    </li>
+    <li>
+        `p ^^ q, not q |== p?`
+    </li>
+</ul>
 
-    <a id="s-3"></a>
-    <h1>Lógica de Predicados</h1>
-    <!-- Continuar da página 13 -->
-</body>
-</html>
+<a id="s-2-6-1"></a>
+<h3>Completude da Lógica Proposicional</h3>
+<p>
+    Sejam `\{ psi_i \}_(i=1)^(n)` fórmulas proposicionais.
+    `psi_1, ..., psi_n |-- varphi` é válida see
+    `psi_1, ..., psi_n |== varphi` acontece.
+</p>
+<p>
+    Se `\{ psi_i \}_(i=1)^(n) |-- varphi` é válida, existe uma prova de
+    `varphi` a partir de `\{ psi_i \}_(i=1)^(n)`. A demonstração deste
+    teorema será por indução no comprimento da prova do sequente
+    `psi_1, ..., psi_n |-- varphi`.
+</p>
+<p>
+    A saber, o cumprimento de uma prova é a quantidade de linhas que esta
+    prova possui.
+</p>
+<p>
+    Hipótese da indução: suponha qie p resultado seja válido para toda
+    prova de tamanho `k`.
+</p>
+
+<a id="s-2-7"></a>
+<h2>Fórmulas equivalentes</h2>
+<p>
+    Dadas as fórmulas proposicionais `H` e `G`. já sabemos que
+    \(H = \parallel = G\) denota que `H` e `G` são equivalentes,
+    isto é, `fr(I)(H) = fr(I)(G) AA fr I`.
+</p>
+<p>
+    Similarmente, \( H \dashv \vdash G \) significa que `H` e `G` são
+    sintaticamente equivalentes, isto é, tanto `H |-- G` como `G |-- H`
+    são válidos.
+</p>
+<p>
+    Pelo da teorema da correção e completude, temos que `H |== G` é o mesmo
+    que `H |-- G` para as regras da dedução natural da lógica clássica.
+    Então, a partir de agora dizemos que `H` e `G` são equivalentes e
+    denotaremos por `H -= G` quando \(H = \parallel = G\) e
+    \( H \dashv \vdash G \).
+</p>
+<p>
+    A equivalência entre fórmulas pode ser verificada utilizando
+    tabela-verdade ou árvores de prova.
+</p>
+<p>
+    `TT -= P => P`
+</p>
+<p>
+    `_|_ -= not (P => P)`
+</p>
+<p>
+    `P vv Q -= not P => Q`
+</p>
+<p>
+    `P ^^ Q -= not (P => not Q)`
+</p>
+<p>
+    `P <=> Q -= not ((P ==> Q) ==> (not Q ==> P))`
+</p>
+
+<a id="s-2-7-1"></a>
+<h3>Equivalências Importantes</h3>
+<ul>
+    <li>
+        Idempotência 1: `P vv P -= P`
+    </li>
+    <li>
+        Idempotência 2: `P ^^ P -= P`
+    </li>
+    <li>
+        `P vv TT -= TT`
+    </li>
+    <li>
+        `P ^^ _|_ -= _|_`
+    </li>
+    <li>
+        Lei do meio excluído: `P vv not P -= TT`
+    </li>
+    <li>
+        `P ^^ not P -= _|_`
+    </li>
+    <li>
+        `not not P -= P`
+    </li>
+    <li>
+        `P vv Q -= not (not P ^^ not Q)`
+    </li>
+    <li>
+        `P ^^ Q -= not (not P vv not Q)`
+    </li>
+    <li>
+        `P => Q -= not P vv Q`
+    </li>
+    <li>
+        Distributividade 1: `P ^^ (Q vv R) -= (P ^^ Q) vv (P ^^ R)`
+    </li>
+    <li>
+        Distributividade 2: `P vv (Q ^^ R) -= (P vv Q) ^^ (P vv R)`
+    </li>
+    <li>
+        Absorção 1: `P ^^ (P vv Q) -= P`
+    </li>
+    <li>
+        Absorção 2: `P vv (P ^^ Q) -= P`
+    </li>
+    <li>
+        Lei de DeMorgan 1: `not (P vv Q) -= not P ^^ not Q`
+    </li>
+    <li>
+        Lei de DeMorgan 2: `not (P ^^ Q) -= not P vv not Q`
+    </li>
+</ul>
+
+<a id="s-2-7-2"></a>
+<h3>Formas normais conjuntivas e disjuntivas</h3>
+<p>
+    Já sabemos que `^^` e `vv` são associativos. É comum escrever uma
+    sequência de conjunções ou disjunções sem utilizar parênteses:
+</p>
+<p>
+    `(A ^^ (B ^^ (C ^^ D))) -= A ^^ B ^^ C ^^ D`
+</p>
+<p>
+    `(A vv (B vv (C vv D))) -= A vv B vv C vv D`
+</p>
+<p>
+    Qualquer fórmula proposicional `H` pode ser transformada em uma fórmula
+    normal disjuntiva, isto é, `H` é equivalente a uma disjunção de
+    fórmulas, cada uma sendo uma conjunção.
+</p>
+<p>`H -= vvv_(i=1)^(n in NN) H_i`</p>
+<p>`H_i := ^^^_(j=1)^(m in NN) H_(i_j)`</p>
+
+<p>
+    Similarmente, temos formas normais conjuntivas: `H` é equivalente a uma
+    conjunção de fórmulas, cada uma endo uma disjunção de fórmulas atômicas
+    ou suas negações.
+</p>
+<p>`H -= ^^^_(i=1)^(n in NN) H_i`</p>
+<p>`H_i := vvv_(j=1)^(m in NN) H_(i_j)`</p>
+
+<a id="s-2-7-2-1"></a>
+<h4>Método da tabela-verdade</h4>
+<p>
+    Observe a seguinte fórmula:
+</p>
+<p>
+    `H := (P ^^ Q) vv not P`
+</p>
+<p>
+    Façamos a tabela verdade de H:
+</p>
+<table>
+    <thead>
+        <th>`P`</th>
+        <th>`Q`</th>
+        <th>`(P ^^ Q) vv not P`</th>
+        <th>FN`vv`</th>
+        <th>FN`^^`</th>
+    </thead>
+    <tr>
+        <td>0</td>
+        <td>0</td>
+        <td>1</td>
+        <td>`not P ^^ not Q`</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>0</td>
+        <td>1</td>
+        <td>1</td>
+        <td>`not P ^^ Q`</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>0</td>
+        <td>0</td>
+        <td></td>
+        <td>`not P vv Q`</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+        <td>`P ^^ Q`</td>
+        <td></td>
+    </tr>
+</table>
+<p>
+    `=> FN vv = (not P ^^ not Q) vv (not P ^^ Q) vv (P ^^ Q)`
+</p>
+<p>
+    `FN ^^ = not P vv Q`
+</p>
+
+<a id="s-2-7-3"></a>
+<h3>Resolução</h3>
+<p>
+    Resolução é uma regra de inferência utilizada para mostrar que um
+    conjunto de fórmulas proposicionais da forma
+    `vvv_(i=1)^(n) hat(P_i)`
+    não é satisfatível. Aqui, `hat(P_i) = \{ P_i, not P_i \}`, onde
+    `P_i` é uma fórmula atômica.
+</p>
+<p>
+    O sequente `phi_1, ..., phi_n |-- phi` é válido see o conjunto
+    `\{ phi1, ..., phi_n, not phi \}` não é satisfatível.
+</p>
+<p>
+    Vimos que `F_1, F_2, ..., F_n |-- phi` é válido see
+    `(^^^_(i=1)^(n) F_i) ^^ not phi` não é satisfatível. Vamos colocar cada
+    `F_i` e `not phi` na forma conjuntiva:
+</p>
+<p>
+    `F_i := G_(i_1) ^^ G_(i_2) ^^ ... ^^ G_(i_(k_i))`
+</p>
+<p>
+    `not phi := G_1 ^^ G_2 ^^ ... ^^ G_m`
+</p>
+<p>
+    Além disso, cada `G_(i_j)` e `G_e` são da forma
+    `hat(P_1) vv hat(P_2) vv ... vv hat(P_r)`. Assim, dizer que um
+    argumento/sequente é válido é o mesmo que dizer um certo conjunto de
+    disjunções de fórmulas atômicas e fórmulas atômicas negadas não é
+    satisfatível.
+</p>
+
+<p>
+    <strong>Exercício:</strong> Determine a validade do sequente:
+</p>
+<p>
+    `P => Q, not P => R, Q vv R => S |-- S`
+</p>
+
+<a id="s-2-7-4"></a>
+<h3>Cláusulas</h3>
+<p>
+    Uma fórmula atômica `P`, bem como sua fórmula atômica negada `not P`,
+    é chamada de literal.
+</p>
+<p>
+    Conjuntos finitos de literais `\{ L_i \}_(i=1)^(K)` são chamadas de
+    cláusulas.
+</p>
+<p>
+    Uma cláusula `\{ L_i \}_(i=1)^(K)` é satisfatível sse a fórmula
+    proposicional `vvv_(i=1)^(K) L_i` é satisfatível.
+</p>
+<p>
+    Uma cláusula vazia `\{\}` não é satisfatível.
+</p>
+<p>
+    Um conjunto de cláusulas `fr C` é satisfatível se existe uma
+    interpretação `fr I` que satisfaz cada cláusula de `fr C`.
+</p>
+<p>
+    Se `L` é um literal, então o complemento `bar(L)` é definido por:
+</p>
+<p>
+    `bar(P) := not P`
+</p>
+<p>
+    `bar(not P) := P`
+</p>
+<p>
+    Um literal é positivo see for uma fórmula atômica e é negativo caso
+    contrário.
+</p>
+<p>
+    Resolução é a regra
+</p>
+<p>
+    \( \frac{C \cup \{ L \} \ D \cup \{\bar{L}\}}{C \cup D} \)
+</p>
+<p>
+    onde `C` e `D` são cláusulas; e `L` é um literal. Dizemos que estamos
+    "resolvendo" as cláusulas sobre `L`, e a cláusula `C uu D` é chamada
+    resolvente. Uma derivação (por resolução) é uma sequência
+    de cláusulas tais que cada uma está em `C` ou vem de cláusulas
+    anteriores.
+</p>
+<p>
+    A resolução preserva a satisfatibilidade. Isto é, se um conjunto de
+    cláusulas `C` é satisfeito or uma interpretação `fr I`, então qualquer
+    resolvente ou um par de cláusulas de `C` também é satisfeito por `fr I`.
+</p>
+<p>
+    O algoritmo de resolução é correto e completo.
+</p>
+<p>
+    Não é correto aplicar resolução a mais de uma fórmula atômica.
+</p>
+
+<a id="s-2-7-5"></a>
+<h3>Procedimento de Davis-Putnam (DPP)</h3>
+<p>
+    Dado um conjunto de não-vazio finito de cláusulas `C` nas fórmulas
+    atômicas `\{ P_i \}_(i=1)^(n)`, o procedimento DPP repete os seguintes
+    passos até que não restem mais fórmulas atômicas:
+</p>
+<ol>
+    <li>
+        Elimine as fórmulas atômicas que contenham tanto o literal `L`
+        quanto `bar L`;
+    </li>
+    <li>
+        Escolha uma fórmula atômica `P` que aparece em uma das cláusulas;
+    </li>
+    <li>
+        Adicione todos os resolventes possíveis usando resolução sobre `P`
+        no conjunto de cláusulas;
+    </li>
+    <li>
+        Elimine todas as cláusulas que contenham `P` ou `not P`.
+    </li>
+</ol>
+<p>
+    <strong>Exemplo:</strong>
+    `C = \{ \{ P, Q \}, \{ not P, R \}, \{ not P \} \}`
+</p>
+<p>
+    `( \{ P, Q \}\  \{ not P \} )/(\{ Q \})`
+</p>
+<p>
+    `( \{ P, Q \}\  \{ not P, R \} )/(\{ Q, R \})`
+</p>
+<p>
+    `C = \{ \{ Q \}, \{ R \} \}`
+</p>
+<p>
+    `=> \{ \}` sem cláusulas
+</p>
+<p>
+    ` .: C` é satisfatível. `square`
+</p>
+<p>
+    Se o algoritmo retornar um conjunto sem cláusulas, então o conjunto `C`
+    é satisfatível. Se, em algum passo, tem-se uma cláusula vazia, então o
+    conjunto `C` não é satisfatível.
+</p>
+<p>
+    <strong>Exercício:</strong> Aplique DPP em
+    `C := \{ \{not P, Q\}, \{not Q, R, S\}, \{ P \}, \{R\}, \{not S\} \}`
+</p>
+
+<a id="s-2-7-5-1"></a>
+<h4>Correção e completudo do DPP</h4>
+<p>
+    Seja `S` um conjunto finito de cláusulas. Então `S` não é satisfatível
+    sse a saída do DPP é "cláusula vazia".
+</p>
+
+<a id="s-2-7-5-2"></a>
+<h4>Compacidade da lógica proposicional</h4>
+<p>
+    Seja `S` um conjunto de fórmulas prposicionais. Todo conjunto finito
+    `S_0 in S` é satisfatível sse `S` é satisfatível.
+</p>
+
+<a id="s-2-7-5-3"></a>
+<h4>Caso geral de correção e completude da resolução</h4>
+<p>
+    Um conjunto de não-vazio de cláusulas `S` é não-satisfatível sse existe
+    uma derivação de uma cláusula vazia de `S` utilizando resolução.
+</p>
+
+<a id="s-2-7-6"></a>
+<h3>Cláusulas de Horn</h3>
+<p>
+    Uma clásula de Horn é uma cláusula com, no máximo, um literal positivo.
+</p>
+<p>
+    As clásulas `\{not Q, not R, not S, not T\}` e `\{not P, Q, not R\}` são
+    cláusulas de Horn.
+</p>
+<p>
+    Um resolvente de duas cláusulas de Horn é sempre uma cláusula de Horn.
+</p>
+<p>
+    Para saber mais, procure saber sobre o trabalho de David McCallister
+    em lógica em sistemas de segurança.
+</p>
+<p>
+    Uma cláusula unitária é uma cláusula do tipo `\{L\}` com um único
+    literal.
+</p>
+<p>
+    Resolução unitária refere-se a derivações de resolução nas quais
+    pelo menos uma das cláusulas utilizadas em cada passo é uma cláusula
+    unitária.
+</p>
+<p>
+    A resolução unitária é correta e completa para cláusulas de Horn.
+</p>
+
+<a id="s-2-7-7"></a>
+<h3>Cláusulas de grafos</h3>
+<p>
+    Dado um grafo `G` finito, um conjunto de vértices `V` e um conjunto de
+    arestas `E`, vamos rotular cada vértice `cc v` com 0 ou 1. Este número é
+    a chamada "carga" do vértice `cc v`. A carga total é:
+</p>
+<p>
+    `(sum_(cc v in V) fr(C)(cc v)) mod 2`
+</p>
+<p>
+    Vamos rotular cada aresta com uma fórmula atômica, de forma que arestas
+    diferentes são rotuladas com fórmulas atômicas diferentes. Temos então
+    um grafo rotulado `hat G`
+</p>
+<p>
+    Para cada vértice `cc v` de `G`, seja `var(cc v)` o conjunto de
+    variáveis proposicionais nas arestas ligadas a `cc v` Para cada vértice
+    `cc v`, construímos o conjunto de cláusulas `cls(cc v)` da seguinte
+    forma:
+</p>
+<p>`c in cls(cc v) <=>`</p>
+<ul>
+    <li>
+        As variáveis proposicionais ocorrendo em `c` são precisamente
+        aquelas de `var(cc v)`;
+    </li>
+    <li>
+        `\{#` literais negativos de `c\} + fr(c)(cc v) -=  1 mod 2`
+    </li>
+</ul>
+<p>
+    O conjunto de cláusulas associadas ao grafo `hat G` é dado por
+</p>
+<p>
+    `cls(hat G) := uuu_(cc v in V) cls(cc v)`
+</p>
+
+<a id="s-2-7-7-1"></a>
+<h4>Teorema de Tseitin</h4>
+<p>
+    `cls(hat G)` é satisfatível sse a carga total é 0.
+</p>
+
+<a id="s-3"></a>
+<h1>Lógica de Predicados</h1>
+<!-- Continuar da página 13 -->

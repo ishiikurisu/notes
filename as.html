@@ -1,178 +1,164 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Análise de Sinais</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <pnk rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
-    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>
-</head>
-<body>
-    <h1>Análise de Sinais</h1>
+<h1>Análise de Sinais</h1>
 
-    <h1 id="aula-1">Aula 1</h1>
-    <h2>Álgebra Linear</h2>
-    <p>
-        <strong>Espaço vetorial:</strong> conjunto de vetores + conjunto
-        de escalares + operação de soma + operação de multiplicação por
-        escalar + norma
-    </p>
-    <p>
-        Uma soma de vetores de um espaço vetorial é um vetor deste espaço.
-    </p>
-    <p>
-        Uma combinação de linear é uma soma de produtos de vetores com
-        escalares: `sum_(i=0)^n a_i vec(v_i)`.
-    </p>
-    <p>
-        Uma base é um conjunto de vetores linearmente independentes capazes
-        de descrever um espaço vetorial.
-    </p>
-    <p>
-        O número de vetores de uma base define a cardinalidade do espaço
-        vetorial. Também é chamado de dimensão do espaço. A cardinalidade de uma espaço poder ser infinita. Exemplo: base
-        dos polinômios de grau até `N`.
-    </p>
-    <p>
-        `B := \{ x^i | i in [0,N] \}`
-    </p>
-    <p>
-        Uma base é ortogonal quando todos os vetores da base quando todos
-        os vetores da base são ortogonais entre si. Dois vetores são
-        ortogonais entre si quando o seu produto interno é nulo. Se uma base
-        é formada por vetores de uma mesma norma e estes vetores são
-        ortogonais entre si, dizemos que esta base é ortonormal.
-    </p>
-    <p>
-        Dados dois vetores `v` e `x` de uma base `B`, a projeção `p`
-        ortogonal de `v` em `x` é tal que:
-    </p>
-    <p>
-        `(: v-x, x :) = 0 <=>`
-    </p>
-    <p>
-        `(: v,x :) - (: x,x :) = 0`
-    </p>
-    <p>
-        ` v := sum_(i=1)^n a_i v_i | B := \{ v_i | i in [1, n] \} `
-    </p>
-    <p>
-        `(: sum_(i=1)^n a_i v_i, x :) = (: x, x :) <=>`
-    </p>
-    <p>
-        `sum_(i=1)^n (: v_i, x :) = (:x,x:)`
-    </p>
-    <p>
-        Se `v_j = x`, então `a_i = ((:v,v_j:))/((:v_j,v_j:))`
-    </p>
-    <p>
-        `:. p = sum_(i=1)^n a_i v_i`
-    </p>
-    <p>
-        `\{a_i\}_(i=1)^n` são os chamados coeficientes de Fourier.
-    </p>
-    <p>
-        <strong>Exercício:</strong> Seja `v=[7,-2,3]` e `S` o plano formado por
-        `x_1 = [0,1,0]` e `x_2 = [0,0,1]`. Qual a projeção ortogonal de `v` em
-        `S`?
-    </p>
-    <br/>
-    <p>
-        Uma matriz é um conjunto de elementos organizados em `m` linhas e `n`
-        colunas.
-    </p>
-    <p>
-        Duas matrizes `A` e `B` são somáveis se possuírem o mesmo número de
-        linhas e colunas. A soma será, portanto, a soma de cada entrada em
-        `A` e `B`.
-    </p>
-    <p>
-        `EE A * B` see `#` colunas em `A = #` linhas em `B`
-    </p>
-    <p>
-        A matriz identidade `I` é tal que, seja `A` uma matriz qualquer, então
-        `EE I : A * I = A`.
-    </p>
-    <p>
-        Da mesma forma,, a matriz inversa `A^(-1)` de uma matriz `A` é tal que
-        `A * A^(-1) = A^(-1) * A = I`.
-    </p>
+<h1 id="aula-1">Aula 1</h1>
+<h2>Álgebra Linear</h2>
+<p>
+    <strong>Espaço vetorial:</strong> conjunto de vetores + conjunto
+    de escalares + operação de soma + operação de multiplicação por
+    escalar + norma
+</p>
+<p>
+    Uma soma de vetores de um espaço vetorial é um vetor deste espaço.
+</p>
+<p>
+    Uma combinação de linear é uma soma de produtos de vetores com
+    escalares: `sum_(i=0)^n a_i vec(v_i)`.
+</p>
+<p>
+    Uma base é um conjunto de vetores linearmente independentes capazes
+    de descrever um espaço vetorial.
+</p>
+<p>
+    O número de vetores de uma base define a cardinalidade do espaço
+    vetorial. Também é chamado de dimensão do espaço. A cardinalidade de uma espaço poder ser infinita. Exemplo: base
+    dos polinômios de grau até `N`.
+</p>
+<p>
+    `B := \{ x^i | i in [0,N] \}`
+</p>
+<p>
+    Uma base é ortogonal quando todos os vetores da base quando todos
+    os vetores da base são ortogonais entre si. Dois vetores são
+    ortogonais entre si quando o seu produto interno é nulo. Se uma base
+    é formada por vetores de uma mesma norma e estes vetores são
+    ortogonais entre si, dizemos que esta base é ortonormal.
+</p>
+<p>
+    Dados dois vetores `v` e `x` de uma base `B`, a projeção `p`
+    ortogonal de `v` em `x` é tal que:
+</p>
+<p>
+    `(: v-x, x :) = 0 <=>`
+</p>
+<p>
+    `(: v,x :) - (: x,x :) = 0`
+</p>
+<p>
+    ` v := sum_(i=1)^n a_i v_i | B := \{ v_i | i in [1, n] \} `
+</p>
+<p>
+    `(: sum_(i=1)^n a_i v_i, x :) = (: x, x :) <=>`
+</p>
+<p>
+    `sum_(i=1)^n (: v_i, x :) = (:x,x:)`
+</p>
+<p>
+    Se `v_j = x`, então `a_i = ((:v,v_j:))/((:v_j,v_j:))`
+</p>
+<p>
+    `:. p = sum_(i=1)^n a_i v_i`
+</p>
+<p>
+    `\{a_i\}_(i=1)^n` são os chamados coeficientes de Fourier.
+</p>
+<p>
+    <strong>Exercício:</strong> Seja `v=[7,-2,3]` e `S` o plano formado por
+    `x_1 = [0,1,0]` e `x_2 = [0,0,1]`. Qual a projeção ortogonal de `v` em
+    `S`?
+</p>
+<br/>
+<p>
+    Uma matriz é um conjunto de elementos organizados em `m` linhas e `n`
+    colunas.
+</p>
+<p>
+    Duas matrizes `A` e `B` são somáveis se possuírem o mesmo número de
+    linhas e colunas. A soma será, portanto, a soma de cada entrada em
+    `A` e `B`.
+</p>
+<p>
+    `EE A * B` see `#` colunas em `A = #` linhas em `B`
+</p>
+<p>
+    A matriz identidade `I` é tal que, seja `A` uma matriz qualquer, então
+    `EE I : A * I = A`.
+</p>
+<p>
+    Da mesma forma,, a matriz inversa `A^(-1)` de uma matriz `A` é tal que
+    `A * A^(-1) = A^(-1) * A = I`.
+</p>
 
-    <h1>Aula 2</h1>
-    <h2>Séries de Fourier</h2>
-    <p>
-        A norma de uma espaço vetorial é uma operação tal que:
-    </p>
-    <ul>
-        <li>
-            `norm(vec(x)) = 0 <=> vec(x) = vec(0)`
-        </li>
-        <li>
-            `|a| norm(vec(x)) = norm(a vec(x))`
-        </li>
-        <li>
-            Desigualdade de Cauchy-Schwarz:
-            `||vec(x) + vec(y)|| <= ||vec(x)|| + ||vec(y)||`
-        </li>
-    </ul>
-    <p>
-        Definimos as normas `cc(l)_p` como sendo:
-    </p>
-    <p>
-        `||vec(x)||_p := (sum_(i=1)^m x_i^p)^(1/p)`
-    </p>
-    <p>
-        Similarmente, podemos definir as normas `L_p` para funções como sendo:
-    </p>
-    <p>`f:D->CC`</p>
-    <p>`||f||_p := (int_D |f(x)|^p dx)^(1/p)`</p>
-    <p>
-        Uma função `f` é dita quadrada integrável see `norm(f)_2 < +oo`.
-        Neste caso, dizemos que `f in cc(L)_2`.
-    </p>
-    <p>
-        <strong>Exercício:</strong> considere a seguinte base:
-    </p>
-    <p>
-        `B = \{ 1; cos(pi #); sin(pi #); cos(2 pi #); sin(2 pi #); ...; cos(n pi #); sin(n pi #) \}` onde `#` é uma variável qualquer.
-        Mostre que `B` é uma base ortogonal.
-    </p>
-    <br/>
-    <p>
-        Queremos escrever uma função periódica em termos desta base `B`.
-        Dizemos que a representação desta função em série de Fourier é:
-    </p>
-    <p>
-        `f(x) = a_0/2 + sum_(k=1)^n a_k cos(k pi x) + b_k sin(k pi x)`
-    </p>
-    <p>
-        onde
-    </p>
-    <p>
-        `a_k = ((: f, cos(k pi #) :))/((: cos(k pi #), cos(k pi #) :)) = int_D f(x) cos(k pi x) dx`
-    </p>
-    <p>
-        e
-    </p>
-    <p>
-        `b_k = ((: f, sin(k pi #) :))/((: sin(k pi #), sin(k pi #) :)) = int_D f(x) sin(k pi x) dx`
-    </p>
-    <p>
-        <strong>Exercício:</strong> Escreva a expansão em série de Fourier da
-        função `f` a seguir.
-    </p>
-    <p>
-        `f(x) = { (0, x in [-1;0[), (1, x in [0;1]) :}`
-    </p>
-    <p>
-        <strong>Exercício:</strong> Escreva a expansão em série de Fourier da
-        função descrita no gráfico a seguir.
-    </p>
-    <!-- TODO implementar biblioteca para desenhar os gráficos necessários somente com HTML, CSS & JS -->
-    <canvas id="img-1" width="400" height="400"></canvas>
-    <br/>
-    <!-- Continuar da aula 3 2016.8.22 -->
-    </script>
-</body>
-</html>
+<h1>Aula 2</h1>
+<h2>Séries de Fourier</h2>
+<p>
+    A norma de uma espaço vetorial é uma operação tal que:
+</p>
+<ul>
+    <li>
+        `norm(vec(x)) = 0 <=> vec(x) = vec(0)`
+    </li>
+    <li>
+        `|a| norm(vec(x)) = norm(a vec(x))`
+    </li>
+    <li>
+        Desigualdade de Cauchy-Schwarz:
+        `||vec(x) + vec(y)|| <= ||vec(x)|| + ||vec(y)||`
+    </li>
+</ul>
+<p>
+    Definimos as normas `cc(l)_p` como sendo:
+</p>
+<p>
+    `||vec(x)||_p := (sum_(i=1)^m x_i^p)^(1/p)`
+</p>
+<p>
+    Similarmente, podemos definir as normas `L_p` para funções como sendo:
+</p>
+<p>`f:D->CC`</p>
+<p>`||f||_p := (int_D |f(x)|^p dx)^(1/p)`</p>
+<p>
+    Uma função `f` é dita quadrada integrável see `norm(f)_2 < +oo`.
+    Neste caso, dizemos que `f in cc(L)_2`.
+</p>
+<p>
+    <strong>Exercício:</strong> considere a seguinte base:
+</p>
+<p>
+    `B = \{ 1; cos(pi #); sin(pi #); cos(2 pi #); sin(2 pi #); ...; cos(n pi #); sin(n pi #) \}` onde `#` é uma variável qualquer.
+    Mostre que `B` é uma base ortogonal.
+</p>
+<br/>
+<p>
+    Queremos escrever uma função periódica em termos desta base `B`.
+    Dizemos que a representação desta função em série de Fourier é:
+</p>
+<p>
+    `f(x) = a_0/2 + sum_(k=1)^n a_k cos(k pi x) + b_k sin(k pi x)`
+</p>
+<p>
+    onde
+</p>
+<p>
+    `a_k = ((: f, cos(k pi #) :))/((: cos(k pi #), cos(k pi #) :)) = int_D f(x) cos(k pi x) dx`
+</p>
+<p>
+    e
+</p>
+<p>
+    `b_k = ((: f, sin(k pi #) :))/((: sin(k pi #), sin(k pi #) :)) = int_D f(x) sin(k pi x) dx`
+</p>
+<p>
+    <strong>Exercício:</strong> Escreva a expansão em série de Fourier da
+    função `f` a seguir.
+</p>
+<p>
+    `f(x) = { (0, x in [-1;0[), (1, x in [0;1]) :}`
+</p>
+<p>
+    <strong>Exercício:</strong> Escreva a expansão em série de Fourier da
+    função descrita no gráfico a seguir.
+</p>
+<!-- TODO implementar biblioteca para desenhar os gráficos necessários somente com HTML, CSS & JS -->
+<canvas id="img-1" width="400" height="400"></canvas>
+<br/>
+<!-- Continuar da aula 3 2016.8.22 -->
