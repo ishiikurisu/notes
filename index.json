@@ -1,6 +1,6 @@
 [
     {
-        "title": "Lógica Matemática & Computacional",
+        "title": "Lógica Matemática &amp; Computacional",
         "description": "Introdução à Lógica Proposicional e à Lógica de Predicados",
         "path": "lmc.html"
     },
@@ -33,6 +33,16 @@
         "title": "Ruby on Rails + Vagrant",
         "description": "Uso do Vagrant para executar aplicações Ruby on Rails",
         "path": "vagrant.md"
+    },
+    {
+        "title": "Technology Readiness Level",
+        "description": "Lista da NASA para indicar o nível de maturidade de um projeto",
+        "path": "trl.md"
+    },
+    {
+        "title": "Links úteis",
+        "description": "Sites que podem vir a calhar de vez em quando",
+        "path": "useful-links.md"
     },
     {
         "title": "Technology Readiness Level",
