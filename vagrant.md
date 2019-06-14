@@ -1,3 +1,5 @@
+# Ruby on Rails + Vagrant"
+
 Este tutorial busca explicar como montar uma _box_ do Vagrant própria para executar aplicações Ruby on Rails. O procedimento básico consiste de:
 
 - Instalar Vagrant

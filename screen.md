@@ -1,3 +1,5 @@
+# Screen
+
 `Screen` é um programa para a linha de comando do Linux que permite utilizar outras janelas dentro de um mesmo terminal. Em outras palavras: é como se pudéssemos usar abas em qualquer emulador de terminal, inclusive quando estamos acessando outra máquina por `ssh`.
 
 O comando

@@ -1,3 +1,5 @@
+# Technology Readiness Level
+
 A fim de melhor lidar com a quantidade e qualidade da tecnologia em seu ambiente, um engenheiro da NASA desenvolveu uma escala chamada TRL. Eu a uso como base quando desenvolvo meus trabalhos, já que ela dá indicadores sobre as melhores ações a serem tomadas e quais resultados são esperados naquele momento. A escala é dividida em 9 níveis, cada uma representando um estado do projeto.
 
 1. Neste nível, ainda estamos estudando e provando os príncipios básicos do projeto.
