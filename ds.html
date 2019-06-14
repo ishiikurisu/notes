@@ -1,0 +1,234 @@
+<h1>Anotações sobre Ciência de Dados</h1>
+
+<h2>Básico</h2>
+
+<p>Data science (DS) é um ramo da ciência da computação e da estatísica que, bem, lida com dados.
+Ela se preocupa com 5 questões:</p>
+<ul>
+<li>Essa coisa é <code>A</code> ou <code>B</code>?</li>
+<li>Essa coisa é estranha?</li>
+<li>Quantas dessas coisas nós temos?</li>
+<li>Como essas coisas estão organizadas?</li>
+<li>Qual é a próxima coisa que eu devo fazer.</li>
+</ul>
+<p>Para isso, nós usamos <em>algoritmos</em> sobre um conjunto de dados (<em>data set</em>), geralmente utilizando computadores.</p>
+<p>Algoritmos de classificação dividem o <em>data set</em> em duas categorias.</p>
+<p>Algoritmos de detecção de anomalias determinam qual porção do <em>data set</em> é anormal. Por exemplo,
+eles podem ser utilizados para detectar fraudes em cartões de crédito por meio da análise das compras.</p>
+<p>Regressão é a o procedimento de transformar um <em>data set</em> em um número, geralmente uma predição.</p>
+<p>Algoritmos de <em>Clustering</em> agrupam partes dos dados que são de alguma forma relacionadas.</p>
+<p>Algoritmos de aprendizagem tentam prever qual é a próxima ação baseado em experiências anteriores e
+o que é certo ou errado.</p>
+<p>A <em>Data Science</em> requer que o <em>data set</em> seja:</p>
+<ul>
+<li>Relevante</li>
+<li>Conectado</li>
+<li>Acurado</li>
+<li>Abundante</li>
+</ul>
+<p>Para responder essas questões da melhor forma possível, vários tópicos aparecerem dentro
+da ciência de dados, cada um tentando resolver um problema diferente mas ainda assim relevante
+a estas 5 questões. Por exemplo: recuperação de informação, análise de redes e <em>machine learning</em>.</p>
+
+<h2>Análise Semântica Latente</h2>
+
+<p>Este é o procedimento para recuperar informação de um texto utilizando análise computacional.
+Ele é geralmente feito por meio da equação TF.IDF, que é descrita no livro
+&quot;An Introduction to Information Retrieval&quot; por Christopher Manning.</p>
+
+<p>O algoritmo básico consiste de:</p>
+
+<ul>
+  <li>Construir uma matriz termo-frequência (`TF`, ou `T**D`)</li>
+  <li>Calcular tf-idf utilizando alguma definição válida</li>
+  <li>Realizar decomposição matricial &quot;Single Value Decomposition&quot;</li>
+  <li>Calcular similaridade dos documentos (matriz `D**D`)</li>
+  <li>Calcular similaridade entre os termos (matriz `T**T'`)</li>
+</ul>
+
+<p>
+  A partir daí, calculamos o TF.IDF:
+</p>
+
+<p>
+  `tfidf(t) = tf(t)*log(N/df(t))`
+</p>
+
+<p>
+  Onde
+</p>
+
+<ul>
+  <li>`N`: número de documentos</li>
+  <li>`tf(t)`: quantas vezes o termo aparece no geral</li>
+  <li>`df(t)`: quantas vezes o termo aparece no documento</li>
+</ul>
+
+<h3>Distância de Levenshtein</h3>
+
+<blockquote cite="http://">
+  "In information theory, linguistics and computer science, the Levenshtein distance is a string metric for measuring the difference between two sequences. Informally, the Levenshtein distance between two words is the minimum number of single-character edits (insertions, deletions or substitutions) required to change one word into the other. It is named after the Soviet mathematician Vladimir Levenshtein, who considered this distance in 1965."
+</blockquote>
+
+<p>Em C:</p>
+
+<code>
+// len_s and len_t are the number of characters in string s and t respectively
+int LevenshteinDistance(const char *s, int len_s, const char *t, int len_t)
+{
+  int cost;
+
+  /* base case: empty strings */
+  if (len_s == 0) return len_t;
+  if (len_t == 0) return len_s;
+
+  /* test if last characters of the strings match */
+  if (s[len_s-1] == t[len_t-1])
+      cost = 0;
+  else
+      cost = 1;
+
+  /* return minimum of delete char from s, delete char from t, and delete char from both */
+  return minimum(LevenshteinDistance(s, len_s - 1, t, len_t    ) + 1,
+                 LevenshteinDistance(s, len_s    , t, len_t - 1) + 1,
+                 LevenshteinDistance(s, len_s - 1, t, len_t - 1) + cost);
+}
+</code>
+
+<p>
+  O algoritmo mais eficiente para o cálculo da distância de Levenshtein é o algoritmo de Wagner-Fischer.
+</p>
+
+<h2>Análise de Redes</h2>
+
+<h3>Redes</h3>
+
+<p>
+  Uma rede é um grupo de atores e as relações entre eles. Geralmente esses atores são pessoas
+  e suas relações podem ser qualquer tipo de relação social, tal como amizade ou amor. Porém,
+  esses grupo pode ser entendido como uma estrutura de quaisquer itens que se relacionam, como
+  aeroportos e aviões, ou a internet.
+</p>
+<p>
+  Redes geralmente são modeladas utlizando grafos a fim de poderem ser analisadas.
+  Neste sentido, nós devemos transformar as informações que queremos em perguntas matemáticas,
+  geralmente aquelas que fazemos com <em>data science</em>. Essas questões nos darão as métricas
+  que serão trabalhadas acerca de um certo tópico, como as conexões; a distribuição;
+  ou a segmentação.
+</p>
+<p>
+  Métricas de distribuição para redes incluem densidade; distância; e centralidade.
+</p>
+<p>
+  Existem várias métricas de centralidade (`CT`) para grafos, mas todas elas tentam, de alguma maneira,
+  determinar qual são os vértices mais importantes do grafo. Entre elas, incluem-se:
+</p>
+<ul>
+  <li>Centralidade de grau</li>
+  <li>Autovetor</li>
+  <li><em>Betweenness</em> (calculada pelo algoritmo de Brandes)</li>
+  <li><em>Pagerank</em> (utilizado pelo Google)</li>
+</ul>
+<p>
+  Redes reais se comportam como sistemas complexos. Isto é, elas possuem quatro características
+  intrínsecas principais:
+</p>
+<ul>
+  <li>Alta percolação: todos os nós estão interconectados de alguma forma</li>
+  <li>Liberdade de escala: a probabilidade dos graus dos nós segue uma lei de potência</li>
+  <li><em>Clustering</em>: existem comunidades dentro da rede</li>
+  <li>
+    "Mundo pequeno": a maior distância entre dois nós quaisquer é proporcional ao
+    logaritmo do número de nós
+  </li>
+</ul>
+<p>
+  Curiosamente, essas características não podem ser simultaneamente matematicamente modeladas ou
+  simuladas. Ainda assim, a maioria dos grandes sistemas do mundo real podem ser descritos
+  como uma rede que está sujeita a demonstrar essas propriedades.
+</p>
+
+<h3>Medidas de centralidade</h3>
+
+<p>
+  Eigencentrality para leigos: representa a influência de um nó na rede. Um nó com alta centralidade de autovetor é conectado aos nós com mais conexões.
+</p>
+<p>
+  Betweenness para leigos: representa a importância em termos de conectividade entre as comunidades que um nó tem dentro da rede? Um nó com alta betweeness representa, em geral, um mediador.
+</p>
+<p>
+  Betweenness for engineers: the betweenness b of a vertex i is defined as the number of shortest paths between other pairs of vertices that pass through i. It can be calculated using Brandes algorithm.
+</p>
+
+<h2>Machine Learning</h2>
+
+<h3>Classificador Logístico</h3>
+
+<ul>
+  <li>Matriz de pesos `W`</li>
+  <li>Matriz de entradas `X`</li>
+  <li>Viés `b`</li>
+  <li>Predição `y`</li>
+</ul>
+
+<p>
+  `y = WX + b`
+</p>
+
+<p>
+  Para que este classificador funcione, `W` e `b` precisam ser treinadas. Para cada rótulo possível,
+  elas devem ser treinadas para que `y` seja maior quando `x` estiver próximo da entrada.
+</p>
+
+<p>Função <em>Softmax</em>:</p>
+
+<p>
+`S(y, i) := (exp(y[i])) / (sum_j (exp(y[j])))`
+</p>
+
+<p>
+  Transforma uma nota em uma probabilidade. Se você multiplicar as notas `y` nesta função por 10,
+  por exemplo, os resultados ficam muito próximos de 1 ou de 0.
+</p>
+
+<p>
+  Coisas a se perceber:
+</p>
+<ul>
+  <li><em>One hot encoding</em>: um rótulo é definido como uma matriz em que todos os itens
+  são iguais a 0 menos na posição relevante.</li>
+  <li>Cross-entropia: compara as notas obtidas e <em>on hot encoding</em> da seguinte forma:</li>
+</ul>
+<p>
+  `D(S,L) := -sum_i L_i ln(S_i)`
+</p>
+<p>
+  Onde `D` é a cross-entropia; `S`, as notas; e `L`, os <em>encodings</em>. Note que `D(S,L) != D(L,S)`.
+</p>
+
+<p>
+  Até agora, descrevemos o modelo logístico multinomial:
+</p>
+<ol>
+  <li>Entrada</li>
+  <li><em>Logit</em></li>
+  <li><em>Softmax</em></li>
+  <li><em>1hot</em></li>
+</ol>
+<p>
+  Neste contexto, vamos definir a perda como sendo:
+</p>
+`cr(L) = sum_(i=1)^(N) (D(S(w x_i + b), L_i))/N`
+
+<p>
+  O objetivo, portanto, é minimzar as perdas por meio do ajuste de `W` e de `b`. Este processo
+  pode ser feito por meio da otimização gradiente, que transforma <em>machine learning</em> em
+  um problema de otimização matemática (por meio de análise matemática).
+</p>
+<p>
+  Quando lindando com um problema de otimização, tente normalizar os parâmetros,
+  isto é, torne a média igual a 0 e variância, pequana.
+</p>
+<p>
+  Optimization in a nutshell: lather, rinse, repeat.
+</p>
