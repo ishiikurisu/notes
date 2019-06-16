@@ -15,6 +15,11 @@
         "path": "ds.html"
     },
     {
+        "title": "Revisão Semanal",
+        "description": "Passo a passo de como fazer uma revisão semanal no GTD",
+        "path": "weekly_review.md"
+    },
+    {
         "title": "Screen",
         "description": "Referência rápida para o comando screen",
         "path": "screen.md"
