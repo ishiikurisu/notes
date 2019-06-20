@@ -72,6 +72,7 @@ Ele é geralmente feito por meio da equação TF.IDF, que é descrita no livro
 
 <p>Em C:</p>
 
+<pre>
 <code>
 // len_s and len_t are the number of characters in string s and t respectively
 int LevenshteinDistance(const char *s, int len_s, const char *t, int len_t)
@@ -94,6 +95,7 @@ int LevenshteinDistance(const char *s, int len_s, const char *t, int len_t)
                  LevenshteinDistance(s, len_s - 1, t, len_t - 1) + cost);
 }
 </code>
+</pre>
 
 <p>
   O algoritmo mais eficiente para o cálculo da distância de Levenshtein é o algoritmo de Wagner-Fischer.
