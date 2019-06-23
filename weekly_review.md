@@ -2,23 +2,22 @@
 
 Clarificar
 
-- Coletar papéis e materiais perdidos
+- Coletar papéis perdidos e materiais
 - Esvaziar caixa de entrada
 - Limpar sua mente
 
 Atualizar
 
-- Marcar itens feitos
-- Procurar por anotações sobre ações futuras
+- Risque os itens concluídos
+- Procurar por lembretes de ações futuras
 - Revisar calendário passado
 - Revisar calendário futuro
 - Revisar lista "Aguardando Resposta"
-- Revisar lista de projetos
-- Revisar todas as checklists relevantesdar
+- Revisar lista de projetos e resultados maiores
+- Revisar quaisquer checklists relevantes
 
 Seja criativo
 
 - Revisar a lista "algum dia/talvez"
-- Apagar itens que não são mais relevantes 
-- Seja criativo e corajoso
-
+- Apagar itens que não são mais relevantes
+- Ser criativo e corajoso
