@@ -16,7 +16,7 @@ Vai começar uma nova sessão chamada _nova-aba_ no `screen`, a qual vai se pare
 - ⌘D para desafixar uma tela (vulgo sair da tela sem fechá-la, deixa os programas executando)
 - `Esc` para entrar no modo de cópia o que te permitirá subir e descer pelo terminal, além de selecionar conteúdo para copiar, recortar e colar
 
-Para terminar uma sessão no `screen`, basta digitar `exit` como se estivesse saindo de uma sessão regular de terminal.
+Para terminar uma sessão no `screen`, basta digitar `exit` como se estivesse saindo de uma sessão regular de terminal. Você pode terminar uma sessão do Screen utilizando o comando `screen -X nome-da-sessao`.
 
 Se você sair de uma sessão do `screen` que havia sessões desafixadas, você pode retomá-la com
 
