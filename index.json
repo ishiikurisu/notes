@@ -15,6 +15,11 @@
         "path": "ds.html"
     },
     {
+        "title": "tmux",
+        "description": "Introdução ao tmux",
+        "path": "tmux.md"
+    },
+    {
         "title": "Revisão Semanal",
         "description": "Passo a passo de como fazer uma revisão semanal no GTD",
         "path": "weekly_review.md"
