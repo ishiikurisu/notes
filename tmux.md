@@ -27,11 +27,6 @@ Para voltar a uma sessão desafixada:
 tmux attach -t $nome-da-sessao
 ```
 
-Para substituir o a sequência `prefix`:
-
-```
-tmux set -g prefix C-a  # representando ctrl-a
-```
 
 Comandos básicos
 ----------------
@@ -50,3 +45,10 @@ Examplos de comandos manuais:
 
 - `split-window`: divide uma janela horizontalmente
 - `set -g mouse on`: ativa o mouse na janela
+- `set -g prefix C-a`: troca a combinação _prefix_ para _ctrl-a_
+
+Ao alterar configurações, pode ser necessário salvá-las:
+
+```
+tmux show -g > ~/.tmux.conf
+```
