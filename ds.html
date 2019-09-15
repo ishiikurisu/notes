@@ -15,7 +15,7 @@ Ela se preocupa com 5 questões:</p>
 <p>Algoritmos de classificação dividem o <em>data set</em> em duas categorias.</p>
 <p>Algoritmos de detecção de anomalias determinam qual porção do <em>data set</em> é anormal. Por exemplo,
 eles podem ser utilizados para detectar fraudes em cartões de crédito por meio da análise das compras.</p>
-<p>Regressão é a o procedimento de transformar um <em>data set</em> em um número, geralmente uma predição.</p>
+<p>Regressão é o procedimento de transformar um <em>data set</em> em um número, geralmente uma predição.</p>
 <p>Algoritmos de <em>Clustering</em> agrupam partes dos dados que são de alguma forma relacionadas.</p>
 <p>Algoritmos de aprendizagem tentam prever qual é a próxima ação baseado em experiências anteriores e
 o que é certo ou errado.</p>
@@ -51,7 +51,7 @@ Ele é geralmente feito por meio da equação TF.IDF, que é descrita no livro
 </p>
 
 <p>
-  `tfidf(t) = tf(t)*log(N/df(t))`
+  `tfidf(t) = tf(t)*log(N/(df(t)))`
 </p>
 
 <p>
@@ -153,14 +153,28 @@ int LevenshteinDistance(const char *s, int len_s, const char *t, int len_t)
 <h3>Medidas de centralidade</h3>
 
 <p>
-  Eigencentrality para leigos: representa a influência de um nó na rede. Um nó com alta centralidade de autovetor é conectado aos nós com mais conexões.
+    Algumas medidas de centralidade incluem as seguintes:
 </p>
+
+<ul>
+    <li>
+      Eigencentrality para leigos: representa a influência de um nó na rede. Um nó com alta centralidade de autovetor é conectado aos nós com mais conexões.
+    </li>
+    <li>
+      Betweenness para leigos: representa a importância em termos de conectividade entre as comunidades que um nó tem dentro da rede? Um nó com alta betweeness representa, em geral, um mediador.
+    </li>
+    <li>
+      Betweenness for engineers: the betweenness b of a vertex i is defined as the number of shortest paths between other pairs of vertices that pass through i. It can be calculated using Brandes algorithm.
+    </li>
+</ul>
+
 <p>
-  Betweenness para leigos: representa a importância em termos de conectividade entre as comunidades que um nó tem dentro da rede? Um nó com alta betweeness representa, em geral, um mediador.
+    E temos ainda vários recursos para nos ajudar a entendê-las:
 </p>
-<p>
-  Betweenness for engineers: the betweenness b of a vertex i is defined as the number of shortest paths between other pairs of vertices that pass through i. It can be calculated using Brandes algorithm.
-</p>
+
+<ul>
+    <li><a href="http://matthieu-totet.fr/Koumin/2013/12/16/understand-degree-weighted-degree-betweeness-centrality/">Understanding weighted degree betweeness centrality</a></li>
+</ul>
 
 <h2>Machine Learning</h2>
 
