@@ -63,5 +63,10 @@
         "title": "Referências para estudos de línguas",
         "description": "Willst du Deutsch lernen? 日本語を勉強していますか。",
         "path": "lang-ref.md"
+    },
+    {
+        "title": "Links nāo táo úteis",
+        "description": "Sites úteis para procrastinar",
+        "path": "not-so-useful-links.md"
     }
 ]
