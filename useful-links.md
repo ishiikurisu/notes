@@ -21,6 +21,7 @@ Code + Design:
 * [evernote](https://evernote.com)
 * [gmail](https://gmail.com)
 * [dropbox](https://dropbox.com/home)
+* [colors lovers](https://www.colourlovers.com/)
 
 Inspiration:
 

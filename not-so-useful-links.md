@@ -3,4 +3,8 @@
 Games:
 
 - [itch.io](https://itch.io)
-- [blupi](blupi.org)
+- [Blupi](blupi.org)
+
+Cartography and Vexillology:
+
+- [Mercator: Extreme](https://mrgris.com/projects/merc-extreme/)
