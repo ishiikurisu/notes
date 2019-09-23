@@ -10,3 +10,4 @@ Deutsch
 * [kanji by stroke count](https://en.wikipedia.org/wiki/List_of_kanji_by_stroke_count)
 * [guide to japanese](http://www.guidetojapanese.org/)
 * [jisho](https://jisho.org/)
+* [bilingual manga](https://bilingualmanga.com/)
