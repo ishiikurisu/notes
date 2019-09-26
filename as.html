@@ -158,7 +158,29 @@
     <strong>Exercício:</strong> Escreva a expansão em série de Fourier da
     função descrita no gráfico a seguir.
 </p>
-<!-- TODO implementar biblioteca para desenhar os gráficos necessários somente com HTML, CSS & JS -->
-<canvas id="img-1" width="400" height="400"></canvas>
+<div id="fig-1" style="width: 600px;height:400px;"></div>
 <br/>
 <!-- Continuar da aula 3 2016.8.22 -->
+
+<script type="text/javascript">
+    performNoteOperations = function() {
+        echarts.init(document.getElementById('fig-1')).setOption({
+            title: {
+                text: 'ECharts entry example'
+            },
+            tooltip: {},
+            legend: {
+                data:['Sales']
+            },
+            xAxis: {
+                data: ["shirt","cardign","chiffon shirt","pants","heels","socks"]
+            },
+            yAxis: {},
+            series: [{
+                name: 'Sales',
+                type: 'bar',
+                data: [5, 20, 36, 10, 10, 20]
+            }]
+        });
+    }
+</script>

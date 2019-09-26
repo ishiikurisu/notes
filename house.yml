@@ -1,0 +1,5 @@
+---
+execute:
+    local: true
+    commands:
+    - python server.py  # must be python 2
