@@ -15,6 +15,11 @@
         "path": "ds.html"
     },
     {
+        "title": "Apresentaçāo de sucesso",
+        "description": "Dicas para apresentar da melhor forma",
+        "path": "apresentacao-de-sucesso.md"
+    },
+    {
         "title": "i3",
         "description": "Introdução ao i3",
         "path": "i3.md"
