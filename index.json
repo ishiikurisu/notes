@@ -20,49 +20,14 @@
         "path": "apresentacao-de-sucesso.md"
     },
     {
-        "title": "i3",
-        "description": "Introdução ao i3",
-        "path": "i3.md"
-    },
-    {
-        "title": "tmux",
-        "description": "Introdução ao tmux",
-        "path": "tmux.md"
-    },
-    {
         "title": "Revisão Semanal",
         "description": "Passo a passo de como fazer uma revisão semanal no GTD",
         "path": "weekly_review.md"
     },
     {
-        "title": "Screen",
-        "description": "Referência rápida para o comando screen",
-        "path": "screen.md"
-    },
-    {
-        "title": "PostgreSQL",
-        "description": "Setup do banco de dados PostgreSQL",
-        "path": "postgresql.md"
-    },
-    {
         "title": "PROMETHEE",
         "description": "Fundamentos do método PROMETHEE para tomada de decisão",
         "path": "promethee.html"
-    },
-    {
-        "title": "Deploy de aplicação no Heroku",
-        "description": "Exemplo de como levantar uma aplicação web no Heroku",
-        "path": "heroku.md"
-    },
-    {
-        "title": "Ruby on Rails + Vagrant",
-        "description": "Uso do Vagrant para executar aplicações Ruby on Rails",
-        "path": "vagrant.md"
-    },
-    {
-        "title": "Technology Readiness Level",
-        "description": "Lista da NASA para indicar o nível de maturidade de um projeto",
-        "path": "trl.md"
     },
     {
         "title": "Links úteis",
