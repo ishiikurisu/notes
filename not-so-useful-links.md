@@ -4,6 +4,7 @@ Games:
 
 - [itch.io](https://itch.io)
 - [Blupi](blupi.org)
+- [Backloggery](https://backloggery.com/box_of_joe)
 
 Cartography and Vexillology:
 
