@@ -15,14 +15,19 @@
         "path": "ds.html"
     },
     {
-        "title": "Front in Floripa 2019",
-        "description": "Anotaçōes do Front in Floripa 2019",
-        "path": "frontinfloripa2019.md"
+       "title": "Fly Lady",
+       "description": "Os 10 passos e os 11 mandamentos da Fly Lady vão te ajudar a manter sua casa sob controle!",
+       "path": "fly-lady.md"
     },
     {
-        "title": "Gophercon Brasil 2019",
-        "description": "Anotaçōes da Gophercon Brasil 2019",
-        "path": "gopherconbr2019.md"
+       "title": "Checklist para casa",
+       "description": "Indo morar sozinho pela primeira vez? Veja se tem tudo que precisa para não passar aperto",
+       "path": "home-stuff.md"
+    },
+    {
+       "title": "Checklist para viagem",
+       "description": "Para não deixar nada para trás e curtir as férias ao máximo",
+       "path": "travel-stuff.md"
     },
     {
         "title": "Apresentaçāo de sucesso",
