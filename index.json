@@ -58,5 +58,10 @@
         "title": "Links nāo tão úteis",
         "description": "Sites úteis para procrastinar",
         "path": "not-so-useful-links.md"
+    },
+    {
+        "title": "Meus dias em Tóquio",
+        "description": "Best days of my life so far",
+        "path": "tokyo-days.md"
     }
 ]
