@@ -5,6 +5,7 @@ Games:
 - [itch.io](https://itch.io)
 - [Blupi](blupi.org)
 - [Backloggery](https://backloggery.com/box_of_joe)
+- [Pokémon Showdown](https://pokemonshowdown.com/)
 
 Cartography and Vexillology:
 
