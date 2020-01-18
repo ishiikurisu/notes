@@ -14,14 +14,14 @@
     + durante a viagem, vi como a paisagem mudou: de aeroporto para fazenda para fábrica para logística para cidade grande
 - Almocei em um Ramen aleatório muito gostoso. Nele, eu pedi a comida por uma máquina e entreguei o bilhete para o garçom, que me trouxe o lamen depois.
 - Fui à ao Pokemon Center DX para cumprir um dos meus objetivos. Havia um Poke Café no prédio também mas ele estava fechado.
-- Decidi ir caminhando para Ikihabara com o objetivo final de tomar um café no Gundam Cafe. Coisas que percebi no meio do caminho:
+- Decidi ir caminhando para Akihabara com o objetivo final de tomar um café no Gundam Cafe. Coisas que percebi no meio do caminho:
     + a cidade é muito limpa
     + mesmo tendo obra, a cidade ainda é muito limpa e silenciosa
     + tem muitos carros aqui, mas não tem tantos carros assim para causar engarrafamento. Vi muitas bicicletas e estações de metrô, então imagino que seja por isso que não tem muitos carros
     + toda cafeteria tem wifi, por isso sempre tem gente bebendo café
     + tem várias esculturas e pinturas estranhas na cidade (aquele urso com o saco gigante, o cachorro cha-cha, aquelas esculturas no meio da rua).
     + tem muita casa de massagem, e é muito suspeito
-- Em Ikihabara, eu entrei em alguns prédios e lojas para ver coisas:
+- Em Akihabara, eu entrei em alguns prédios e lojas para ver coisas:
     + Eu entrei em um prédio aleatório e tinha uma loja de cartas de yu-gi-oh nele
     + o prédio do lado tinha um monte de eletrônicos a venda. Não achei o mousepad Artisan lá porém
     + o prédio do lado tinha 10 andares de merchandising de anime (incluindo armas, bonecas, cartas e um andar só para as pessoas jogarem, um andar só de hentai [tinha um guri com uma cesta cheia deles], eletrônicos e material para cosplay)
