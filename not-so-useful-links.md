@@ -6,6 +6,8 @@ Games:
 - [Blupi](blupi.org)
 - [Backloggery](https://backloggery.com/box_of_joe)
 - [Pokémon Showdown](https://pokemonshowdown.com/)
+- [terrain.party](http://terrain.party/) for real world maps in "Cities: Skylines"
+- [Models Resource](https://www.models-resource.com/)
 
 Cartography and Vexillology:
 
