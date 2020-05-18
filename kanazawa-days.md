@@ -29,7 +29,7 @@
 
 12.12.2019
 
-- Hoje tive aula de preparo de doces japoneses. São bem bonitos mas bastante difíceis de fazer.
+- [Hoje tive aula de preparo de doces japoneses](https://www.instagram.com/katsuyatokuyama/). São bem bonitos mas bastante difíceis de fazer.
 - Depois da aula de culinária, fui com os colegas do programa para a Tokyu Hands de Kanazawa. A cidade é bem maior do que eu esperava.
 - De noite, fui a uma apresentação de cultura japonesa, incluindo Koto,Taikou e Geishas. Bastante interessante e bem barato. Atividades culturais no Brasil poderiam ser assim também
 
