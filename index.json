@@ -15,6 +15,11 @@
         "path": "ds.html"
     },
     {
+       "title": "12 Properties of Good Tests",
+       "description": "According to Kent Beck",
+       "path": "good-tests.md"
+    },
+    {
        "title": "Fly Lady",
        "description": "Os 10 passos e os 11 mandamentos da Fly Lady vão te ajudar a manter sua casa sob controle!",
        "path": "fly-lady.md"
