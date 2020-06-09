@@ -15,6 +15,11 @@
         "path": "ds.html"
     },
     {
+       "title": "Princípios de Gamification",
+       "description": "As ideias que tornam jogos tão atraentes",
+       "path": "gamification.md"
+    },
+    {
        "title": "12 Properties of Good Tests",
        "description": "According to Kent Beck",
        "path": "good-tests.md"

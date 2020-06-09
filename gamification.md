@@ -1,0 +1,50 @@
+# Gamification
+
+## Elementos motivadores
+
+- Competência
+- Autonomia
+- Vínculo
+
+Motivação: intrínseco até indiferente
+
+## Tipos de jogadores
+
+- Assassinos
+- Empreendedores
+- Socializadores
+- Exploradores
+
+> explorers research game opportunities, they don’t mind playing alone, usually don’t hurt others, but sometimes they can exploit game weaknesses
+> 
+> achievers play to win, to gain points, popularity. They need both explorers who know all perks, and socializers - as their followers and support
+>
+> socializers play because their friends are all here, they like to be together, they are usually most of the players, they can be easily led astray
+>
+> killers - for some reasons they come to hurt others, be it hurtful remarks in the chats or disturbing behavior
+>
+> A tiny amount of killers is manageable and even profitable. (All four types are important). Killers raise stakes for the achievers, give socializers something to talk about in their groups and give explorers incentives to invent something new.
+> 
+> Angered explorers are the top predators here - but they must be seriously offended, and since they play on the outskirts of the game, killers rarely fight them. Killers usually go for the weakest (socializers) or most noticeable (achievers).
+>
+> But if the game, by its design, somehow attracts to much killers, who scare socializers, leave achievers without their rewards and - by choking he environment - make it boring for the explorers (what I gonna explore here? ten kinds of dick-related-nicknames? Pff!) - they effectively kill the game.
+
+## Tipos de resultados
+
+Tangível, esperado e competitivo
+
+## Ciclos de Jogo 
+
+Estímulo -> Reação <--> Consequência
+
+Ciclo: motivação, ação, retorno
+
+## Ponto de vista econômico
+
+Um jogo é um produto! Não faça os jogos pensando como um jogador. 
+
+Roteiro, arte e lógica são independentes.
+
+Economia Criativa = produto comum + story telling
+
+Aproveitar o patrimônio intangível
