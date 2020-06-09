@@ -12,3 +12,5 @@
 * [jisho](https://jisho.org/)
 * [bilingual manga](https://bilingualmanga.com/)
 * [IMABI](https://www.imabi.net/)
+* [Estar](https://estar.jp/)
+* [Sakura-san Podcast](https://www.youtube.com/watch?v=NNDbRPeJcZ0)
