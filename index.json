@@ -65,6 +65,11 @@
         "path": "lang-ref.md"
     },
     {
+        "title": "日本語の基本的な語彙",
+        "description": "日本語学生に",
+        "path": "言葉.csv"
+    },
+    {
         "title": "Links nāo tão úteis",
         "description": "Sites úteis para procrastinar",
         "path": "not-so-useful-links.md"
