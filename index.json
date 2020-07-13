@@ -13,16 +13,26 @@
         "title": "Básico de Ciência de Dados",
         "description": "Algumas ferramentas iniciais para trabalhar com ciência de dados",
         "path": "ds.html"
+    },   
+    {
+       "title": "12 Properties of Good Tests",
+       "description": "According to Kent Beck",
+       "path": "good-tests.md"
+    },
+    {
+       "title": "Front in Floripa 2019",
+       "description": "Anotações da Front in Floripa 2019",
+       "path": "frontinfloripa2019.md"
+    },
+    {
+       "title": "Gophercon Brasil 2019",
+       "description": "Anotações da Gophercon Brasil 2019",
+       "path": "gopherconbr2019.md"
     },
     {
        "title": "Princípios de Gamification",
        "description": "As ideias que tornam jogos tão atraentes",
        "path": "gamification.md"
-    },
-    {
-       "title": "12 Properties of Good Tests",
-       "description": "According to Kent Beck",
-       "path": "good-tests.md"
     },
     {
        "title": "Fly Lady",
