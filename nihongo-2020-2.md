@@ -48,7 +48,7 @@ V-ている + ところだ => está fazendo agora
 -　勝つ (かつ) - to win, to gain victory
 -　降りる (おりる) - to descend; to step down
 - 覚える（おぼえる）- to memorize; to remember
-- 申し込む（もうしこむ）-
+- 申し込む（もうしこむ）- to apply for
 
 
 ## 2020年9月2日
@@ -81,10 +81,51 @@ information you have seen or heard.
 - あの新しいレストランはおいしいらしいですよ。
 - 今日は雨がふるらしいよ。傘持って行ってね。
 
-
 ##### 問題
 
 1. 高橋さんの新しい車、すごく良いらしいです。
 2. 山田さん、最近忙しいらしいですね。
 3. 石田さん、大学に合格したらしいですよ。
 4. 今朝、駅の前で事故があったらしいです。
+
+
+## 2020年09月09日
+
+### 宿題
+
+1.
+  1. 雨の日に傘を貸してもらいました。
+  2. にほんの着物の着方を教えてもらいたいです。
+  3. 内田さんにすてきな歌を歌ってもらいましょう。
+  4. いつも母に美味しい料理を作ってもらいます。
+2.
+  1. 友達が病気になったら、何をしてあげますか。
+  2. 手にけがをした時、友達にカバンを持ってもらいました。
+  3. 日本人の友達が私の国へ来たら、私が案内してあげます。
+  4. 乗る電車が分からなかったので、駅員に教えてもらいました。
+
+### 新語
+
+- カレシ ~ boyfriend
+- 案内する (あんないする) ~ to guide
+- 紹介 (しょうかい) ~ apresentação
+- お祝い (おいわい) ~ presentinho, congratulação
+- 返事 (へんじ) ~ resposta (de um e-mail, de uma mensagem) (as in reply)
+
+### 〜てもらう、 〜てあげる、〜てくれる
+
+- 〜てもらう ~ alguém fez algo para você pois você pediu
+- 〜てあげる ~ você fez algo para alguém
+- 〜てくれる ~ alguém fez algo para você espontaneamente
+
+#### Educação
+
+| x | 〜てもらう | 〜てあげる | 〜てくれる |
+|---|---|---|---|
+| 上 | 〜ていただく | 〜てさしあげる | 〜てくださる |
+| 中 | 〜てもらう | 〜てあげる | 〜てくれる |
+| 下 | 〜てもらう | 〜てやる | 〜てくれる |
+
+### Did you know?
+
+Japoneses dão キットカット antes de um desafio pois parece きっと勝つ (vitória certa)
