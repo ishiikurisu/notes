@@ -85,6 +85,11 @@
         "path": "言葉.csv"
     },
     {
+        "title": "日本語学校の2020年の後期のノート",
+        "description": "日本語学生に",
+        "path": "nihongo-2020-2.md"
+    },
+    {
         "title": "Links nāo tão úteis",
         "description": "Sites úteis para procrastinar",
         "path": "not-so-useful-links.md"
