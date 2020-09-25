@@ -260,9 +260,39 @@ Para expressar condição:
 13. 4
 14. 4
 
-#### 新語
+### 新語
 
 - あいさつ
 - 習慣 (しゅうかん)
 - 玄関 (げんかん) ~ ?
 - 連絡 (れんらく) ~ ?
+- 借りる (かりる) ~ to rent, to borrow
+- 迷う (まよう) ~ to get lost
+- 壁 (かべ) ~ parede
+- 貼る (はる) ~ to form (e.g. ice in a pond); to stick, to paste, to attach
+- 囲う (かこう) ~ to store, to preserve
+
+### 道が分からなくなってしまった
+
+1. 田中さんに借りた本を無くしてしまいました。 ~ Eu acabei perdendo o livro que peguei emprestado do Tanaka-san.
+2. 友達と会う約束をしましたが、時間に遅れてしまいました。 ~ Eu prometi que encontraria com meus amigos, mas eu acabei me atrasando.
+3. 地図を持って行きましたが、道に迷ってしまいました。 ~ Apesar de eu ter trago um mapa, eu acabei me perdendo durante o caminho.
+4. クラスの先生の名前を忘れてしまいました。 ~ Eu acabei esquecendo o nome da professor da turma.
+
+### ガイドブックに書いてあります
+
+例えば
+
+- 「いんかん、どこにある？」「引き出しにしまってあるよ。」
+- 駅前のラーメン屋の壁には、有名人のサインがたくさん貼ってある。
+
+#### ページ７６
+
+- テーブルの上に花が置いてあります。
+- 壁に紙が貼ってあります。
+- お皿とコーヒーカップが置いてあります。
+- 冷蔵庫にケーキが入れてあります。
+
+### 大丈夫でしょう
+
+- 明日は良くはれて、あたたかいでしょう。
