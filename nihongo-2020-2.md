@@ -255,9 +255,11 @@ Para expressar condição:
 
 ### 宿題
 
-11. 2
+N4問題のPDF
+
+11. ~~2~~ 1
 12. 4
-13. 4
+13. ~~4~~ 1
 14. 4
 
 ### 新語
@@ -270,7 +272,7 @@ Para expressar condição:
 - 迷う (まよう) ~ to get lost
 - 壁 (かべ) ~ parede
 - 貼る (はる) ~ to form (e.g. ice in a pond); to stick, to paste, to attach
-- 囲う (かこう) ~ to store, to preserve
+- 囲う (かこう) ~ to store, to protect
 
 ### 道が分からなくなってしまった
 
@@ -296,3 +298,13 @@ Para expressar condição:
 ### 大丈夫でしょう
 
 - 明日は良くはれて、あたたかいでしょう。
+
+
+## 2020年09月25日
+
+### 新語
+
+- さっき ~ recently
+- 大事 (だいじ) ~ importante
+- 品物 (しなもの)
+- お世話になる (おせわになる) ~ to receive a favour
