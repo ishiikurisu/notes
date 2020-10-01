@@ -60,6 +60,11 @@
         "path": "apresentacao-de-sucesso.md"
     },
     {
+        "title": "O melhor musicista do mundo",
+        "description": "Uma antiga lenda japonesa, que nunca vi escrita mas que acredito que deve ser compartilhada",
+        "path": "best_musician.md"
+    },
+    {
         "title": "Revisão Semanal",
         "description": "Passo a passo de como fazer uma revisão semanal no GTD",
         "path": "weekly_review.md"
