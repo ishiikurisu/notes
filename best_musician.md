@@ -1,0 +1,90 @@
+# O melhor musicista do mundo
+
+Era uma vez este jovem que morava em uma vila no interior e pouco sabia sobre
+o mundo ao seu redor. Sua vida era simples e pacata. Consistia tão somente de
+ajudar seus pais na lavoura; cuidar dos animais; e vender o fruto da messe
+familiar na feira.
+
+Certa vez, um musicista viajante passou pela cidade e se apresentou na praça.
+Todos pararam para assistí-lo pois jamais haviam ouvido algo tão belo e
+cativante como as músicas que este viajante tocava. Suas mãos, já gastas de
+tanto tocar seu instrumento, tornavam aquela melodia, tão complexa e misteriosa,
+parecer algo fácil. Ao final de sua performance, todos o aplaudiram e o
+veneraram. Em particular, o nosso jovem ficou tão encantado que, naquele
+momento, ele havia decidido o que queria fazer da vida: ele gostaria de
+tocar tão bem quanto aquele homem e experimentar aquela magia, por assim dizer,
+com suas próprias mãos. Curioso, o jovem procurou o musicista e o disse:
+
+- "Que bela apresentação a de hoje! Como posso fazer para me tornar como você?"
+
+Ao qual o musicista, de cabeça baixa, respondeu:
+
+- "Ainda não está bom o suficiente..."
+
+Ele se levantou e foi embora, deixando para trás a maior parte do dinheiro que
+sua plateia havia lhe presenteado.
+
+Apesar de não compreender a resposta que lhe foi dada, o jovem agarrou toda
+a sua animação e correu atrás do seu primeiro instrumento. Sua família não
+possuia o dinheiro necessário para comprar nada além do fundamental, então o
+jovem teve que dobrar os seus esforços para comprar seu instrumento. Em vez
+de levar sua vida devagar e simplória, passou a tomar as responsabilidades
+da fazenda da família e trabalhar mais do que tudo e todos. Em pouco tempo,
+conseguiu juntar o dinheiro necessário para encomendar um instrumento da cidade
+maior que ficava há algumas horas de distância.
+
+Assim que comprou seu instrumento, o jovem passou a não dormir mais: passava as
+manhãs e as tardes cuidando da plantação e, de noite, estudava música. No
+começo, sem ter um direção certa, ele gastava muito mais tempo lutando contra o
+seu instrumento, refletindo sobre como que era possível realizar qualquer obra
+com aquilo, do que de fato produzindo sons. O pouco que produzia era motivo de
+revolta da família, pois ele claramente não havia nascido para fazer aquilo.
+
+Com o pouco dinheiro que guardava, o jovem viajava para cidades maiores a
+procura de outros musicistas, buscando inspiração e guias em termos técnicos
+e musicais. Em suas viagens, ele viu artistas fantásticos, que faziam do
+impossível uma realidade. Muitos eram cobertos de arrogância e não queriam
+saber muito de um garoto brejeiro como ele. Outros, porém, estavam muito mais
+do que felizes em ajudá-lo. Assim que eles o ensinavam uma técnica nova, o rapaz
+retornava à sua cidade e passava horas praticando, muitas vezes sem comer ou
+dormir por dias. Ele estava disposto a se tornar o melhor que já existiu.
+
+Aos poucos, sua família, que antes não o suportava, agora o assistia praticar
+dentro do celeiro. Seus vizinhos sempre comentavam como o crescimento musical
+dele era incrível e como, em tão pouco tempo, ele havia se tornado um talento
+nato. Ao saber desses elogios, o rapaz decidiu se apresentar em uma cidade
+próxima, para ver se era possível ganhar algum dinheiro com aquele esforço todo.
+Sua viagem não foi em vão: após sua performance, após ver que a multidão
+dispersa havia se transformado em uma plateia, o rapaz conseguiu juntar moedas
+para bancar esta e mais algumas viagens.
+
+Contudo, o rapaz não estava satisfeito. Aos ouvidos não treinados como da
+plateia, suas músicas estavam de bom tamanho, mas o rapaz não conseguia
+esquecer dos erros que cometia enquanto tocava. Por cada cidade que passava, por
+mais dinheiro que recebesse ou por mais que era aplaudido, o homem só pensava em
+como que ele poderia ter cometido gafes tão medonhas em sua execução. Não era
+concebível que mais ninguém além dele estivesse vendo aquilo.
+
+Assim, ele passou a praticar ainda mais. Agora que sua vida era pelas estradas,
+não precisava ter outra preocupação que não a prática. Gastou mais dinheiro
+em um instrumento melhor e passava agora cada vez mais horas praticando e
+procurando musicistas cada vez mais aptos mecanicamente para assistí-los e
+aprender, o mínimo que fosse, para se tornar melhor. Ele viajou pelas quatro
+ilhas, se apresentando; ouvindo músicas novas; e sentando para tocar seu
+instrumento debaixo de árvores. Há alguns que dizem que ele chegou a ir tocar
+no continente depois do mar. Diz-se que ele foi parar lá pois gostaria de passar
+um tempo em um navio, ouvindo e aprendendo com o mar. Se é verdade ou como
+que retornou continuam sendo especulação até os dias de hoje.
+
+Em uma de suas viagens, o homem decidiu se apresentar nesta pequena cidade,
+composta de uma feira e de várias famílias de fazendeiros. Aproveitou o clima
+calmo da cidade e sentou-se em uma praça para praticar. Enquanto se debruçava
+sobre o instrumento; refletindo e batalhando contra cada nota; mastigando
+cada erro que cometia, não reparou que havia se formado uma plateia para si.
+Assim que reparou isso, parou de tocar. Toda a cidade o apladiu e ovacionou,
+encantados com o que haviam presenciado. Ele pegou algumas moedas no chão;
+guardou seu instrumento; e levatou-se para ir embora. Enquanto caminhava, sentiu
+alguém o puxando, era uma criança o elogiando. Ao ouvir aquilo, somente
+conseguiu dizer:
+
+- "Ainda não está bom o suficiente..."
