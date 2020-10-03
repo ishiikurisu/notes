@@ -308,3 +308,46 @@ N4問題のPDF
 - 大事 (だいじ) ~ importante
 - 品物 (しなもの)
 - お世話になる (おせわになる) ~ to receive a favour
+
+## 2020年10月02日
+
+### 調べておきます
+
+- 明日、試験があるので、勉強しておいてね。~ Como amanhã tem prova, "deixe estudado", né?
+- 今晩、忙しいので、ご飯を作っておきます。~ Como estou cansado hoje à noite, vou deixar o arroz pronto.
+- 山に登る前に、天気予報を聞いておいたほうがいいですよ。~ Antes de subir a montanha, é bom "ter deixado ouvido" a previsão do tempo.
+- パーティーが終わったら、テーブルの上をきれいにしておいてください。~ Quando a festa, deixa a parte de cima da mesa limpa, por favor.
+- 旅行の前に、ガイドブックを読んでおきます。
+- 引っ越す前に、電気野菜堂の会社にちゃんと連絡しておいてくださいね。
+- 留学する前に、その国の言葉や習慣を勉強しておいたほうがいいですよ。
+- 試験の前に、学校で習ったことをよく復習しておいてください。
+
+### 良い天気だと良いですね。
+
+- 「今、仕事を探しておるんです。」「そうですか。早く見つかると良いですね。」
+- 「明日ハイキングに行くんです。」「そうですか。天気がいいと良いですね。」
+- 今年も大学から奨学金がもらえると良いね。
+- 「今度の試合、勝てると良いなあ。」「頑張ってね。」
+- 人間が空を飛べたら良いなあ。
+- 「早く今の仕事が終われば良いね。」「うん。ちょっと大変な仕事だからね。」
+
+### かもしれない
+
+-「明日、何かあるよね。」「そうだね〜テストがあるかもしれない。」~ "Tem algo amanhã, né?" "É verdade... Existe a chance de ter prova."
+- 「明後日も仕事？」「明後日、仕事かもらん。」 ~ "Tem trabalho depois de amanhã também?" "Acho que não tem trabalho depois de amanhã."
+- 今日のテスト簡単だったから、１００点かもしれません。 ~ Porque o teste de hoje estava fácil, pode ser que tenha tirado 100 pontos.
+- 「あ！財布がない！」「どこかにあるかもしれないよ。良く探してみて！」
+- 「今日、佐藤さん、いないんですか。」「ええ。病気かもしれませんね。」
+- 「部長、まだ来ませんね。」「ええ、会議の時間を忘れているかもしれないので、電話してみます。」
+
+### 行くことになりました
+
+- 来月ニューヨークへ転勤することになりました。 ~
+- 私の会社はベトナムに新しい工場を作ることになった。~ Foi decidido na minha empresa que a nova fábrica será construída no Vietnã.
+
+### 新語
+
+- ちゃんと ~ corretamente
+- 兄弟
+- 姉妹
+- 気分 (きぶん) ~ mood, state
