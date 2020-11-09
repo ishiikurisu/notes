@@ -308,3 +308,27 @@ N4問題のPDF
 - 大事 (だいじ) ~ importante
 - 品物 (しなもの)
 - お世話になる (おせわになる) ~ to receive a favour
+
+## 2020年11月06日
+
+Use "AするようにB" quando _B_ vai ser feito para completar _A_.
+
+- タバコを吸わないようにする。
+    - Fazer isso para nāo fumar.
+
+Use "Aようです" quando _A_ parece alguma outra coisa.
+
+- 友達は、もう帰ったようです。
+    - Parece que o meu amigo já voltou.
+
+「ため」の例えば
+
+- 試験のために三時間も勉強した。
+    - Eu estudei por 3 horas para a prova.
+
+Quando queremos falar sobre uma pergunta em um contexto mais amplo, podemos tratá-la como mais um elemento na frase usando o partícula de pergunta「か」.
+
+- 田中さんはいつ来るか、分かりますか。
+    - Sabe quando o Tanaka-san está vindo?
+- 来年、日本に留学しに行くかどうか、悩んでいる。
+    - Estou agonizando se eu deveria ir ao Japāo para intercâmbio ano que vem ou nāo.
