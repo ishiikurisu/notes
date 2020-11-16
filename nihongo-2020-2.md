@@ -332,3 +332,63 @@ Quando queremos falar sobre uma pergunta em um contexto mais amplo, podemos trat
     - Sabe quando o Tanaka-san está vindo?
 - 来年、日本に留学しに行くかどうか、悩んでいる。
     - Estou agonizando se eu deveria ir ao Japāo para intercâmbio ano que vem ou nāo.
+
+## 2020年11月11日
+
+### 宿題、ページ９４
+
+1. 風で火が消えそうです。（きえる）
+2. ~~ガソリンが涸れそうです。（かれる）~~ ガソリンが無くなりそうです。
+3. ~~ズボンのポケットからサイフが倒れそうです。（たおれる）~~ ズボンのポケットからサイフが落ちそうです。
+4. 約束の時間に遅れそうです。（おくれる）// 約束の時間に間に合いそうです。約束の時間に間に合わなさそうです。
+
+### 日本語クラス
+
+- Use 「〜ておく」when a person leaves the current situation as is.
+    - そのままにしておいた。
+- Use 「〜そうだ」when you say something will happen soon, right before an action or change.
+    - 落ちそうだった。
+    - 空が暗くなって来た。雨が降りそうです。
+- Use「〜すぎる」when you say that something is not right but is rather in excess and causing a problem
+    - 美味しかったので、食べすぎてしまいました。
+    - カバンに荷物を入れすぎたので、重くて、持てません。
+    - このパズルは複雑すぎて、できません。
+    - ベッドが大きすぎて、部屋に入れませんでした。
+    - 先月はお金を使いすぎたから、今月は使わないようにします。
+- You can also make a noun with the 「〜すぎ」form
+    - 食べ過ぎ飲み過ぎは、体に良くありません。
+
+## 2020年11月13日
+
+#### ページ9
+
+1. 食べ物を買いすぎて、冷蔵庫の中に全部入りません。
+2. 昨日お酒を飲みすぎて、今日は頭が痛いです。
+3. このお菓子は甘すぎて、あまり美味しくない。
+4. この問題は簡単すぎて、面白くないです。
+5. テレビの音が大きすぎるから、もっと小さくしてください。
+
+### ページ９９の宿題
+
+1. みんなに聞こえるように、大きい声で話してください。
+2. 寒いですから、風をひくように、気をつけてください。
+3. ６時の電車に間に合うように、早く置きました。
+4. 体が丈夫になるように、毎日運動しています。
+5. 日本の歌が上手に歌うように、毎日練習しています。
+
+### 日本語クラス
+
+[今日の文字](https://www3.nhk.or.jp/news/easy/k10012705771000/k10012705771000.html)の言葉：
+
+- 高速道路(こうそくどうろ) highway
+- 高速(こうそく) alta velocidade
+- 道路(どうろ) via, estrada, pista
+- 混(こ)む estar cheio, lotado
+- 自動(じどう) automático
+- 時速(じそく) km/h velocidade por hora
+- 以下(いか) abaixo, menor que
+- 国土交通省(こくどこうつうしょう) Ministério de Fazenda, infraestrutura, transporte e turismo
+- 基準(きじゅん) base, normas, standard, critérios
+- 技術(ぎじゅつ) = tecnologia
+- 激(はげ)しい violento, furioso, tempestuoso
+競争(きょうそう) competição
