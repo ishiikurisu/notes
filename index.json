@@ -103,5 +103,10 @@
         "title": "Meus dias em Tóquio",
         "description": "Best days of my life so far",
         "path": "tokyo-days.md"
+    },
+    {
+        "title": "IFIEのホームステイ",
+        "description": "Programa de intercambio em Kanazawa",
+        "path": "ifie-presentation.md"
     }
 ]
