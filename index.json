@@ -5,7 +5,7 @@
         "path": "lmc.html"
     },
     {
-        "title": "Análise de Sinais",
+        "title": "[WIP] Análise de Sinais",
         "description": "Séries e Transformada de Fourier",
         "path": "as.html"
     },
@@ -13,6 +13,11 @@
         "title": "Básico de Ciência de Dados",
         "description": "Algumas ferramentas iniciais para trabalhar com ciência de dados",
         "path": "ds.html"
+    },
+    {
+       "title": "10 Level Design Principles",
+       "description": "Principles shared across good levels",
+       "path": "level_design_principles.md"
     },
     {
        "title": "Pilares para programação",
