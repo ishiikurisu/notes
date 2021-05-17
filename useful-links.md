@@ -35,3 +35,4 @@ Inspiration:
 * [listography](http://listography.com)
 * [note](https://note.mu)
 * [best present](https://bestpresent.jp)
+* [slowly](https://slowly.app/)
