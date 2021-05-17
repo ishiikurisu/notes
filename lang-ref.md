@@ -14,3 +14,8 @@
 * [IMABI](https://www.imabi.net/)
 * [Estar](https://estar.jp/)
 * [Sakura-san Podcast](https://www.youtube.com/watch?v=NNDbRPeJcZ0)
+
+## Esperanto & Toki Pona
+
+* [Toki Pona Dictionary](https://jprogr.github.io/TokiPonaDictionary/)
+* [Lernu!](https://lernu.net/pt/vortaro)
