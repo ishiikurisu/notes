@@ -19,3 +19,5 @@
 
 * [Toki Pona Dictionary](https://jprogr.github.io/TokiPonaDictionary/)
 * [Lernu!](https://lernu.net/pt/vortaro)
+* [sitelen sitelen generator](http://livingtokipona.smoishele.com/examples/liveinput/liveinput.html)
+
