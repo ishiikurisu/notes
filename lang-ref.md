@@ -1,5 +1,9 @@
 # Referências para estudo de línguas
 
+## Aprendizado de línguas
+
+* [base vocabulary list](https://blog.fluent-forever.com/base-vocabulary-list/)
+
 ## Deutsch
 
 * [verbix](http://verbix.com/languages/german.html)
