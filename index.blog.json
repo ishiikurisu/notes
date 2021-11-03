@@ -15,6 +15,11 @@
         "path": "ds.html"
     },
     {
+        "title": "Scrum Master Tooling",
+        "description": "Introduction to Scrum and what scrum masters do",
+        "path": "scrum_master_tooling.md"
+    },
+    {
        "title": "10 Level Design Principles",
        "description": "Principles shared across good levels",
        "path": "level_design_principles.md"
