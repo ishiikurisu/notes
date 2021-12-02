@@ -217,6 +217,11 @@
         "date": "2019-12-09T08:44:33.000Z"
     },
     {
+        "title": "World Building Game",
+        "description": "Create your own world while playing this game",
+        "path": "world_building_game.md"
+    },
+    {
         "title": "IFIEのホームステイ",
         "description": "Programa de intercambio em Kanazawa",
         "language": "pt-br",
