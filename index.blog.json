@@ -15,6 +15,11 @@
         "path": "ds.html"
     },
     {
+        "title": "Dicas para entrevistas de emprego",
+        "description": "Para conseguir aquele emprego como engenheiro de software",
+        "path": "code_interview.md"
+    },
+    {
         "title": "Scrum Master Tooling",
         "description": "Introduction to Scrum and what scrum masters do",
         "path": "scrum_master_tooling.md"
