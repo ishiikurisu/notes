@@ -1,19 +1,21 @@
 # Dicas para Entrevistas de Emprego
 
-Atualmente, todas as entrevistas de emprego para engenheiro de software
-incluem alguma forma de desafio que incluem um pequeno projeto de
-software. Entregar um resultado bem feito é com certeza o que vai te
-diferenciar do resto da competição.
+Atualmente, todas as entrevistas de emprego para desenvolvedor
+possuem alguma forma de desafio que incluem implementar ou corrigir algum
+produto de _software_. 
+Entregar um resultado bem feito é com certeza o que vai te diferenciar do 
+resto da competição.
 
 Seguem aqui umas dicas para que o seu código se diferencie positivamente
-do dos outros candidatos.
+do dos outros candidatos, auxiliando a conquistar aquela tão sonhada vaga
+no mercado de trabalho!
 
 ## Documente tudo
 
 Além da sua capacidade de resolver problemas, você está sendo avaliado
 pela sua capacidade de se comunicar como desenvolvedor. Por isso, é
-fundamental que você se comunique pelo seu projeto. Peque pelo excesso,
-mas tenha certeza que seu código inclui:
+fundamental que você se comunique pelo seu projeto. Mesmo que peque pelo 
+excesso, mas tenha certeza que seu código inclui:
 
 - Documentação das funcionalidades incluídas
 - Instruções de uso
@@ -22,13 +24,14 @@ mas tenha certeza que seu código inclui:
 - `Docstrings` e outros comentários no código
 
 Seja sincero, conciso e eficiente na hora de se comunicar. Isso mostrará
-que é um bom desenvolvedor para se trabalhar junto.
+que é fácil trabalhar contigo, o que te tornará mais atraente como
+profissional.
 
 ## Inclua testes
 
 Existem várias formas de se escrever testes. O importante porém é incluir
-formas de verificar que as funcionalidades implementadas estão de acordo
-com o prometido
+formas rápidas de verificar que as funcionalidades implementadas estão de 
+acordo com o prometido.
 
 Por sinal, testes podem ser feitos de acordo com o formato da entrada:
 
@@ -45,7 +48,8 @@ E, no caso particular de _software_, como os testes são implementados:
 - Testes de aceitação
 
 Conhecer e implementar os testes adequados a cada situação auxiliarão
-muito os avaliadores a entender o que o seu programa faz.
+muito os avaliadores a entender o que o seu programa faz e se está de
+acordo com o esperado.
 
 ## Modele os dados
 
@@ -55,6 +59,13 @@ situação de forma clara e eficiente são habilidades fundamentais em
 qualquer situação profissional e, por isso, é importante demonstrar
 proeficiências nelas em qualquer entrevista de emprego.
 
+Boa parte da modelagem passa pela ideia de que os dados envolvidos devem se
+tornar tão convenientes que é fácil interpretá-los e utilizá-los. O uso
+final de todo dado deve ser se transformar em informação, para que qualquer
+usuário seja capaz de compreender o que lhe é apresentado e criar
+conhecimento em cima disso. Modelar os dados do problema com este processo
+em mente tornará sua solução mais completa e compreensível.
+
 ## Use a ciência apropriada para o problema
 
 Vários problemas de ciências da computação podem ser facilmente resolvidos
@@ -62,9 +73,18 @@ utilizando as estruturas de dados corretas e os algoritmos mais eficientes
 para determinados problemas. Conhecê-los e aplicá-los é sinal de que pode
 ser um _problem-solver_ que não pode ser ignorado.
 
+Para praticar, procure participar de desafios e competições de programação;
+e escrever programas de forma colaborativa (isto é, fazendo revisões de
+código ou fazendo _pair programming_) para aprender novas técnicas com
+outros desenvolvedores.
+
 ## Não reinvente a roda
 
 Pouquíssimas vagas de emprego tratam com problemas novos que ninguém nunca
 resolveu ainda. Dito isto, não gaste tempo com problemas cujas soluções
 já são bem conhecidas. Reutilize o máximo de código ou estratégias na
 medida do possível.
+
+Neste sentido, é interessante investir um tempo completando alguns desafios
+ou projetos mais comuns, de tal forma que construa a sua própria biblioteca
+de referência para estes problemas mais comuns.
