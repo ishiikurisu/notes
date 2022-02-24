@@ -1,0 +1,27 @@
+# Referências para estudo de línguas
+
+## Aprendizado de línguas
+
+=> http://blog.fluent-forever.com/base-vocabulary-list Base vocabulary list
+=> http://verbix.com/languages/german.html Verbix
+
+## Deutsch
+
+=> https://dict.cc dict.cc
+
+## 日本語
+
+=> https://en.wikipedia.org/wiki/List_of_kanji_by_stroke_count Kanji by stroke count
+=> http://www.guidetojapanese.org/ Guide to Japanese
+=> https://jisho.org Jisho
+=> https://bilingualmanga.com/ Bilingual Manga
+=> https://www.imabi.net IMABI
+=> https://estar.jp Estar
+=> https://www.youtube.com/watch?v=NNDbRPeJcZ0 Sakura-san Podcast
+
+## Esperanto & Toki Pona
+
+=> https://lernu.net/pt/vortaro Lernu!
+=> https://jpogr.github.io/TokiPonaDictionary Toki Pona Dictionary
+=> http://livingtokipona.smoishele.com/examples/liveinput/liveinput.html sitelen sitelen generator
+

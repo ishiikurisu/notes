@@ -2,18 +2,18 @@
 
 ## Elementos motivadores
 
-- Competência
-- Autonomia
-- Vínculo
+* Competência
+* Autonomia
+* Vínculo
 
 Motivação: intrínseco até indiferente
 
 ## Tipos de jogadores
 
-- Assassinos
-- Empreendedores
-- Socializadores
-- Exploradores
+* Assassinos
+* Empreendedores
+* Socializadores
+* Exploradores
 
 > explorers research game opportunities, they don’t mind playing alone, usually don’t hurt others, but sometimes they can exploit game weaknesses
 > 
