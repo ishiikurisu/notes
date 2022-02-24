@@ -17,12 +17,12 @@
     {
         "title": "Dicas para entrevistas de emprego",
         "description": "Para conseguir aquele emprego como engenheiro de software",
-        "path": "code_interview.md"
+        "path": "code_interview.gmi"
     },
     {
         "title": "Scrum Master Tooling",
         "description": "Introduction to Scrum and what scrum masters do",
-        "path": "scrum_master_tooling.md"
+        "path": "scrum_master_tooling.gmi"
     },
     {
        "title": "10 Level Design Principles",
@@ -32,7 +32,7 @@
     {
        "title": "Pilares para programação",
        "description": "Valores e princípios para desenvolver bons programas",
-       "path": "programming-pillars.md"
+       "path": "programming-pillars.gmi"
     },
     {
        "title": "12 Properties of Good Tests",
@@ -52,7 +52,7 @@
     {
        "title": "Princípios de Gamification",
        "description": "As ideias que tornam jogos tão atraentes",
-       "path": "gamification.md"
+       "path": "gamification.gmi"
     },
     {
        "title": "Fly Lady",
@@ -62,12 +62,12 @@
     {
        "title": "Checklist para casa",
        "description": "Indo morar sozinho pela primeira vez? Veja se tem tudo que precisa para não passar aperto",
-       "path": "home-stuff.md"
+       "path": "home-stuff.gmi"
     },
     {
        "title": "Checklist para viagem",
        "description": "Para não deixar nada para trás e curtir as férias ao máximo",
-       "path": "travel-stuff.md"
+       "path": "travel-stuff.gmi"
     },
     {
         "title": "Apresentaçāo de sucesso",
@@ -77,12 +77,12 @@
     {
         "title": "O melhor musicista do mundo",
         "description": "Uma antiga lenda japonesa, que nunca vi escrita mas que acredito que deve ser compartilhada",
-        "path": "best_musician.md"
+        "path": "best_musician.gmi"
     },
     {
         "title": "Revisão Semanal",
         "description": "Passo a passo de como fazer uma revisão semanal no GTD",
-        "path": "weekly_review.md"
+        "path": "weekly_review.gmi"
     },
     {
         "title": "PROMETHEE",
@@ -92,12 +92,12 @@
     {
         "title": "Links úteis",
         "description": "Sites que podem vir a calhar de vez em quando",
-        "path": "useful-links.md"
+        "path": "useful-links.gmi"
     },
     {
         "title": "Referências para estudos de línguas",
         "description": "Willst du Deutsch lernen? 日本語を勉強していますか。",
-        "path": "lang-ref.md"
+        "path": "lang-ref.gmi"
     },
     {
         "title": "日本語の基本的な語彙",
@@ -112,7 +112,7 @@
     {
         "title": "Links nāo tão úteis",
         "description": "Sites úteis para procrastinar",
-        "path": "not-so-useful-links.md"
+        "path": "not-so-useful-links.gmi"
     },
     {
         "title": "Meus dias em Tóquio",
@@ -122,6 +122,6 @@
     {
         "title": "IFIEのホームステイ",
         "description": "Programa de intercambio em Kanazawa",
-        "path": "ifie-presentation.md"
+        "path": "ifie-presentation.gmi"
     }
 ]

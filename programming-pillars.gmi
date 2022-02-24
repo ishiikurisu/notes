@@ -20,13 +20,13 @@ Lembre-se que boa parte do código que você está escrevendo é para outras pes
 
 Veja bem:
 
-- A maior parte do seu tempo vai ser gasta corrigindo bugs;
-- Saber onde eles acontecem é comumente metade do trabalho;
+* A maior parte do seu tempo vai ser gasta corrigindo bugs;
+* Saber onde eles acontecem é comumente metade do trabalho;
 
 Logo, fornecer os meios para saber os bugs acontecem vai ser o seu maior time saver:
 
-- Testes para todas as funcionalidades;
-- Mensagens de erro significantes;
+* Testes para todas as funcionalidades;
+* Mensagens de erro significantes;
 
 ## É melhor funcionar
 

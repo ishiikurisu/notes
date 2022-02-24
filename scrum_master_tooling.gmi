@@ -1,57 +1,41 @@
 # Scrum Master Tooling
 
 Scrum masters are like "servant leaders", almost like parents or cat herders.
-
 Scrum masters...
-
-- foster communication
-- protect team
-- maintain tools
-- report
-- facilitate meetings
-- coach agiles
-- support teams
-- remove blockers
-
+* foster communication
+* protect team
+* maintain tools
+* report
+* facilitate meetings
+* coach agiles
+* support teams
+ remove blockers
 Scrum masters should be aware that their work is to facilitate! It's easy to turn their work into bureaucracy, which is not ideal.
-
 Scrum is all about strict timelines, procedures, and person.
-
 The Scrum loop consists of:
-
-- Product Backlog
-- Sprint Planning
-- Sprint Backlog
-- Work
-  - Daily Scrum
-  - Scrum Teams delivering increments
-- Sprint Review
-- Sprint Retrospective
-
+* Product Backlog
+* Sprint Planning
+* Sprint Backlog
+* Work (Daily Scrum, Scrum Teams delivering increments)
+* Sprint Review
+* Sprint Retrospective
 Daily scrums are a moment to strategise on what to do with our tasks. They should be quick and direct.
-
 Sprint retrospectives and reviews are different! Sprint reviews are more about the technical side of the work, while retrospective are about the personal one.
-
 Sprint retrospectives are about:
-
-- clearing the air
-- unconvering common thoughts
-- specifying better ways of doing things
-- feeling the team's vibes
-- providing feedback
-
+* clearing the air
+* unconvering common thoughts
+* specifying better ways of doing things
+* feeling the team's vibes
+* providing feedback
 Another side of planning is to revisit the historical data and improve the estimates for a work.
 
 ## Kanban
 
 ...is a tool that may help with Scrum. It consists of a table with a couple of
 columns:
-
-- "Backlog", which contains tasks to be done eventually
-- "To do", which lists the immediate tasks that should be done 
-- "In progress", which lists what tasks are currently being executed
-- "Done", which lists which tasks were completed
-
+* "Backlog", which contains tasks to be done eventually
+* "To do", which lists the immediate tasks that should be done 
+* "In progress", which lists what tasks are currently being executed
+* "Done", which lists which tasks were completed
 Ideally, tasks should be repeatable and well defined.
-
 These columns were created to deal with industril engineering processes, but they can be rearranged to fit another areas, such as software development ("in review" and "blocked" are common new columns) and industrial design.
