@@ -2,126 +2,151 @@
     {
         "title": "Lógica Matemática &amp; Computacional",
         "description": "Introdução à Lógica Proposicional e à Lógica de Predicados",
+        "language": "pt-br",
         "path": "lmc.html"
     },
     {
         "title": "[WIP] Análise de Sinais",
         "description": "Séries e Transformada de Fourier",
+        "language": "pt-br",
         "path": "as.html"
     },
     {
         "title": "Básico de Ciência de Dados",
         "description": "Algumas ferramentas iniciais para trabalhar com ciência de dados",
+        "language": "pt-br",
         "path": "ds.html"
     },
     {
         "title": "Dicas para entrevistas de emprego",
         "description": "Para conseguir aquele emprego como engenheiro de software",
+        "language": "pt-br",
         "path": "code_interview.gmi"
     },
     {
         "title": "Scrum Master Tooling",
         "description": "Introduction to Scrum and what scrum masters do",
+        "language": "en",
         "path": "scrum_master_tooling.gmi"
     },
     {
-       "title": "10 Level Design Principles",
-       "description": "Principles shared across good levels",
-       "path": "level_design_principles.md"
+        "title": "10 Level Design Principles",
+        "description": "Principles shared across good levels",
+        "language": "en",
+        "path": "level_design_principles.md"
     },
     {
-       "title": "Pilares para programação",
-       "description": "Valores e princípios para desenvolver bons programas",
-       "path": "programming-pillars.gmi"
+        "title": "Pilares para programação",
+        "description": "Valores e princípios para desenvolver bons programas",
+        "language": "en",
+        "path": "programming-pillars.gmi"
     },
     {
-       "title": "12 Properties of Good Tests",
-       "description": "According to Kent Beck",
-       "path": "good-tests.md"
+        "title": "12 Properties of Good Tests",
+        "description": "According to Kent Beck",
+        "language": "en",
+        "path": "good-tests.md"
     },
     {
-       "title": "Front in Floripa 2019",
-       "description": "Anotações da Front in Floripa 2019",
-       "path": "frontinfloripa2019.md"
+        "title": "Front in Floripa 2019",
+        "description": "Anotações da Front in Floripa 2019",
+        "language": "pt-br",
+        "path": "frontinfloripa2019.md"
     },
     {
-       "title": "Gophercon Brasil 2019",
-       "description": "Anotações da Gophercon Brasil 2019",
-       "path": "gopherconbr2019.md"
+        "title": "Gophercon Brasil 2019",
+        "description": "Anotações da Gophercon Brasil 2019",
+        "language": "pt-br",
+        "path": "gopherconbr2019.md"
     },
     {
-       "title": "Princípios de Gamification",
-       "description": "As ideias que tornam jogos tão atraentes",
-       "path": "gamification.gmi"
+        "title": "Princípios de Gamification",
+        "description": "As ideias que tornam jogos tão atraentes",
+        "language": "pt-br",
+        "path": "gamification.gmi"
     },
     {
-       "title": "Fly Lady",
-       "description": "Os 10 passos e os 11 mandamentos da Fly Lady vão te ajudar a manter sua casa sob controle!",
-       "path": "fly-lady.md"
+        "title": "Fly Lady",
+        "description": "Os 10 passos e os 11 mandamentos da Fly Lady vão te ajudar a manter sua casa sob controle!",
+        "language": "pt-br",
+        "path": "fly-lady.md"
     },
     {
-       "title": "Checklist para casa",
-       "description": "Indo morar sozinho pela primeira vez? Veja se tem tudo que precisa para não passar aperto",
-       "path": "home-stuff.gmi"
+        "title": "Checklist para casa",
+        "description": "Indo morar sozinho pela primeira vez? Veja se tem tudo que precisa para não passar aperto",
+        "language": "pt-br",
+        "path": "home-stuff.gmi"
     },
     {
-       "title": "Checklist para viagem",
-       "description": "Para não deixar nada para trás e curtir as férias ao máximo",
-       "path": "travel-stuff.gmi"
+        "title": "Checklist para viagem",
+        "description": "Para não deixar nada para trás e curtir as férias ao máximo",
+        "language": "pt-br",
+        "path": "travel-stuff.gmi"
     },
     {
         "title": "Apresentaçāo de sucesso",
         "description": "Dicas para apresentar da melhor forma",
+        "language": "pt-br",
         "path": "apresentacao-de-sucesso.md"
     },
     {
         "title": "O melhor musicista do mundo",
         "description": "Uma antiga lenda japonesa, que nunca vi escrita mas que acredito que deve ser compartilhada",
+        "language": "pt-br",
         "path": "best_musician.gmi"
     },
     {
         "title": "Revisão Semanal",
         "description": "Passo a passo de como fazer uma revisão semanal no GTD",
+        "language": "pt-br",
         "path": "weekly_review.gmi"
     },
     {
         "title": "PROMETHEE",
         "description": "Fundamentos do método PROMETHEE para tomada de decisão",
+        "language": "pt-br",
         "path": "promethee.html"
     },
     {
         "title": "Links úteis",
         "description": "Sites que podem vir a calhar de vez em quando",
+        "language": "pt-br",
         "path": "useful-links.gmi"
     },
     {
         "title": "Referências para estudos de línguas",
         "description": "Willst du Deutsch lernen? 日本語を勉強していますか。",
+        "language": "pt-br",
         "path": "lang-ref.gmi"
     },
     {
         "title": "日本語の基本的な語彙",
         "description": "日本語学生に",
+        "language": "jp",
         "path": "言葉.csv"
     },
     {
         "title": "日本語学校の2020年の後期のノート",
         "description": "日本語学生に",
+        "language": "jp",
         "path": "nihongo-2020-2.md"
     },
     {
         "title": "Links nāo tão úteis",
-        "description": "Sites úteis para procrastinar",
+        "description": "Useful sites to waste time",
+        "language": "en",
         "path": "not-so-useful-links.gmi"
     },
     {
         "title": "Meus dias em Tóquio",
         "description": "Best days of my life so far",
+        "language": "pt-br",
         "path": "tokyo-days.md"
     },
     {
         "title": "IFIEのホームステイ",
         "description": "Programa de intercambio em Kanazawa",
+        "language": "pt-br",
         "path": "ifie-presentation.gmi"
     }
 ]
