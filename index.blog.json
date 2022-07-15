@@ -21,6 +21,13 @@
         "date": "2019-06-14T18:17:10.000Z"
     },
     {
+        "title": "Guia de Uso do Mapa",
+        "description": "Como usar o mapa interativo neste site",
+        "language": "pt-br",
+        "path": "maps_docs.md",
+        "date": "2022-07-15T11:00:00.000Z"
+    },
+    {
         "title": "clojureD 2022",
         "description": "Notes from :clojureD 2022",
         "language": "en",
