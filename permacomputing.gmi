@@ -1,0 +1,45 @@
+# Permacomputação
+
+Permacultura é tentar fazer agricultura de tal forma que, uma vez que a plantação esteja montada, somente o mínimo de manutenção seja feita para que ela se mantenha. Em outras palavras: é fazer uma plantação que seja permanente.
+
+Essa é uma ideia muito poderosa pois dizer que algo é permanente é praticamente impossível. Mas não quer dizer que possamos tentar fazer durar o máximo de tempo possível.
+
+O grande desafio em fazer isso acontecer é que este sistema deve ser *sustentável*, ou seja:
+
+* ele deve ter todas as condições para se manter sozinho; 
+* ele deve suportar diferenças no seu ambiente de forma flexível sem prejudicar sua capacidade de produção; e
+* deve fazer tudo isso sem consumir mais do que é capaz de produzir;
+
+Agora, imagine tentar aplicar esses princípios para a computação.
+
+Ou seja, queremos construir sistemas computacionais que durem para sempre com o mínimo de interferência humana o possível. Dizer que o sistema vai funcionar para sempre requer que:
+
+* ele funcionará por muito sem interferência humana;
+* uma única pessoa é capaz de compreendê-lo por inteiro e fazer sua manutenção quando necessário (e de passar as instruções necessárias para tanto à frente);
+* ele será capaz de se comunicar com outros sistemas no futuro.
+
+Esta é ideia por trás da permacomputação.
+
+Pode não ser óbvio à primeira vista, mas construir um sistema computacional seguindo estes princípios pode ser bastante vantajoso.
+
+O mais importante é que um sistema desses minimiza os impactos causados no meio ambiente. Quando se fala por aí de termos um futuro sustentável, essa é uma das coisas que devemos ter em mente: se continuarmos consumindo recursos finitos, eventualmente eles acabarão. Encontrar formas de substituir estes recursos por outros que podem ser reutilizados ou infinitos de alguma forma  é uma maneira de manter o ambiente saudável e garantir sua existência no futuro. Afinal de contas, sem um ambiente, não existirá um futuro.
+
+Uma conclusão desta ideia é que sistemas construídos desta maneira devem ser facilmente reparáveis por uma única pessoa. Veja bem: se ele for durar par a sempre, então eventualmente quem o construiu deverá deixar documentação para trás o suficiente para que ele seja reparável caso alguma mudança seja necessária ou porque ele foi danificado por algum motivo. Até porque essa pessoa não existirá para sempre para mantê-lo! Este tipo de documentação só pode existir se o sistema foi simples o suficiente ao ponto de que uma única pessoa (ou no máximo uma pequena equipe) seja capaz de compreendê-lo por completo e fazer as mudanças por conta própria. Construir um sistema assim pode não ser fácil porém, uma vez construído, é relativamente simples de se manter.
+
+A grande questão agora é: como seguir estes princípios na prática?
+
+O nome permacomputação surgiu apenas recentemente e, apesar de já existirem outras ideias com um objetivo similar, tem pouco tempo que sistemas com este princípio estão começando a surgir. Infelizmente, ainda é uma ideia muito difícil de se colocar em prática.
+
+Por exemplo: o hardware da grande maioria dos computadores que existem hoje em dia são feitos por sistemas altamente complexos; burocráticos; e aos quais pouquíssimas pessoas tem acesso. A ideia de construir computadores que qualquer um possa reconstruir; com documentação aberta ao público; e que sejam capazes de substituir os já existentes de maneira razoável pode ser absurda à princípio mas ela deve partir de alguma lugar!
+
+Da mesma forma, estes computadores deverão executar algum software. E a grande maioria do software escrito hoje em dia sofre dos mesmos problemas: eles contem tantas partes que praticamente ninguém consegue compreender um programa muito complexo por inteiro (e por inteiro, eu quero dizer do seu próprio código-fonte, passando por suas dependências; compiladores/interpretadores; até o sistema operacional). Aqui, já existem algumas ideias interessantes, como as linguagens de programação Forth e Lua; além de uma longa tradição de programas em C que foram feitos para que uma única pessoa compreenda tudo (mesmo que tenham sido desta maneira por acidente).
+
+Por mais absurdas que ideias sejam, elas podem a única chance que teremos de viver um futuro nesta Terra já que, se continuarmos consumindo energia e matérias-prima da maneira que estamos agora, eventualmente essas coisas acabarão e não teremos muito para nos mantermos. Pensar sobre isso agora é fundamental para que possamos construir uma existência que seja viável não somente para nós, mas para todas as futuras gerações aqui.
+
+Se esta ideia lhe interessou, seguem alguns links que tratam deste assunto de uma forma mais profunda (todos em inglês):
+
+=> http://viznut.fi/texts-en/permacomputing.html Primeira introdução à ideia
+=> https://permacomputing.net/ Permacomputing Wiki
+=> https://wiki.xxiivv.com/site/permacomputing.html Introdução à permacomputação por Devine Lu Linvega
+=> https://compudanzas.net/permacomputing.html Compudanzas sobre permacomputação
+
