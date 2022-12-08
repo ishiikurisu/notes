@@ -21,6 +21,13 @@
         "date": "2019-06-14T18:17:10.000Z"
     },
     {
+        "title": "Permacomputação",
+        "description": "Como fazer computação que sobreviva ao fim dos tempos",
+        "language": "pt-br",
+        "path": "permacomputing.gmi",
+        "date": "2022-12-08T17:00:00.000Z"
+    },
+    {
         "title": "Guia de Uso do Mapa",
         "description": "Como usar o mapa interativo neste site",
         "language": "pt-br",
