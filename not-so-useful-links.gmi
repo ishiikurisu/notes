@@ -6,7 +6,7 @@ Games:
 => http://blupi.org Blupi
 => https://backloggery.com/box_of_joe Backloggery
 => https://pokemonshowdown.com/ Pokémon Showdown
-=> http://terrain.party/ terrain.party for real world maps in "Cities: Skylines"
+=> https://heightmap.skydark.pl/ Real world maps in "Cities: Skylines"
 => https://www.models-resource.com/ Models Resource
 => https://oldgamesdownload.com/ Old Games Download
 
