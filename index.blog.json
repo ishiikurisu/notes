@@ -201,5 +201,12 @@
         "language": "pt-br",
         "path": "ifie-presentation.gmi",
         "date": "2020-11-26T23:16:38.000Z"
+    },
+    {
+        "title": "Lifestyle Design",
+        "description": "Some thoughts on how to live life",
+        "language": "en",
+        "path": "lifestyle_design.md",
+        "date": "2023-05-29T16:00:00.000Z"
     }
 ]
