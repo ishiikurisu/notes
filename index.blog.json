@@ -21,6 +21,13 @@
         "date": "2019-06-14T18:17:10.000Z"
     },
     {
+        "title": "Buen Vivir",
+	"description": "Principles for a life in community",
+	"language": "en",
+	"path": "buen_vivir.gmi",
+	"date": "2023-07-10T12:00:00.000Z"
+    },
+    {
         "title": "Permacomputação",
         "description": "Como fazer computação que sobreviva ao fim dos tempos",
         "language": "pt-br",
