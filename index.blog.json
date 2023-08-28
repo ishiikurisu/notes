@@ -21,6 +21,13 @@
         "date": "2019-06-14T18:17:10.000Z"
     },
     {
+        "title": "Temas Anuais",
+	"description": "Uma alternativa gentil a resoluções de ano novo",
+	"language": "pt-br",
+	"path": "yearly_themes.gmi",
+	"date": "2023-08-28T13:00:00.000Z"
+    },
+    {
         "title": "Buen Vivir",
 	"description": "Principles for a life in community",
 	"language": "en",
