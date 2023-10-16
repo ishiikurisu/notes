@@ -2,10 +2,8 @@
 
 Everyday stuff:
 
-=> https://duckduckgo.com/ DuckDuckGo
-=> https://notion.so Notion
-=> https://github.com/login Github
-=> https://mail.protonmail.com/login ProtonMail
+=> https://searx.space/ SearXNG
+=> https://mail.proton.me/login ProtonMail
 
 Code + Design:
 
@@ -15,12 +13,15 @@ Code + Design:
 => https://thenounproject.com/ The Noun Project
 => https://hipsum.co/ Hipsum
 => https://www.figma.com/ Figma
+=> https://github.com/login Github
 => https://gitlab.com Gitlab
+=> https://notion.so Notion
 => https://app.simplenote.com Simplenote
 => https://evernote.com Evernote
 => https://dropbox.com/home Dropbox
 => https://www.colourlovers.com/ Colors Lovers
 => https://portal.mozz.us Gemini to HTTP proxy
+=> https://excalidraw.com/ Excalidraw
 
 Inspiration:
 
@@ -34,3 +35,4 @@ Inspiration:
 => https://bestpresent.jp Best Present
 => https://slowly.app/ Slowly
 => http://based.cooking Based Cooking
+
