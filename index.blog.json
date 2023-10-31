@@ -147,6 +147,13 @@
         "date": "2019-12-01T10:20:19.000Z"
     },
     {
+    	"title": "Backpack EDC",
+	"description": "EDC for outdoor trips",
+	"language": "en",
+	"path": "backpack_edc.gmi",
+	"date": "2023-10-31T17:12:20.000Z"
+    },
+    {
         "title": "Apresentaçāo de sucesso",
         "description": "Dicas para apresentar da melhor forma",
         "language": "pt-br",
