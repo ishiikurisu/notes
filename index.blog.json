@@ -70,6 +70,20 @@
         "path": "dokkodo.gmi"
     },
     {
+    	"title": "Key Performance Indicators",
+	"description": "How to measure your company for success",
+	"language": "en",
+	"date":"2023-03-05T15:00:00.000Z",
+	"path": "key_performance_indicators.md"
+    },
+    {
+    	"title": "How to have a personality",
+	"description": "notes from that video",
+	"language": "en",
+	"date": "2023-03-05T12:00:00.000Z",
+	"path": "how_to_have_a_personality.gmi"
+    },
+    {
         "title": "Dicas para entrevistas de emprego",
         "description": "Para conseguir aquele emprego como engenheiro de software",
         "language": "pt-br",
