@@ -5,7 +5,7 @@ há um mapa interativo que pode ser personalizado para mostrar quaisquer locais
 desejados e informações sobre eles.
 
 Além da condição inicial do mapa,
-aois tipos de customizações podem ser feitas: "alfinetes" (_pins_) e os
+dois tipos de customizações podem ser feitas: "alfinetes" (_pins_) e os
 "locais" (_places_).
 
 ## Condições Iniciais
