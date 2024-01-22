@@ -1,0 +1,50 @@
+[From this talk](https://yewtu.be/watch?v=lPTqcecwkJg), summarized [here](https://xzhu0027.gitbook.io/blog/misc/index/actor-model)
+
+Notes:
+- Actor is a method of concurrency where the actor is the fundamental primitive
+- There are other concurrency models (processes; threads...), each one with their pros and cons
+- Properties of actors:
+  - ... are persistent
+  - ...encapsulate internal state
+  - ...are asynchronous
+  - ...share state by communicating, not by memory
+- What can actors do? They can...
+  - ...create new actors
+  - ...receive a message and, in response to that, they can:
+    - ...make local decisions
+    - ...cause side-effects
+    - ...send messages
+  - ...process one message at a time
+- Properties of communication:
+  - Actors don't share channels
+  - "Best effort" delivery, at-most-once delivery
+    - From the point of view of the actor, there are no retries or timeouts
+  - Messages may take arbitrarily long times to be delivered
+  - No message ordering guarantees
+  - Usually done through a queue system
+- Addresses
+  - ...identify an actor
+  - ...may also identify a proxy/forwarder to an actor (e.g. a load balancer)
+  - ...contains location and transport information a.k.a. provides location transparency
+- Many addresses may point to the same actor
+- How we handle failure? Through supervision:
+  - ... is constantly monitoring running state of actor
+  - Can perform actions based on the state of the actor
+  - Supervisors can be actors as well
+  - Who supervisers supervisors? Other supervisors.
+- The actor model provides transparent lifecycle management
+- Actor use-cases:
+  - Processing pipeline
+  - Streaming data
+  - Multi-user concurrency
+  - Systems with high uptime requirements (learn more about Ericsson and Erlang)
+  - Applications wth shared state
+- Actor anti use-cases:
+  - You are working on a non-concurrent system
+  - Performance critical applications
+  - Non-concurrent communication is involved
+- Drawbacks:
+  - Too many actors
+  - Testing can be hard
+  - Debugging can be **especially** hard
+
