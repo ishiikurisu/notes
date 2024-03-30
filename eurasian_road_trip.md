@@ -26,45 +26,45 @@ Rough trip plan:
 ## Plan
 
 Legs:
-1. Dublin, Ireland
-1. Holyhead, Wales ~ London, England
+- Dublin, Ireland
+- Holyhead, Wales ~ London, England
   - Dublin ~ Holyhead by ferry
   - Holyhead ~ London by road
   - Around 9h
-1. Paris, France
+- Paris, France
   - Around 6h through Channel Tunnel
-1. Lyon, France
+- Lyon, France
   - Around 6h by road
-1. Milan, Italy
-1. Rome, Italy
-1. Bari, Italy
-1. Igoumenitsa, Greece
+- Milan, Italy
+- Rome, Italy
+- Bari, Italy
+- Igoumenitsa, Greece
   - Around 10h by ferry
-1. Alexandroupolis, Greece
-1. Ankara, Turkey
-1. Gaziantep, Turkey
-1. Yüksekova, Turkey
-1. Teeran, Iran
-1. Yazd, Iran
-1. Kerman, Iran
-1. Iranshahr, Iran
-1. Ormara, Pakistan
-1. Hyderabad, Pakistan?
+- Alexandroupolis, Greece
+- Ankara, Turkey
+- Gaziantep, Turkey
+- Yüksekova, Turkey
+- Teeran, Iran
+- Yazd, Iran
+- Kerman, Iran
+- Iranshahr, Iran
+- Ormara, Pakistan
+- Hyderabad, Pakistan?
   - According to OSM, it's apparently faster to go from here directly to
-    Beijing, China through the Gobi Desert than going through India
+     Beijing, China through the Gobi Desert than going through India
     - This is because there is no direct connection between Hyderabad and
-      India; and there is no direct connection between India and China
+       India; and there is no direct connection between India and China
   - I was initially planning on going through India because it has enough
-    infrastructure to allow for a road trip; just for the record
-1. ???
-1. Beijing, China
-1. Dalian, China
-1. Incheon, South Korea ~ Seoul, South Korea
+     infrastructure to allow for a road trip; just for the record
+- ???
+- Beijing, China
+- Dalian, China
+- Incheon, South Korea ~ Seoul, South Korea
   - Around 12h by ferry
-1. Busan, South Korea
+- Busan, South Korea
   - 4h driving
-1. Fukuoka, Japan
+- Fukuoka, Japan
   - 6h by overnight ferry
-1. Osaka, Japan
-1. Tokyo, Japan
+- Osaka, Japan
+- Tokyo, Japan
 
