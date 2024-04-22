@@ -4,6 +4,7 @@ Everyday stuff:
 
 => https://searx.space/ SearXNG
 => https://mail.proton.me/login ProtonMail
+=> https://play.spotify.com Spotify
 
 Code + Design:
 
@@ -25,8 +26,6 @@ Code + Design:
 
 Inspiration:
 
-=> https://pinterest.com/login/ Pinterest
-=> https://play.spotify.com Spotify
 => http://design-milk.com/ Design Milk
 => http://www.apartmenttherapy.com/ Apartment Therapy
 => https://thedesignfiles.net/ The Design Files
@@ -36,4 +35,5 @@ Inspiration:
 => https://slowly.app/ Slowly
 => http://based.cooking Based Cooking
 => https://ncase.me/trust/ "Evolution of Trust" by Nicky Case
+=> https://www.complexity-explorables.org/ Complexity Explorables
 
