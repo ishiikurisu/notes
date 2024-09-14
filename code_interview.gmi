@@ -43,3 +43,11 @@ Para praticar, procure participar de desafios e competições de programação; 
 
 Pouquíssimas vagas de emprego tratam com problemas novos que ninguém nunca resolveu ainda. Dito isto, não gaste tempo com problemas cujas soluções já são bem conhecidas. Reutilize o máximo de código ou estratégias na medida do possível.
 Neste sentido, é interessante investir um tempo completando alguns desafios ou projetos mais comuns, de tal forma que construa a sua própria biblioteca de referência para estes problemas mais comuns.
+
+## Pratique
+
+Entrevistadores estão procurando por um conjunto de habilidades nos seus candidatos. Dito isto, compreender os básicos do que eles esperam é fundamental. Conhecer o método STAR ou se familiriazar com as perguntas mais comuns pode ajudar a melhorar sua apresentação durante uma entrevista.
+
+Por exemplo:
+=> https://grow.google/certificates/interview-warmup/ Ferramenta do Google para praticar entrevistas
+
