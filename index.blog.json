@@ -21,6 +21,13 @@
         "date": "2019-06-14T18:17:10.000Z"
     },
     {
+        "title": "Play Personality",
+        "description": "If you learn how you like to play, you can make the best out of it",
+        "language": "en",
+        "path": "play_personality.md",
+        "date": "2024-10-09T10:00:00.000Z"
+    },
+    {
     	"title": "Actor Model",
 	"description": "Notes from talk about Actor Model",
 	"language": "en",
