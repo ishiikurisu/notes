@@ -4,8 +4,11 @@ Em [crisjr.eng.br/util/map](https://www.crisjr.eng.br/util/map/index.html),
 há um mapa interativo que pode ser personalizado para mostrar quaisquer locais
 desejados e informações sobre eles.
 
+Alguns dos mapas personalizados que eu criei desta maneira podem ser encontrados
+no [meu repositório pessoal](https://www.crisjr.eng.br/maps/).
+
 Além da condição inicial do mapa,
-dois tipos de customizações podem ser feitas: "alfinetes" (_pins_) e os
+dois tipos de customizações podem ser feitas: "alfinetes" (_pins_) e
 "locais" (_places_).
 
 ## Condições Iniciais
