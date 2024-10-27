@@ -50,23 +50,37 @@
        (last)
        (format-date)))
 
+(defn- get-first-date [gitlog]
+  (->> (string/split-lines gitlog)
+       (filter #(.contains % "Date:"))
+       first
+       format-date))
+
 (defn- gemini-to-markdown [maybe-gmi]
   (string/replace maybe-gmi #"\.gmi" ".md"))
 
 (defn- find-inclusion-date [entry]
   (let [path (get entry "path")
-        path (gemini-to-markdown path)
-        command (str "git log --all --full-history -- " path)
-        gitlog (run-command command)
-        last-date (get-last-date gitlog)]
-    (assoc entry "date" last-date)))
+        raw-command "git log --all --full-history -- "
+        md-gitlog (->> (gemini-to-markdown path)
+                       (str raw-command)
+                       run-command)
+        gmi-gitlog (->> (str raw-command path)
+                        run-command)]
+    (-> entry
+        (assoc "creation_date" (get-last-date (if (empty? md-gitlog)
+                                                gmi-gitlog
+                                                md-gitlog))
+               "last_updated_date" (get-first-date gmi-gitlog))
+        (dissoc "date"))))
 
 (defn- main []
-  (let [index (-> inlet-file (slurp) 
-                             (clean-index-string)
-                             (json/parse-string))
-       index-with-dates  (map find-inclusion-date index)
-       outlet (json/generate-string index-with-dates)]
+  (let [index (-> (slurp inlet-file)
+                  clean-index-string
+                  json/parse-string)
+       index-with-dates (map find-inclusion-date index)
+       outlet (json/generate-string index-with-dates
+                                    {:pretty true})]
     (spit outlet-file outlet)))
 
 (main)

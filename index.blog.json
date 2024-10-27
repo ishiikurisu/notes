@@ -1,280 +1,280 @@
-[
-    {
-        "title": "Lógica Matemática &amp; Computacional",
-        "description": "Introdução à Lógica Proposicional e à Lógica de Predicados",
-        "language": "pt-br",
-        "path": "lmc.html",
-        "date": "2019-06-13T19:26:56.000Z"
-    },
-    {
-        "title": "[WIP] Análise de Sinais",
-        "description": "Séries e Transformada de Fourier",
-        "language": "pt-br",
-        "path": "as.html",
-        "date": "2019-06-13T19:26:56.000Z"
-    },
-    {
-        "title": "Básico de Ciência de Dados",
-        "description": "Algumas ferramentas iniciais para trabalhar com ciência de dados",
-        "language": "pt-br",
-        "path": "ds.html",
-        "date": "2019-06-14T18:17:10.000Z"
-    },
-    {
-        "title": "Play Personality",
-        "description": "If you learn how you like to play, you can make the best out of it",
-        "language": "en",
-        "path": "play_personality.md",
-        "date": "2024-10-09T10:00:00.000Z"
-    },
-    {
-    	"title": "Actor Model",
-	"description": "Notes from talk about Actor Model",
-	"language": "en",
-	"path": "actor_model.md",
-	"date": "2024-01-22T14:00:000Z"
-    },
-    {
-        "title": "Cult of Done",
-        "description": "Anything done is better than nothing done",
-        "language": "en",
-        "path": "cult_of_done.gmi",
-        "date": "2023-09-21T12:00:00.000Z"
-    },
-    {
-        "title": "Temas Anuais",
-	"description": "Uma alternativa gentil a resoluções de ano novo",
-	"language": "pt-br",
-	"path": "yearly_themes.gmi",
-	"date": "2023-08-28T13:00:00.000Z"
-    },
-    {
-        "title": "Buen Vivir",
-	"description": "Principles for a life in community",
-	"language": "en",
-	"path": "buen_vivir.gmi",
-	"date": "2023-07-10T12:00:00.000Z"
-    },
-    {
-        "title": "Permacomputação",
-        "description": "Como fazer computação que sobreviva ao fim dos tempos",
-        "language": "pt-br",
-        "path": "permacomputing.gmi",
-        "date": "2022-12-08T17:00:00.000Z"
-    },
-    {
-        "title": "Guia de Uso do Mapa",
-        "description": "Como usar o mapa interativo neste site",
-        "language": "pt-br",
-        "path": "maps_docs.md",
-        "date": "2022-07-15T11:00:00.000Z"
-    },
-    {
-        "title": "clojureD 2022",
-        "description": "Notes from :clojureD 2022",
-        "language": "en",
-        "path": "clojured.md",
-        "date": "2022-06-12T12:00:00.000Z"
-    },
-    {
-        "title": "O Caminho da Solidão",
-        "description": "Um estilo de vida honesto e simples",
-        "language": "pt-br",
-        "date": "2022-03-30T11:30:00.000Z",
-        "path": "dokkodo.gmi"
-    },
-    {
-    	"title": "Key Performance Indicators",
-	"description": "How to measure your company for success",
-	"language": "en",
-	"date":"2023-03-05T15:00:00.000Z",
-	"path": "key_performance_indicators.md"
-    },
-    {
-    	"title": "How to have a personality",
-	"description": "notes from that video",
-	"language": "en",
-	"date": "2023-03-05T12:00:00.000Z",
-	"path": "how_to_have_a_personality.gmi"
-    },
-    {
-        "title": "Dicas para entrevistas de emprego",
-        "description": "Para conseguir aquele emprego como engenheiro de software",
-        "language": "pt-br",
-        "path": "code_interview.gmi",
-        "date": "2022-02-04T17:29:19.000Z"
-    },
-    {
-        "title": "Scrum Master Tooling",
-        "description": "Introduction to Scrum and what scrum masters do",
-        "language": "en",
-        "path": "scrum_master_tooling.gmi",
-        "date": "2021-11-03T12:51:51.000Z"
-    },
-    {
-        "title": "10 Level Design Principles",
-        "description": "Principles shared across good levels",
-        "language": "en",
-        "path": "level_design_principles.md",
-        "date": "2021-04-23T21:35:31.000Z"
-    },
-    {
-        "title": "Pilares para programação",
-        "description": "Valores e princípios para desenvolver bons programas",
-        "language": "en",
-        "path": "programming-pillars.gmi",
-        "date": "2020-07-28T17:40:13.000Z"
-    },
-    {
-        "title": "12 Properties of Good Tests",
-        "description": "According to Kent Beck",
-        "language": "en",
-        "path": "good-tests.md",
-        "date": "2020-05-18T10:02:36.000Z"
-    },
-    {
-        "title": "Front in Floripa 2019",
-        "description": "Anotações da Front in Floripa 2019",
-        "language": "pt-br",
-        "path": "frontinfloripa2019.md",
-        "date": "2019-11-30T17:56:08.000Z"
-    },
-    {
-        "title": "Gophercon Brasil 2019",
-        "description": "Anotações da Gophercon Brasil 2019",
-        "language": "pt-br",
-        "path": "gopherconbr2019.md",
-        "date": "2019-11-30T17:56:08.000Z"
-    },
-    {
-        "title": "Princípios de Gamification",
-        "description": "As ideias que tornam jogos tão atraentes",
-        "language": "pt-br",
-        "path": "gamification.gmi",
-        "date": "2020-06-09T14:22:21.000Z"
-    },
-    {
-        "title": "Fly Lady",
-        "description": "Os 10 passos e os 11 mandamentos da Fly Lady vão te ajudar a manter sua casa sob controle!",
-        "language": "pt-br",
-        "path": "fly-lady.md",
-        "date": "2019-12-01T10:20:19.000Z"
-    },
-    {
-        "title": "Checklist para casa",
-        "description": "Indo morar sozinho pela primeira vez? Veja se tem tudo que precisa para não passar aperto",
-        "language": "pt-br",
-        "path": "home-stuff.gmi",
-        "date": "2019-12-01T10:20:19.000Z"
-    },
-    {
-        "title": "Checklist para viagem",
-        "description": "Para não deixar nada para trás e curtir as férias ao máximo",
-        "language": "pt-br",
-        "path": "travel-stuff.gmi",
-        "date": "2019-12-01T10:20:19.000Z"
-    },
-    {
-    	"title": "Backpack EDC",
-	"description": "EDC for outdoor trips",
-	"language": "en",
-	"path": "backpack_edc.gmi",
-	"date": "2023-10-31T17:12:20.000Z"
-    },
-    {
-        "title": "Apresentaçāo de sucesso",
-        "description": "Dicas para apresentar da melhor forma",
-        "language": "pt-br",
-        "path": "apresentacao-de-sucesso.md",
-        "date": "2019-10-06T11:24:03.000Z"
-    },
-    {
-        "title": "O melhor musicista do mundo",
-        "description": "Uma antiga lenda japonesa, que nunca vi escrita mas que acredito que deve ser compartilhada",
-        "language": "pt-br",
-        "path": "best_musician.gmi",
-        "date": "2020-10-01T11:33:01.000Z"
-    },
-    {
-        "title": "Revisão Semanal",
-        "description": "Passo a passo de como fazer uma revisão semanal no GTD",
-        "language": "pt-br",
-        "path": "weekly_review.gmi",
-        "date": "2019-06-16T10:57:29.000Z"
-    },
-    {
-        "title": "PROMETHEE",
-        "description": "Fundamentos do método PROMETHEE para tomada de decisão",
-        "language": "pt-br",
-        "path": "promethee.html",
-        "date": "2019-04-30T01:16:35.000Z"
-    },
-    {
-        "title": "Links úteis",
-        "description": "Sites que podem vir a calhar de vez em quando",
-        "language": "pt-br",
-        "path": "useful-links.gmi",
-        "date": "2019-06-13T20:38:21.000Z"
-    },
-    {
-        "title": "Referências para estudos de línguas",
-        "description": "Willst du Deutsch lernen? 日本語を勉強していますか。",
-        "language": "pt-br",
-        "path": "lang-ref.gmi",
-        "date": "2019-06-13T20:41:36.000Z"
-    },
-    {
-        "title": "日本語の基本的な語彙",
-        "description": "日本語学生に",
-        "language": "jp",
-        "path": "言葉.csv",
-        "date": "2020-06-09T22:30:08.000Z"
-    },
-    {
-        "title": "日本語学校の2020年の後期のノート",
-        "description": "日本語学生に",
-        "language": "jp",
-        "path": "nihongo-2020-2.md",
-        "date": "2020-09-06T13:48:07.000Z"
-    },
-    {
-        "title": "Links nāo tão úteis",
-        "description": "Useful sites to waste time",
-        "language": "en",
-        "path": "not-so-useful-links.gmi",
-        "date": "2019-09-15T10:40:53.000Z"
-    },
-    {
-        "title": "Meus dias em Tóquio",
-        "description": "Best days of my life so far",
-        "language": "pt-br",
-        "path": "tokyo-days.md",
-        "date": "2019-12-09T08:44:33.000Z"
-    },
-    {
-        "title": "World Building Game",
-        "description": "Create your own world while playing this game",
-        "path": "world_building_game.md"
-    },
-    {
-    	"title": "Eurasian Road Trip",
-	"description": "Idea for a road trip from Dublin to Tokyo",
-	"language": "en",
-	"path": "eurasian_road_trip.md",
-	"date": "2024-03-30T14:00:000Z"
-    },
-    {
-        "title": "IFIEのホームステイ",
-        "description": "Programa de intercambio em Kanazawa",
-        "language": "pt-br",
-        "path": "ifie-presentation.gmi",
-        "date": "2020-11-26T23:16:38.000Z"
-    },
-    {
-        "title": "Lifestyle Design",
-        "description": "Some thoughts on how to live life",
-        "language": "en",
-        "path": "lifestyle_design.md",
-        "date": "2023-05-29T16:00:00.000Z"
-    }
-]
+[ {
+  "title" : "Lógica Matemática &amp; Computacional",
+  "description" : "Introdução à Lógica Proposicional e à Lógica de Predicados",
+  "language" : "pt-br",
+  "path" : "lmc.html",
+  "creation_date" : "2019-06-13T19:26:56.000Z",
+  "last_updated_date" : "2020-06-09T11:38:33.000Z"
+}, {
+  "title" : "[WIP] Análise de Sinais",
+  "description" : "Séries e Transformada de Fourier",
+  "language" : "pt-br",
+  "path" : "as.html",
+  "creation_date" : "2019-06-13T19:26:56.000Z",
+  "last_updated_date" : "2019-09-25T21:41:13.000Z"
+}, {
+  "title" : "Básico de Ciência de Dados",
+  "description" : "Algumas ferramentas iniciais para trabalhar com ciência de dados",
+  "language" : "pt-br",
+  "path" : "ds.html",
+  "creation_date" : "2019-06-14T18:17:10.000Z",
+  "last_updated_date" : "2019-10-05T09:52:55.000Z"
+}, {
+  "title" : "Play Personality",
+  "description" : "If you learn how you like to play, you can make the best out of it",
+  "language" : "en",
+  "path" : "play_personality.md",
+  "creation_date" : "2024-10-09T10:08:05.000Z",
+  "last_updated_date" : "2024-10-09T10:08:05.000Z"
+}, {
+  "title" : "Actor Model",
+  "description" : "Notes from talk about Actor Model",
+  "language" : "en",
+  "path" : "actor_model.md",
+  "creation_date" : "2024-01-22T14:00:48.000Z",
+  "last_updated_date" : "2024-01-22T14:00:48.000Z"
+}, {
+  "title" : "Cult of Done",
+  "description" : "Anything done is better than nothing done",
+  "language" : "en",
+  "path" : "cult_of_done.gmi",
+  "creation_date" : "2023-09-21T08:13:37.000Z",
+  "last_updated_date" : "2023-09-21T08:13:37.000Z"
+}, {
+  "title" : "Temas Anuais",
+  "description" : "Uma alternativa gentil a resoluções de ano novo",
+  "language" : "pt-br",
+  "path" : "yearly_themes.gmi",
+  "creation_date" : "2023-08-28T09:34:07.000Z",
+  "last_updated_date" : "2023-08-28T09:34:07.000Z"
+}, {
+  "title" : "Buen Vivir",
+  "description" : "Principles for a life in community",
+  "language" : "en",
+  "path" : "buen_vivir.gmi",
+  "creation_date" : "2023-08-23T10:09:19.000Z",
+  "last_updated_date" : "2023-08-23T10:09:19.000Z"
+}, {
+  "title" : "Permacomputação",
+  "description" : "Como fazer computação que sobreviva ao fim dos tempos",
+  "language" : "pt-br",
+  "path" : "permacomputing.gmi",
+  "creation_date" : "2022-12-08T17:09:36.000Z",
+  "last_updated_date" : "2022-12-09T14:12:41.000Z"
+}, {
+  "title" : "Guia de Uso do Mapa",
+  "description" : "Como usar o mapa interativo neste site",
+  "language" : "pt-br",
+  "path" : "maps_docs.md",
+  "creation_date" : "2022-07-15T10:14:46.000Z",
+  "last_updated_date" : "2024-10-24T23:31:01.000Z"
+}, {
+  "title" : "clojureD 2022",
+  "description" : "Notes from :clojureD 2022",
+  "language" : "en",
+  "path" : "clojured.md",
+  "creation_date" : "2022-06-21T09:13:26.000Z",
+  "last_updated_date" : "2022-06-21T09:13:26.000Z"
+}, {
+  "title" : "O Caminho da Solidão",
+  "description" : "Um estilo de vida honesto e simples",
+  "language" : "pt-br",
+  "path" : "dokkodo.gmi",
+  "creation_date" : "2022-03-30T11:43:54.000Z",
+  "last_updated_date" : "2022-03-30T11:43:54.000Z"
+}, {
+  "title" : "Key Performance Indicators",
+  "description" : "How to measure your company for success",
+  "language" : "en",
+  "path" : "key_performance_indicators.md",
+  "creation_date" : "2022-03-06T11:02:51.000Z",
+  "last_updated_date" : "2022-03-06T11:02:51.000Z"
+}, {
+  "title" : "How to have a personality",
+  "description" : "notes from that video",
+  "language" : "en",
+  "path" : "how_to_have_a_personality.gmi",
+  "creation_date" : "2022-03-06T11:02:51.000Z",
+  "last_updated_date" : "2022-03-06T11:02:51.000Z"
+}, {
+  "title" : "Dicas para entrevistas de emprego",
+  "description" : "Para conseguir aquele emprego como engenheiro de software",
+  "language" : "pt-br",
+  "path" : "code_interview.gmi",
+  "creation_date" : "2022-02-04T17:29:19.000Z",
+  "last_updated_date" : "2024-09-14T17:03:06.000Z"
+}, {
+  "title" : "Scrum Master Tooling",
+  "description" : "Introduction to Scrum and what scrum masters do",
+  "language" : "en",
+  "path" : "scrum_master_tooling.gmi",
+  "creation_date" : "2021-11-03T12:51:51.000Z",
+  "last_updated_date" : "2022-02-24T20:55:03.000Z"
+}, {
+  "title" : "10 Level Design Principles",
+  "description" : "Principles shared across good levels",
+  "language" : "en",
+  "path" : "level_design_principles.md",
+  "creation_date" : "2021-04-23T21:35:31.000Z",
+  "last_updated_date" : "2021-04-23T21:35:31.000Z"
+}, {
+  "title" : "Pilares para programação",
+  "description" : "Valores e princípios para desenvolver bons programas",
+  "language" : "en",
+  "path" : "programming-pillars.gmi",
+  "creation_date" : "2020-07-28T17:40:13.000Z",
+  "last_updated_date" : "2022-02-24T20:55:03.000Z"
+}, {
+  "title" : "12 Properties of Good Tests",
+  "description" : "According to Kent Beck",
+  "language" : "en",
+  "path" : "good-tests.md",
+  "creation_date" : "2020-05-18T10:02:36.000Z",
+  "last_updated_date" : "2020-05-18T10:02:36.000Z"
+}, {
+  "title" : "Front in Floripa 2019",
+  "description" : "Anotações da Front in Floripa 2019",
+  "language" : "pt-br",
+  "path" : "frontinfloripa2019.md",
+  "creation_date" : "2019-11-30T17:56:08.000Z",
+  "last_updated_date" : "2020-07-13T15:29:57.000Z"
+}, {
+  "title" : "Gophercon Brasil 2019",
+  "description" : "Anotações da Gophercon Brasil 2019",
+  "language" : "pt-br",
+  "path" : "gopherconbr2019.md",
+  "creation_date" : "2019-11-30T17:56:08.000Z",
+  "last_updated_date" : "2020-07-13T15:29:57.000Z"
+}, {
+  "title" : "Princípios de Gamification",
+  "description" : "As ideias que tornam jogos tão atraentes",
+  "language" : "pt-br",
+  "path" : "gamification.gmi",
+  "creation_date" : "2020-06-09T14:22:21.000Z",
+  "last_updated_date" : "2022-02-24T20:55:03.000Z"
+}, {
+  "title" : "Fly Lady",
+  "description" : "Os 10 passos e os 11 mandamentos da Fly Lady vão te ajudar a manter sua casa sob controle!",
+  "language" : "pt-br",
+  "path" : "fly-lady.md",
+  "creation_date" : "2019-12-01T10:20:19.000Z",
+  "last_updated_date" : "2019-12-01T10:41:50.000Z"
+}, {
+  "title" : "Checklist para casa",
+  "description" : "Indo morar sozinho pela primeira vez? Veja se tem tudo que precisa para não passar aperto",
+  "language" : "pt-br",
+  "path" : "home-stuff.gmi",
+  "creation_date" : "2019-12-01T10:20:19.000Z",
+  "last_updated_date" : "2024-04-07T18:49:47.000Z"
+}, {
+  "title" : "Checklist para viagem",
+  "description" : "Para não deixar nada para trás e curtir as férias ao máximo",
+  "language" : "pt-br",
+  "path" : "travel-stuff.gmi",
+  "creation_date" : "2019-12-01T10:20:19.000Z",
+  "last_updated_date" : "2023-06-05T15:04:33.000Z"
+}, {
+  "title" : "Backpack EDC",
+  "description" : "EDC for outdoor trips",
+  "language" : "en",
+  "path" : "backpack_edc.gmi",
+  "creation_date" : "2021-12-02T10:55:49.000Z",
+  "last_updated_date" : "2023-10-31T14:12:49.000Z"
+}, {
+  "title" : "Apresentaçāo de sucesso",
+  "description" : "Dicas para apresentar da melhor forma",
+  "language" : "pt-br",
+  "path" : "apresentacao-de-sucesso.md",
+  "creation_date" : "2019-10-06T11:24:03.000Z",
+  "last_updated_date" : "2019-10-06T11:24:03.000Z"
+}, {
+  "title" : "O melhor musicista do mundo",
+  "description" : "Uma antiga lenda japonesa, que nunca vi escrita mas que acredito que deve ser compartilhada",
+  "language" : "pt-br",
+  "path" : "best_musician.gmi",
+  "creation_date" : "2020-10-01T11:33:01.000Z",
+  "last_updated_date" : "2022-02-24T20:55:03.000Z"
+}, {
+  "title" : "Revisão Semanal",
+  "description" : "Passo a passo de como fazer uma revisão semanal no GTD",
+  "language" : "pt-br",
+  "path" : "weekly_review.gmi",
+  "creation_date" : "2019-06-16T10:57:29.000Z",
+  "last_updated_date" : "2022-02-24T20:55:03.000Z"
+}, {
+  "title" : "PROMETHEE",
+  "description" : "Fundamentos do método PROMETHEE para tomada de decisão",
+  "language" : "pt-br",
+  "path" : "promethee.html",
+  "creation_date" : "2019-04-30T01:16:35.000Z",
+  "last_updated_date" : "2019-06-14T17:28:52.000Z"
+}, {
+  "title" : "Links úteis",
+  "description" : "Sites que podem vir a calhar de vez em quando",
+  "language" : "pt-br",
+  "path" : "useful-links.gmi",
+  "creation_date" : "2019-06-13T20:38:21.000Z",
+  "last_updated_date" : "2024-04-22T09:21:18.000Z"
+}, {
+  "title" : "Referências para estudos de línguas",
+  "description" : "Willst du Deutsch lernen? 日本語を勉強していますか。",
+  "language" : "pt-br",
+  "path" : "lang-ref.gmi",
+  "creation_date" : "2019-06-13T20:41:36.000Z",
+  "last_updated_date" : "2022-02-24T20:55:03.000Z"
+}, {
+  "title" : "日本語の基本的な語彙",
+  "description" : "日本語学生に",
+  "language" : "jp",
+  "path" : "言葉.csv",
+  "creation_date" : "2020-06-09T22:30:08.000Z",
+  "last_updated_date" : "2020-06-09T22:30:08.000Z"
+}, {
+  "title" : "日本語学校の2020年の後期のノート",
+  "description" : "日本語学生に",
+  "language" : "jp",
+  "path" : "nihongo-2020-2.md",
+  "creation_date" : "2020-09-06T13:48:07.000Z",
+  "last_updated_date" : "2021-02-22T11:17:12.000Z"
+}, {
+  "title" : "Links nāo tão úteis",
+  "description" : "Useful sites to waste time",
+  "language" : "en",
+  "path" : "not-so-useful-links.gmi",
+  "creation_date" : "2019-09-15T10:40:53.000Z",
+  "last_updated_date" : "2023-12-14T09:01:59.000Z"
+}, {
+  "title" : "Meus dias em Tóquio",
+  "description" : "Best days of my life so far",
+  "language" : "pt-br",
+  "path" : "tokyo-days.md",
+  "creation_date" : "2019-12-09T08:44:33.000Z",
+  "last_updated_date" : "2020-01-18T13:21:36.000Z"
+}, {
+  "title" : "World Building Game",
+  "description" : "Create your own world while playing this game",
+  "path" : "world_building_game.md",
+  "creation_date" : "2021-12-02T10:54:16.000Z",
+  "last_updated_date" : "2021-12-02T10:54:16.000Z"
+}, {
+  "title" : "Eurasian Road Trip",
+  "description" : "Idea for a road trip from Dublin to Tokyo",
+  "language" : "en",
+  "path" : "eurasian_road_trip.md",
+  "creation_date" : "2024-03-30T11:10:42.000Z",
+  "last_updated_date" : "2024-03-30T11:19:40.000Z"
+}, {
+  "title" : "IFIEのホームステイ",
+  "description" : "Programa de intercambio em Kanazawa",
+  "language" : "pt-br",
+  "path" : "ifie-presentation.gmi",
+  "creation_date" : "2020-11-26T23:16:38.000Z",
+  "last_updated_date" : "2022-02-24T20:55:03.000Z"
+}, {
+  "title" : "Lifestyle Design",
+  "description" : "Some thoughts on how to live life",
+  "language" : "en",
+  "path" : "lifestyle_design.md",
+  "creation_date" : "2023-05-29T12:56:49.000Z",
+  "last_updated_date" : "2023-05-29T12:56:49.000Z"
+} ]
