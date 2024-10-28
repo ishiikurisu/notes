@@ -20,6 +20,14 @@
   "creation_date" : "2019-06-14T18:17:10.000Z",
   "last_updated_date" : "2019-10-05T09:52:55.000Z"
 }, {
+  "title": "Jardins Digitais",
+  "description": "Uma maneira diferente de compreender e organizar informações em um site",
+  "language": "pt-br",
+  "path": "digital_garden.pt.gmi",
+  "creation_date" : "2024-10-28T14:55:05.000Z",
+  "last_updated_date" : "2024-10-28T14:55:05.000Z"
+
+}, {
   "title" : "Play Personality",
   "description" : "If you learn how you like to play, you can make the best out of it",
   "language" : "en",
