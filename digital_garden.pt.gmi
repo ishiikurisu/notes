@@ -1,0 +1,16 @@
+# Jardins Digitais
+
+Vários sites pessoais são organizados como _blogs_: cada entrada neles é uma história separada e geralmente são consumidos de maneira histórica. Embora não há nada de errado em organizar um site desta maneira, o fato é que nem todo tipo de informação é melhor apresentado assim haja visto que informação tende não tende a ser linear ou a obedecer uma narrativa.
+
+Uma forma alternativa de organizar informações em um site é cultivar um _jardim digital_, isto é, em vez de incluir entradas em ordem temporal, cada entrada é uma anotação independente que pode ser conectada a outras por meio de _tags_ ou links diretos. Em vez de um blog, o resultado final é uma espécie de wiki pessoal que pode ser explorada. 
+
+A expansão deste conceito é organizar a vida utilizando um _Zettelkasten_, onde cada entrada é completa por si só e ao mesmo tempo agrega todas as outras que estão na mesma caixa.
+
+Referências:
+
+=> https://maggieappleton.com/garden-history "A Brief History & Ethos of the Digital Garden" por Maggie Appleton
+=> https://timrodenbroeker.de/digital-garden/ "How I built myself a Digital Garden" por Tim Rodenbröker
+=> https://joelhooks.com/digital-garden/ "My blog is a digital garden, not a blog" por Joel Hooks
+=> https://github.com/MaggieAppleton/digital-gardeners "Digital Gardeners" por Maggie Appleton
+=> https://en.wikipedia.org/wiki/Zettelkasten Wikipédia sobre Zettelkästen
+
