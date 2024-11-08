@@ -41,7 +41,6 @@ Please check [thefanlistings.org](https://thefanlistings.org/tfl101.php) for mor
 ![Homestuck](https://raw.githubusercontent.com/ishiikurisu/notes/refs/heads/master/img/homestuck.gif)
 ![Moomin](https://raw.githubusercontent.com/ishiikurisu/notes/refs/heads/master/img/moomin.gif)
 ![Delete system32](https://raw.githubusercontent.com/ishiikurisu/notes/refs/heads/master/img/delete_system32.gif)
-
 ![companion cube](https://raw.githubusercontent.com/ishiikurisu/notes/refs/heads/master/img/companion_cube.jpeg)
 ![Togepi](https://raw.githubusercontent.com/ishiikurisu/notes/refs/heads/master/img/togepi.png)
 ![Piracy](https://raw.githubusercontent.com/ishiikurisu/notes/refs/heads/master/img/piracy.png)
@@ -52,6 +51,7 @@ Please check [thefanlistings.org](https://thefanlistings.org/tfl101.php) for mor
 ## Pixel Art
 
 ![Aquarium](https://raw.githubusercontent.com/ishiikurisu/notes/refs/heads/master/img/aquarium.gif)
+[![Wiby](https://raw.githubusercontent.com/ishiikurisu/notes/refs/heads/master/img/wiby.gif)](http://wiby.me/)
 
 ![Kopimi](https://raw.githubusercontent.com/ishiikurisu/notes/refs/heads/master/img/kopimi.gif)
 
