@@ -1,4 +1,8 @@
-# Fan Listings
+# Collectibles
+
+## Fan Listings
+
+Please check [thefanlistings.org](https://thefanlistings.org/tfl101.php) for more.
 
 [![Numbers](https://raw.githubusercontent.com/ishiikurisu/notes/refs/heads/master/img/numbers.gif)](https://decembergirl.net/numbers/)
 [![SpongeBob SquarePants](https://raw.githubusercontent.com/ishiikurisu/notes/refs/heads/master/img/spongebob.png)](http://spongebob.ravenbeauty.net/)
@@ -12,7 +16,7 @@
 [![Music](https://raw.githubusercontent.com/ishiikurisu/notes/refs/heads/master/img/music.png)](http://roadtonowhere.altervista.org/music)
 [![Type O Negative](https://raw.githubusercontent.com/ishiikurisu/notes/refs/heads/master/img/ton.png)](https://moudoku.com/type)
 [![Nine Inch Nails](https://raw.githubusercontent.com/ishiikurisu/notes/refs/heads/master/img/nin.png)](http://rhythm-emotion.net/nin)
-[![Games](https://raw.githubusercontent.com/ishiikurisu/notes/refs/heads/master/img/vg/gif)](http://powerup.i-heart-you.net/gaming)
+[![Games](https://raw.githubusercontent.com/ishiikurisu/notes/refs/heads/master/img/vg.gif)](http://powerup.i-heart-you.net/gaming)
 [![Nintendo Switch](https://raw.githubusercontent.com/ishiikurisu/notes/refs/heads/master/img/switch.gif)](http://fan.greenhype.net/switch/)
 [![ACNH](https://raw.githubusercontent.com/ishiikurisu/notes/refs/heads/master/img/acnh.jpg)](https://creativeburst.org/animalcrossing/index.php)
 [![Pokémon](https://raw.githubusercontent.com/ishiikurisu/notes/refs/heads/master/img/pkmn.png)](https://amity.seaincense.com/index.php)
@@ -27,4 +31,27 @@
 [![Lego](https://raw.githubusercontent.com/ishiikurisu/notes/refs/heads/master/img/lego.gif)](https://lego.i-heart-you.net)
 [![Tokyo](https://raw.githubusercontent.com/ishiikurisu/notes/refs/heads/master/img/tokyo.png)](http://sakura.nu/tokyo/index.php)
 [Lisbon](http://love.in-blue-rain.org/lisbon/)
+
+
+## Web Stamps
+
+![Twilight as a GIF](https://raw.githubusercontent.com/ishiikurisu/notes/refs/heads/master/img/twilight.gif)
+![Nyan Cat](https://raw.githubusercontent.com/ishiikurisu/notes/refs/heads/master/img/nyancat.gif)
+![Don't Hug Me I'm Scared](https://raw.githubusercontent.com/ishiikurisu/notes/refs/heads/master/img/dhis.gif)
+![Homestuck](https://raw.githubusercontent.com/ishiikurisu/notes/refs/heads/master/img/homestuck.gif)
+![Moomin](https://raw.githubusercontent.com/ishiikurisu/notes/refs/heads/master/img/moomin.gif)
+![Delete system32](https://raw.githubusercontent.com/ishiikurisu/notes/refs/heads/master/img/delete_system32.gif)
+
+![companion cube](https://raw.githubusercontent.com/ishiikurisu/notes/refs/heads/master/img/companion_cube.jpeg)
+![Togepi](https://raw.githubusercontent.com/ishiikurisu/notes/refs/heads/master/img/togepi.png)
+![Piracy](https://raw.githubusercontent.com/ishiikurisu/notes/refs/heads/master/img/piracy.png)
+![Squids](https://raw.githubusercontent.com/ishiikurisu/notes/refs/heads/master/img/squids.png)
+![Touhou](https://raw.githubusercontent.com/ishiikurisu/notes/refs/heads/master/img/touhou.gif)
+
+
+## Pixel Art
+
+![Aquarium](https://raw.githubusercontent.com/ishiikurisu/notes/refs/heads/master/img/aquarium.gif)
+
+![Kopimi](https://raw.githubusercontent.com/ishiikurisu/notes/refs/heads/master/img/kopimi.gif)
 
