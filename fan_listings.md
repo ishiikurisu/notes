@@ -46,6 +46,9 @@ Please check [thefanlistings.org](https://thefanlistings.org/tfl101.php) for mor
 ![Piracy](https://raw.githubusercontent.com/ishiikurisu/web_graphics/refs/heads/master/piracy.png)
 ![Squids](https://raw.githubusercontent.com/ishiikurisu/web_graphics/refs/heads/master/squids.png)
 ![Touhou](https://raw.githubusercontent.com/ishiikurisu/web_graphics/refs/heads/master/touhou.gif)
+![Polybius](https://raw.githubusercontent.com/ishiikurisu/web_graphics/refs/heads/master/polybius.gif)
+![Goth](https://raw.githubusercontent.com/ishiikurisu/web_graphics/refs/heads/master/goth.png)
+![Minecraft](https://raw.githubusercontent.com/ishiikurisu/web_graphics/refs/heads/master/minecraft.png)
 
 
 ## Pixel Art
