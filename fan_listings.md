@@ -7,6 +7,7 @@
 [![GitHub](https://raw.githubusercontent.com/ishiikurisu/web_graphics/refs/heads/master/github.gif)](https://github.com/ishiikurisu/web_graphics)
 [![Yesterweb](https://raw.githubusercontent.com/ishiikurisu/web_graphics/refs/heads/master/yesterweb.png)](https://yesterweb.org)
 [![Merveilles Town](https://raw.githubusercontent.com/ishiikurisu/web_graphics/refs/heads/master/merveilles.town.png)](https://merveilles.town/about)
+[![Right to Repair](https://raw.githubusercontent.com/ishiikurisu/web_graphics/refs/heads/master/repair.jpg)](https://repair.eu)
 ![Pirate AAA](https://raw.githubusercontent.com/ishiikurisu/web_graphics/refs/heads/master/pirate_aaa.gif)
 ![Sburb](https://raw.githubusercontent.com/ishiikurisu/web_graphics/refs/heads/master/sburb.gif)
 ![Deltarune](https://raw.githubusercontent.com/ishiikurisu/web_graphics/refs/heads/master/deltarune.gif)
@@ -15,6 +16,8 @@
 ![Nintendo Switch](https://raw.githubusercontent.com/ishiikurisu/web_graphics/refs/heads/master/switch88x31.png)
 ![NFT](https://raw.githubusercontent.com/ishiikurisu/web_graphics/refs/heads/master/nft.gif)
 ![Firefox](https://raw.githubusercontent.com/ishiikurisu/web_graphics/refs/heads/master/firefox.gif)
+![MacOS](https://raw.githubusercontent.com/ishiikurisu/web_graphics/refs/heads/master/macos.gif)
+[![Netscape](https://raw.githubusercontent.com/ishiikurisu/web_graphics/refs/heads/master/netscape.gif)](https://anlucas.neocities.org/88x31Buttons)
 
 ## Fan Listings
 
@@ -65,6 +68,7 @@ Please check [thefanlistings.org](https://thefanlistings.org/tfl101.php) for mor
 ![Polybius](https://raw.githubusercontent.com/ishiikurisu/web_graphics/refs/heads/master/polybius.gif)
 ![Goth](https://raw.githubusercontent.com/ishiikurisu/web_graphics/refs/heads/master/goth.png)
 ![Minecraft](https://raw.githubusercontent.com/ishiikurisu/web_graphics/refs/heads/master/minecraft.png)
+[![Minecraft: You died!](https://raw.githubusercontent.com/ishiikurisu/web_graphics/refs/heads/master/you_died.png)](https://onlywonder.net/graphics/)
 [![Lulu's Home](https://raw.githubusercontent.com/ishiikurisu/web_graphics/refs/heads/master/stamp-yrownwebsite.png)](http://lu.tiny-universes.net/)
 
 
