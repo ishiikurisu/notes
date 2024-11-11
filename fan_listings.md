@@ -1,5 +1,21 @@
 # Collectibles
 
+## Buttons
+
+[![Prismatic Pink](https://www.crisjr.eng.br/assets/prismaticpink.gif)](https://prismatic.pink/)
+[![Wiby](https://raw.githubusercontent.com/ishiikurisu/web_graphics/refs/heads/master/wiby.gif)](http://wiby.me/)
+[![GitHub](https://raw.githubusercontent.com/ishiikurisu/web_graphics/refs/heads/master/github.gif)](https://github.com/ishiikurisu/web_graphics)
+[![Yesterweb](https://raw.githubusercontent.com/ishiikurisu/web_graphics/refs/heads/master/yesterweb.png)](https://yesterweb.org)
+[![Merveilles Town](https://raw.githubusercontent.com/ishiikurisu/web_graphics/refs/heads/master/merveilles.town.png)](https://merveilles.town/about)
+![Pirate AAA](https://raw.githubusercontent.com/ishiikurisu/web_graphics/refs/heads/master/pirate_aaa.gif)
+![Sburb](https://raw.githubusercontent.com/ishiikurisu/web_graphics/refs/heads/master/sburb.gif)
+![Deltarune](https://raw.githubusercontent.com/ishiikurisu/web_graphics/refs/heads/master/deltarune.gif)
+![Gameboy](https://raw.githubusercontent.com/ishiikurisu/web_graphics/refs/heads/master/gb.png)
+![Gameboy Color](https://raw.githubusercontent.com/ishiikurisu/web_graphics/refs/heads/master/gbc.png)
+![Nintendo Switch](https://raw.githubusercontent.com/ishiikurisu/web_graphics/refs/heads/master/switch88x31.png)
+![NFT](https://raw.githubusercontent.com/ishiikurisu/web_graphics/refs/heads/master/nft.gif)
+![Firefox](https://raw.githubusercontent.com/ishiikurisu/web_graphics/refs/heads/master/firefox.gif)
+
 ## Fan Listings
 
 Please check [thefanlistings.org](https://thefanlistings.org/tfl101.php) for more.
@@ -49,12 +65,12 @@ Please check [thefanlistings.org](https://thefanlistings.org/tfl101.php) for mor
 ![Polybius](https://raw.githubusercontent.com/ishiikurisu/web_graphics/refs/heads/master/polybius.gif)
 ![Goth](https://raw.githubusercontent.com/ishiikurisu/web_graphics/refs/heads/master/goth.png)
 ![Minecraft](https://raw.githubusercontent.com/ishiikurisu/web_graphics/refs/heads/master/minecraft.png)
+[![Lulu's Home](https://raw.githubusercontent.com/ishiikurisu/web_graphics/refs/heads/master/stamp-yrownwebsite.png)](http://lu.tiny-universes.net/)
 
 
 ## Pixel Art
 
 ![Aquarium](https://raw.githubusercontent.com/ishiikurisu/web_graphics/refs/heads/master/aquarium.gif)
-[![Wiby](https://raw.githubusercontent.com/ishiikurisu/web_graphics/refs/heads/master/wiby.gif)](http://wiby.me/)
 
-![Kopimi](https://raw.githubusercontent.com/ishiikurisu/web_graphics/refs/heads/master/kopimi.gif)
+[![Kopimi](https://raw.githubusercontent.com/ishiikurisu/web_graphics/refs/heads/master/kopimi.gif)](https://kopimi.com/)
 
