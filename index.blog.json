@@ -11,7 +11,7 @@
   "language" : "pt-br",
   "path" : "as.html",
   "creation_date" : "2019-06-13T19:26:56.000Z",
-  "last_updated_date" : "2019-09-25T21:41:13.000Z"
+  "last_updated_date" : "2019-06-13T19:41:36.000Z"
 }, {
   "title" : "Básico de Ciência de Dados",
   "description" : "Algumas ferramentas iniciais para trabalhar com ciência de dados",
@@ -223,12 +223,12 @@
   "creation_date" : "2019-06-13T20:38:21.000Z",
   "last_updated_date" : "2024-04-22T09:21:18.000Z"
 }, {
-  "title" : "Referências para estudos de línguas",
-  "description" : "Willst du Deutsch lernen? 日本語を勉強していますか。",
+  "title" : "Referências para estudos de idiomas",
+  "description" : "Willst du Deutsch lernen? 日本語を勉強する欲しいですか。",
   "language" : "pt-br",
   "path" : "lang-ref.gmi",
   "creation_date" : "2019-06-13T20:41:36.000Z",
-  "last_updated_date" : "2022-02-24T20:55:03.000Z"
+  "last_updated_date" : "2024-11-20T10:59:16.000Z"
 }, {
   "title" : "日本語の基本的な語彙",
   "description" : "日本語学生に",
@@ -242,7 +242,7 @@
   "language" : "jp",
   "path" : "nihongo-2020-2.md",
   "creation_date" : "2020-09-06T13:48:07.000Z",
-  "last_updated_date" : "2021-02-22T11:17:12.000Z"
+  "last_updated_date" : "2020-11-22T13:34:17.000Z"
 }, {
   "title" : "Links nāo tão úteis",
   "description" : "Useful sites to waste time",

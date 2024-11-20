@@ -1,6 +1,6 @@
-# Referências para estudo de línguas
+# Referências para estudo de idiomas
 
-## Aprendizado de línguas
+## Aprendizado de idiomas
 
 => http://blog.fluent-forever.com/base-vocabulary-list Base vocabulary list
 => http://verbix.com/languages/german.html Verbix
@@ -14,14 +14,12 @@
 => https://en.wikipedia.org/wiki/List_of_kanji_by_stroke_count Kanji by stroke count
 => http://www.guidetojapanese.org/ Guide to Japanese
 => https://jisho.org Jisho
-=> https://bilingualmanga.com/ Bilingual Manga
 => https://www.imabi.net IMABI
 => https://estar.jp Estar
-=> https://www.youtube.com/watch?v=NNDbRPeJcZ0 Sakura-san Podcast
 
 ## Esperanto & Toki Pona
 
 => https://lernu.net/pt/vortaro Lernu!
-=> https://jpogr.github.io/TokiPonaDictionary Toki Pona Dictionary
+=> https://lipu-sona.pona.la/en/dictionary/ toki pona dictionary
 => http://livingtokipona.smoishele.com/examples/liveinput/liveinput.html sitelen sitelen generator
 
