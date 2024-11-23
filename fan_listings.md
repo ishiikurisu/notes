@@ -10,15 +10,18 @@
 [![Right to Repair](./graphics/repair.jpg)](https://repair.eu)
 
 ![Pirate AAA](./graphics/pirate_aaa.gif)
+[![Petscop](./graphics/petscop.gif)](https://pixelsafari.neocities.org/buttons/)
 ![Sburb](./graphics/sburb.gif)
 ![Deltarune](./graphics/deltarune.gif)
 ![Gameboy](./graphics/gb.png)
 ![Gameboy Color](./graphics/gbc.png)
 ![Nintendo Switch](./graphics/switch88x31.png)
+[![Punchy](./graphics/ac_punchy.png)](https://pixelsafari.neocities.org/buttons/)
 ![NFT](./graphics/nft.gif)
 ![Firefox](./graphics/firefox.gif)
 ![MacOS](./graphics/macos.gif)
 [![Netscape](./graphics/netscape.gif)](https://anlucas.neocities.org/88x31Buttons)
+[![Tumblr](./graphics/tumblr.gif)](https://pixelsafari.neocities.org/buttons/)
 
 ## Fan Listings
 
@@ -71,6 +74,7 @@ Please check [thefanlistings.org](https://thefanlistings.org/tfl101.php) for mor
 ![Minecraft](./graphics/minecraft.png)
 [![Minecraft: You died!](./graphics/you_died.png)](https://onlywonder.net/graphics/)
 [![Lulu's Home](./graphics/stamp-yrownwebsite.png)](http://lu.tiny-universes.net/)
+[![Tubbs](./graphics/nekoatsumetubbs.png)](https://verdemusgo.neocities.org/mimos#stamps)
 
 
 ## Pixel Art
