@@ -5,24 +5,30 @@ Everyday stuff:
 => https://searx.space/ SearXNG
 => https://mail.proton.me/login ProtonMail
 => https://play.spotify.com Spotify
+=> https://dropbox.com/home Dropbox
+=> https://www.benri.com/ Benri
 
-Code + Design:
+Note-taking:
 
-=> https://heroku.com/login Heroku
-=> https://5apps.com/ 5apps
+=> https://app.simplenote.com Simplenote
+=> https://evernote.com Evernote
+=> https://notion.so Notion
+
+Design:
+
 => https://coolors.co/ Coolors
 => https://thenounproject.com/ The Noun Project
 => https://hipsum.co/ Hipsum
 => https://www.figma.com/ Figma
-=> https://github.com/login Github
-=> https://gitlab.com Gitlab
-=> https://notion.so Notion
-=> https://app.simplenote.com Simplenote
-=> https://evernote.com Evernote
-=> https://dropbox.com/home Dropbox
-=> https://www.colourlovers.com/ Colors Lovers
-=> https://portal.mozz.us Gemini to HTTP proxy
+=> https://www.colourlovers.com/ Colour Lovers
 => https://excalidraw.com/ Excalidraw
+=> https://photogradient.com Photo Gradient
+
+Code:
+
+=> https://5apps.com/ 5apps
+=> https://gitlab.com Gitlab
+=> https://github.com/login Github
 
 Inspiration:
 
@@ -34,7 +40,4 @@ Inspiration:
 => https://bestpresent.jp Best Present
 => https://slowly.app/ Slowly
 => http://based.cooking Based Cooking
-=> https://ncase.me/trust/ "Evolution of Trust" by Nicky Case
-=> https://www.complexity-explorables.org/ Complexity Explorables
-=> https://www.benri.com/ Benri
 

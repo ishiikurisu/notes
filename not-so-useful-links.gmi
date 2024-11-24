@@ -1,11 +1,10 @@
-# Not so useful links
+# Interesting Links
 
 Games:
 
 => https://itch.io itch.io
 => http://blupi.org Blupi
 => https://backloggery.com/box_of_joe Backloggery
-=> https://pokemonshowdown.com/ Pokémon Showdown
 => https://heightmap.skydark.pl/ Real world maps in "Cities: Skylines"
 => https://www.models-resource.com/ Models Resource
 => https://oldgamesdownload.com/ Old Games Download
@@ -25,10 +24,24 @@ DnD:
 => https://www.reddit.com/r/rpg/wiki/solo/ r/rpg Solo Play
 => https://roll20.net/compendium/dnd5e/Ability%20Scores#content DnD Abilities
 
+Personal websites:
+
+=> https://prismatic.pink Prismatic Pink
+=> https://foollovers.com/index.html Fool Lovers
+=> https://pixelsafari.neocities.org/buttons/ Pixel Safari
+
+Digital experiences:
+
+=> https://ncase.me/trust/ "Evolution of Trust" by Nicky Case
+=> https://www.complexity-explorables.org/ Complexity Explorables
+
 Other stuff:
 
 => http://similarminds.com/ Similar Minds
 => https://wiby.me/ Wiby
 => https://farbecolore.com/ ファルベコローレ
 => https://cinni.net/ Cloud Hiker
+=> https://photogradient.com Photo Gradient
+=> https://portal.mozz.us Gemini to HTTP proxy
+=> https://listography.com/ishiikurisu My personal Listography
 

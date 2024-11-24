@@ -11,7 +11,7 @@
   "language" : "pt-br",
   "path" : "as.html",
   "creation_date" : "2019-06-13T19:26:56.000Z",
-  "last_updated_date" : "2019-09-25T21:41:13.000Z"
+  "last_updated_date" : "2019-06-13T19:41:36.000Z"
 }, {
   "title" : "Básico de Ciência de Dados",
   "description" : "Algumas ferramentas iniciais para trabalhar com ciência de dados",
@@ -221,7 +221,7 @@
   "language" : "pt-br",
   "path" : "useful-links.gmi",
   "creation_date" : "2019-06-13T20:38:21.000Z",
-  "last_updated_date" : "2024-11-20T20:18:15.000Z"
+  "last_updated_date" : "2024-11-24T16:02:35.000Z"
 }, {
   "title" : "Referências para estudos de idiomas",
   "description" : "Willst du Deutsch lernen? 日本語を勉強する欲しいですか。",
@@ -242,14 +242,14 @@
   "language" : "jp",
   "path" : "nihongo-2020-2.md",
   "creation_date" : "2020-09-06T13:48:07.000Z",
-  "last_updated_date" : "2021-02-22T11:17:12.000Z"
+  "last_updated_date" : "2020-11-22T13:34:17.000Z"
 }, {
-  "title" : "Links nāo tão úteis",
-  "description" : "Useful sites to waste time",
+  "title" : "Interesting Links",
+  "description" : "Websites to have a good time",
   "language" : "en",
   "path" : "not-so-useful-links.gmi",
   "creation_date" : "2019-09-15T10:40:53.000Z",
-  "last_updated_date" : "2024-11-17T15:17:58.000Z"
+  "last_updated_date" : "2024-11-24T16:02:35.000Z"
 }, {
   "title" : "Meus dias em Tóquio",
   "description" : "Best days of my life so far",
@@ -272,7 +272,7 @@
   "last_updated_date" : "2024-03-30T11:19:40.000Z"
 }, {
   "title" : "IFIEのホームステイ",
-  "description" : "Programa de intercambio em Kanazawa",
+  "description" : "Programa de intercâmbio em Kanazawa",
   "language" : "pt-br",
   "path" : "ifie-presentation.gmi",
   "creation_date" : "2020-11-26T23:16:38.000Z",
