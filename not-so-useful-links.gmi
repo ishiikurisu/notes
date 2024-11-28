@@ -15,6 +15,7 @@ Cartography and Vexillology:
 => https://fotw.info/ Flags of the World
 => https://thetruesize.com/ The true size of...
 => https://www.jasondavies.com/ Jason Davies's website
+=> https://www.oneearth.org/navigator/ On Earth's ecoregions map
 
 DnD:
 
@@ -29,11 +30,16 @@ Personal websites:
 => https://prismatic.pink Prismatic Pink
 => https://foollovers.com/index.html Fool Lovers
 => https://pixelsafari.neocities.org/buttons/ Pixel Safari
+=> https://akafael.github.io/ Rafael Lima's website
+=> https://viznut.fi Viznut's website
+=> https://wiki.xxiivv.com/site/home.html Devine Du Linvega's personal wiki
+=> https://taylor.town/ Taylor's Town
 
 Digital experiences:
 
 => https://ncase.me/trust/ "Evolution of Trust" by Nicky Case
-=> https://www.complexity-explorables.org/ Complexity Explorables
+=> https://www.complexity-explorables.org/ Complexity explorables
+=> https://ciechanow.ski/mechanical-watch/ Mechanical watch
 
 Other stuff:
 
