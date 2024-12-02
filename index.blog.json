@@ -20,6 +20,13 @@
   "creation_date" : "2019-06-14T18:17:10.000Z",
   "last_updated_date" : "2019-10-05T09:52:55.000Z"
 }, {
+  "title" : "Fractais de Tempo de Fuga",
+  "description" : "Um algoritmo para gerar fractais",
+  "language" : "pt-br",
+  "path" : "escape-time_fractals.md",
+  "creation_date" : "2024-10-28T14:55:47.000Z",
+  "last_updated_date" : "2024-10-28T14:55:47.000Z"
+}, {
   "title" : "Jardins Digitais",
   "description" : "Uma maneira diferente de compreender e organizar informações em um site",
   "language" : "pt-br",
