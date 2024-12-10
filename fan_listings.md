@@ -16,6 +16,7 @@
 ![Gameboy](./web_graphics/gb.png)
 ![Gameboy Color](./web_graphics/gbc.png)
 ![Nintendo Switch](./web_graphics/switch88x31.png)
+![Ghost Type Club](./web_graphics/ghost_type_club.gif)
 [![Punchy](./web_graphics/ac_punchy.png)](https://pixelsafari.neocities.org/buttons/)
 ![NFT](./web_graphics/nft.gif)
 ![Firefox](./web_graphics/firefox.gif)

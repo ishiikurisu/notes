@@ -11,7 +11,7 @@
   "language" : "pt-br",
   "path" : "as.html",
   "creation_date" : "2019-06-13T19:26:56.000Z",
-  "last_updated_date" : "2019-09-25T21:41:13.000Z"
+  "last_updated_date" : "2019-06-13T19:41:36.000Z"
 }, {
   "title" : "Básico de Ciência de Dados",
   "description" : "Algumas ferramentas iniciais para trabalhar com ciência de dados",
@@ -249,7 +249,7 @@
   "language" : "jp",
   "path" : "nihongo-2020-2.md",
   "creation_date" : "2020-09-06T13:48:07.000Z",
-  "last_updated_date" : "2021-02-22T11:17:12.000Z"
+  "last_updated_date" : "2020-11-22T13:34:17.000Z"
 }, {
   "title" : "Interesting Links",
   "description" : "Websites to have a good time",
@@ -297,5 +297,5 @@
   "language" : "en",
   "path" : "fan_listings.md",
   "creation_date" : "2024-11-03T14:05:58.000Z",
-  "last_updated_date" : "2024-12-08T16:45:37.000Z"
+  "last_updated_date" : "2024-12-10T10:52:57.000Z"
 } ]
