@@ -61,6 +61,8 @@ Please check [thefanlistings.org](https://thefanlistings.org/tfl101.php) for mor
 ## Web Stamps
 
 ![Twilight as a GIF](./web_graphics/twilight.gif)
+[![Reefblower as a GIF](./web_graphics/reefblower.gif)](https://alysrealm.neocities.org/graphic-hoard)
+[![Louis Wain](./web_graphics/louis_wain.png)](https://alysrealm.neocities.org/graphic-hoard)
 ![Nyan Cat](./web_graphics/nyancat.gif)
 ![Don't Hug Me I'm Scared](./web_graphics/dhis.gif)
 ![Homestuck](./web_graphics/homestuck.gif)
