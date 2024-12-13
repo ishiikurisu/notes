@@ -29,14 +29,15 @@
 </p>
 
 <p>
-    `z_(n + 1) = z_(n) ^ 2`
+    `z_(n + 1) = z_(n) ^ 2 + c`
 </p>
 
 <p>
-    Para cada ponto no plano imaginário, aplicamos repetidamente a função acima.
-    Caso as chamadas fujam (neste caso, caso `|z| > 2`), então o ponto não
-    faz parte do conjunto. Os pontos que formam o conjunto de Mandelbrot
-    formam o chamado fractal de Mandelbrot:
+    Para cada ponto `c` no plano imaginário, aplicamos repetidamente a
+    função acima. Caso as chamadas fujam (neste caso, caso `|z| > 2`),
+    então o ponto não faz parte do conjunto. Os pontos que formam o
+    conjunto de Mandelbrot formam o chamado fractal de Mandelbrot,
+    marcados em preto na imagem a seguir:
 </p>
 
 <img src="./web_graphics/fractals/mandelbrot.png"/>
@@ -98,7 +99,9 @@
 
 <p>
     Outra propriedade é que fractais que são gerados por pontos próximos uns
-    aos outros costumam ser parecidos mas nunca iguais.
+    aos outros costumam ser parecidos mas nunca iguais. O exemplo a seguir
+    contém vários fractais gerados ao redor de um círculo de raio `0.2`
+    ao redor do ponto `-0.2 + 0.6i`:
 </p>
 
 <img src="./web_graphics/fractals/julia.gif" />
@@ -107,9 +110,9 @@
 
 <p>
     Existem outras fórmulas que podem ser usadas de maneiras similares ao
-    conjunto de Mandelbrot. Uma delas é para o chamado &quot;fractal do navio
-    queimando&quot; (<em>burning ship fractal</em> em inglês), assim nomeado por conta da
-    sua aparência:
+    conjunto de Mandelbrot. Uma delas é para o chamado &quot;fractal do
+    navio em chamas &quot; (<em>burning ship fractal</em> em inglês),
+    assim nomeado por conta da sua aparência:
 </p>
 
 <img src="./web_graphics/fractals/burning_ship.png"/>
