@@ -1,0 +1,37 @@
+# Named Pipes
+
+..., also known as FIFOs, are an operating system mechanism to allow
+multiple processes to communicate with each other when they don't have a
+parent-child relationship. They are present in Linux, MacOS and Windows and
+can be treated as special file that can be read from or written to as any
+other.
+
+In Linux, to create a named pipe:
+
+``` sh
+mkfifo fifo_name
+```
+
+Where `fifo_name` is the name of your pipe. Then an application `app` can
+read from it as if it were a regular file. In this case, it is usual to use
+`tail`.
+
+As such, while starting our `app` in the background:
+
+``` sh
+tail -f fifo_name | app &
+```
+
+It is possible to send data to it from another process. For example:
+
+``` sh
+echo "hi!" > fifo_name
+```
+
+After killing the app as required, it is always a good idea to delete the
+named pipe since they use operating system resources:
+
+``` sh
+rm fifo_name
+```
+
