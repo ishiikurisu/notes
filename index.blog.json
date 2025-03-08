@@ -251,33 +251,12 @@
   "creation_date" : "2019-06-13T20:41:36.000Z",
   "last_updated_date" : "2024-11-20T10:59:16.000Z"
 }, {
-  "title" : "日本語の基本的な語彙",
-  "description" : "日本語学生に",
-  "language" : "jp",
-  "path" : "言葉.csv",
-  "creation_date" : "2020-06-09T22:30:08.000Z",
-  "last_updated_date" : "2020-06-09T22:30:08.000Z"
-}, {
-  "title" : "日本語学校の2020年の後期のノート",
-  "description" : "日本語学生に",
-  "language" : "jp",
-  "path" : "nihongo-2020-2.md",
-  "creation_date" : "2020-09-06T13:48:07.000Z",
-  "last_updated_date" : "2021-02-22T11:17:12.000Z"
-}, {
   "title" : "Interesting Links",
   "description" : "Websites to have a good time",
   "language" : "en",
   "path" : "not-so-useful-links.gmi",
   "creation_date" : "2019-09-15T10:40:53.000Z",
   "last_updated_date" : "2025-02-19T22:22:47.000Z"
-}, {
-  "title" : "Meus dias em Tóquio",
-  "description" : "Best days of my life so far",
-  "language" : "pt-br",
-  "path" : "tokyo-days.md",
-  "creation_date" : "2019-12-09T08:44:33.000Z",
-  "last_updated_date" : "2020-01-18T13:21:36.000Z"
 }, {
   "title" : "World Building Game",
   "description" : "Create your own world while playing this game",
@@ -291,13 +270,6 @@
   "path" : "eurasian_road_trip.md",
   "creation_date" : "2024-03-30T11:10:42.000Z",
   "last_updated_date" : "2024-03-30T11:19:40.000Z"
-}, {
-  "title" : "IFIEのホームステイ",
-  "description" : "Programa de intercâmbio em Kanazawa",
-  "language" : "pt-br",
-  "path" : "ifie-presentation.gmi",
-  "creation_date" : "2020-11-26T23:16:38.000Z",
-  "last_updated_date" : "2022-02-24T20:55:03.000Z"
 }, {
   "title" : "Lifestyle Design",
   "description" : "Some thoughts on how to live life",
