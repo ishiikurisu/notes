@@ -20,6 +20,13 @@
   "creation_date" : "2019-06-14T18:17:10.000Z",
   "last_updated_date" : "2019-10-05T09:52:55.000Z"
 }, {
+  "title" : "Standard Makefile",
+  "description" : "Proposal of a single makefile format for all project",
+  "language" : "en",
+  "path" : "standard_makefile.gmi",
+  "creation_date" : "2025-04-09T21:37:14.000Z",
+  "last_updated_date" : "2025-04-09T21:37:14.000Z"
+}, {
   "title" : "Fractais de Tempo de Fuga",
   "description" : "Um algoritmo para gerar fractais",
   "language" : "pt-br",
@@ -256,7 +263,7 @@
   "language" : "en",
   "path" : "not-so-useful-links.gmi",
   "creation_date" : "2019-09-15T10:40:53.000Z",
-  "last_updated_date" : "2025-03-20T22:22:47.000Z"
+  "last_updated_date" : "2025-03-20T22:18:59.000Z"
 }, {
   "title" : "World Building Game",
   "description" : "Create your own world while playing this game",
