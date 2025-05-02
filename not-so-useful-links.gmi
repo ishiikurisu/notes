@@ -50,6 +50,7 @@ Digital experiences:
 => https://www.webdesignmuseum.org/ Web Design Museum
 => https://cutfoldtemplates.com/index.html Cut / Fold Templates
 => https://rotatingsandwiches.com/ Rotating Sandwiches
+=> https://makefrontendshitagain.party/ Make Frontend Shit Again
 
 Other stuff:
 
