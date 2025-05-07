@@ -90,3 +90,5 @@ Please check [thefanlistings.org](https://thefanlistings.org/tfl101.php) for mor
 
 [![Kopimi](./web_graphics/kopimi.gif)](https://kopimi.com/)
 
+![This user loves Mimikkyu](./web_graphics/user_loves_mimikkyu.jpg)
+
