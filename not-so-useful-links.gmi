@@ -62,4 +62,5 @@ Other stuff:
 => https://photogradient.com Photo Gradient
 => https://portal.mozz.us Gemini to HTTP proxy
 => https://listography.com/ishiikurisu My personal Listography
+=> https://old-search.marginalia.nu/ Marginalia
 
