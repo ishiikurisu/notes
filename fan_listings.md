@@ -82,6 +82,7 @@ Please check [thefanlistings.org](https://thefanlistings.org/tfl101.php) for mor
 [![Tubbs](./web_graphics/nekoatsumetubbs.png)](https://verdemusgo.neocities.org/mimos#stamps)
 ![You are not immune to propaganda](./web_graphics/garfpropa.png)
 [![Linux](./web_graphics/linux.png)](https://www.tumblr.com/metallicagraphics)
+[![Mint Chocolate](./web_graphics/mint_chocolate.gif)](https://www.deviantart.com/poserfan/art/Mint-Chocolate-Stamp-131618508)
 
 
 ## Pixel Art
