@@ -21,6 +21,13 @@
   "creation_date" : "2019-06-14T18:17:10.000Z",
   "last_updated_date" : "2019-10-05T09:52:55.000Z"
 }, {
+  "title" : "Types of headache",
+  "description" : "List of types of headache, common causes, and possible solutions",
+  "path" : "types_of_headache.md",
+  "language" : "en",
+  "creation_date" : "2025-05-24T23:25:45.000Z",
+  "last_updated_date" : "2025-05-24T23:25:45.000Z"
+}, {
   "title" : "Standard Makefile",
   "description" : "Proposal of a single makefile format for all project",
   "language" : "en",
