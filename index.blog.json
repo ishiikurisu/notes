@@ -5,7 +5,7 @@
   "path" : "lmc.html",
   "creation_date" : "2019-06-13T19:26:56.000Z",
   "last_updated_date" : "2020-06-09T11:38:33.000Z",
-  "original_date": "2018-12-17T15:00:00.000Z"
+  "original_date" : "2018-12-17T15:00:00.000Z"
 }, {
   "title" : "[WIP] Análise de Sinais",
   "description" : "Séries e Transformada de Fourier",
@@ -179,8 +179,8 @@
   "description" : "Anotações da Gophercon Brasil 2019",
   "language" : "pt-br",
   "path" : "gopherconbr2019.md",
-  "creation_date" : "2019-11-30T17:56:08.000Z"
-  "original_date" : "2019-11-30T17:56:08.000Z"
+  "creation_date" : "2019-11-30T17:56:08.000Z",
+  "last_updated_date" : "2020-07-13T15:29:57.000Z"
 }, {
   "title" : "Princípios de Gamification",
   "description" : "As ideias que tornam jogos tão atraentes",
@@ -195,7 +195,7 @@
   "path" : "fly-lady.md",
   "creation_date" : "2019-12-01T10:20:19.000Z",
   "last_updated_date" : "2019-12-01T10:41:50.000Z",
-  "original_date": "2019-08-27T15:00:00.000Z"
+  "original_date" : "2019-08-27T15:00:00.000Z"
 }, {
   "title" : "Checklist para casa",
   "description" : "Indo morar sozinho pela primeira vez? Veja se tem tudo que precisa para não passar aperto",
@@ -203,7 +203,7 @@
   "path" : "home-stuff.gmi",
   "creation_date" : "2019-12-01T10:20:19.000Z",
   "last_updated_date" : "2024-04-07T18:49:47.000Z",
-  "original_date": "2019-06-20T16:00:00.000Z"
+  "original_date" : "2019-06-20T16:00:00.000Z"
 }, {
   "title" : "Checklist para viagem",
   "description" : "Para não deixar nada para trás e curtir as férias ao máximo",
@@ -211,7 +211,7 @@
   "path" : "travel-stuff.gmi",
   "creation_date" : "2019-12-01T10:20:19.000Z",
   "last_updated_date" : "2023-06-05T15:04:33.000Z",
-  "original_date": "2019-06-20T15:00:00.000Z"
+  "original_date" : "2019-06-20T15:00:00.000Z"
 }, {
   "title" : "Backpack EDC",
   "description" : "EDC for outdoor trips",
@@ -294,5 +294,5 @@
   "language" : "en",
   "path" : "fan_listings.md",
   "creation_date" : "2024-11-03T14:05:58.000Z",
-  "last_updated_date" : "2025-05-10T22:47:58.000Z"
+  "last_updated_date" : "2025-05-24T20:53:48.000Z"
 } ]
