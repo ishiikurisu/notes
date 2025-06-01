@@ -7,6 +7,7 @@ desejados e informações sobre eles.
 Alguns dos mapas personalizados que eu criei desta maneira podem ser encontrados
 no [meu repositório pessoal](https://www.crisjr.eng.br/maps/).
 
+
 Além da condição inicial do mapa,
 dois tipos de customizações podem ser feitas: "alfinetes" (_pins_) e
 "locais" (_places_).
@@ -85,3 +86,15 @@ Existem dois parâmetros que podem ser usados para definir locais:
   - Recebe um objeto JSON descrevendo a lista de locais
 - `placesurl`
   - Recebe uma URL contendo um objeto JSON assim como `places`
+
+## Suporte a GeoJSON
+
+Por meio do parâmetro `mapdataurl`, é possível enviar dados no formato
+[GeoJSON](https://geojson.org/) para o mapa. Porém, para o mapa desenhar os
+locais da maneira correta, alguns metadados precisam ser definidos:
+
+- Pelo menos um ponto indicando o centro deve ser incluído;
+- Os alfinetes devem ser incluídos como um campo separado dentro de
+  `metadata`;
+
+
