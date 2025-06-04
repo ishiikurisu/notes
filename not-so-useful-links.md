@@ -38,6 +38,8 @@ Personal websites:
 * [Taylor's Town](https://taylor.town/)
 * [Cheapskate's Guide](https://cheapskatesguide.org)
 * [DataPacRat](https://www.datapacrat.com/)
+* [Rambles.NET](https://www.rambles.net/)
+* [Android Arts: Arne's webpage](https://androidarts.com/)
 
 Digital experiences:
 

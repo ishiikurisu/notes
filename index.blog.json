@@ -33,7 +33,7 @@
   "language" : "en",
   "path" : "standard_makefile.md",
   "creation_date" : "2025-06-03T10:58:06.000Z",
-  "last_updated_date" : "2025-06-03T10:58:06.000Z",
+  "last_updated_date" : "2025-06-04T11:27:17.000Z",
   "original_date" : "2025-04-09T21:37:14.000Z"
 }, {
   "title" : "Fractais de Tempo de Fuga",
@@ -48,7 +48,7 @@
   "language" : "en",
   "path" : "parallel_linux.md",
   "creation_date" : "2025-06-03T10:58:06.000Z",
-  "last_updated_date" : "2025-06-03T10:58:06.000Z",
+  "last_updated_date" : "2025-06-04T11:27:17.000Z",
   "original_date" : "2025-02-03T18:04:56.000Z"
 }, {
   "title" : "Named pipes",
@@ -56,7 +56,7 @@
   "language" : "en",
   "path" : "named_pipes.md",
   "creation_date" : "2025-06-03T10:58:06.000Z",
-  "last_updated_date" : "2025-06-03T10:58:06.000Z",
+  "last_updated_date" : "2025-06-04T11:27:17.000Z",
   "original_date" : "2024-12-26T17:18:58.000Z"
 }, {
   "title" : "Jardins Digitais",
@@ -64,7 +64,7 @@
   "language" : "pt-br",
   "path" : "digital_garden.pt.md",
   "creation_date" : "2025-06-03T10:58:06.000Z",
-  "last_updated_date" : "2025-06-03T10:58:06.000Z",
+  "last_updated_date" : "2025-06-04T11:27:17.000Z",
   "original_date" : "2024-10-28T14:55:47.000Z"
 }, {
   "title" : "Play Personality",
@@ -86,7 +86,7 @@
   "language" : "en",
   "path" : "cult_of_done.md",
   "creation_date" : "2025-06-03T10:58:06.000Z",
-  "last_updated_date" : "2025-06-03T10:58:06.000Z",
+  "last_updated_date" : "2025-06-04T11:27:17.000Z",
   "original_date" : "2023-09-21T08:13:37.000Z"
 }, {
   "title" : "Temas Anuais",
@@ -94,7 +94,7 @@
   "language" : "pt-br",
   "path" : "yearly_themes.md",
   "creation_date" : "2025-06-03T10:58:06.000Z",
-  "last_updated_date" : "2025-06-03T10:58:06.000Z",
+  "last_updated_date" : "2025-06-04T11:27:17.000Z",
   "original_date" : "2023-08-28T09:34:07.000Z"
 }, {
   "title" : "Buen Vivir",
@@ -102,7 +102,7 @@
   "language" : "en",
   "path" : "buen_vivir.md",
   "creation_date" : "2025-06-03T10:58:06.000Z",
-  "last_updated_date" : "2025-06-03T10:58:06.000Z",
+  "last_updated_date" : "2025-06-04T11:27:17.000Z",
   "original_date" : "2023-08-23T10:09:19.000Z"
 }, {
   "title" : "Permacomputação",
@@ -110,7 +110,7 @@
   "language" : "pt-br",
   "path" : "permacomputing.md",
   "creation_date" : "2025-06-03T10:58:06.000Z",
-  "last_updated_date" : "2025-06-03T10:58:06.000Z",
+  "last_updated_date" : "2025-06-04T11:27:17.000Z",
   "original_date" : "2022-12-08T17:09:36.000Z"
 }, {
   "title" : "Guia de Uso do Mapa",
@@ -132,7 +132,7 @@
   "language" : "pt-br",
   "path" : "dokkodo.md",
   "creation_date" : "2025-06-03T10:58:06.000Z",
-  "last_updated_date" : "2025-06-03T10:58:06.000Z",
+  "last_updated_date" : "2025-06-04T11:27:17.000Z",
   "original_date" : "2022-03-30T11:43:54.000Z"
 }, {
   "title" : "Key Performance Indicators",
@@ -147,7 +147,7 @@
   "language" : "en",
   "path" : "how_to_have_a_personality.md",
   "creation_date" : "2025-06-03T10:58:06.000Z",
-  "last_updated_date" : "2025-06-03T10:58:06.000Z",
+  "last_updated_date" : "2025-06-04T11:27:17.000Z",
   "original_date" : "2022-03-06T11:02:51.000Z"
 }, {
   "title" : "Dicas para entrevistas de emprego",
@@ -155,7 +155,7 @@
   "language" : "pt-br",
   "path" : "code_interview.md",
   "creation_date" : "2022-02-04T17:29:19.000Z",
-  "last_updated_date" : "2025-06-03T10:58:06.000Z",
+  "last_updated_date" : "2025-06-04T11:27:17.000Z",
   "original_date" : "2022-02-04T17:29:19.000Z"
 }, {
   "title" : "Scrum Master Tooling",
@@ -163,7 +163,7 @@
   "language" : "en",
   "path" : "scrum_master_tooling.md",
   "creation_date" : "2021-11-03T12:51:51.000Z",
-  "last_updated_date" : "2025-06-03T10:58:06.000Z",
+  "last_updated_date" : "2025-06-04T11:27:17.000Z",
   "original_date" : "2021-11-03T12:51:51.000Z"
 }, {
   "title" : "10 Level Design Principles",
@@ -178,7 +178,7 @@
   "language" : "en",
   "path" : "programming-pillars.md",
   "creation_date" : "2020-07-28T17:40:13.000Z",
-  "last_updated_date" : "2025-06-03T10:58:06.000Z",
+  "last_updated_date" : "2025-06-04T11:27:17.000Z",
   "original_date" : "2020-07-28T17:40:13.000Z"
 }, {
   "title" : "12 Properties of Good Tests",
@@ -207,7 +207,7 @@
   "language" : "pt-br",
   "path" : "gamification.md",
   "creation_date" : "2020-06-09T14:22:21.000Z",
-  "last_updated_date" : "2025-06-03T10:58:06.000Z",
+  "last_updated_date" : "2025-06-04T11:27:17.000Z",
   "original_date" : "2020-06-09T14:22:21.000Z"
 }, {
   "title" : "Fly Lady",
@@ -223,7 +223,7 @@
   "language" : "pt-br",
   "path" : "home-stuff.md",
   "creation_date" : "2019-12-01T10:20:19.000Z",
-  "last_updated_date" : "2025-06-03T10:58:06.000Z",
+  "last_updated_date" : "2025-06-04T11:27:17.000Z",
   "original_date" : "2019-06-20T16:00:00.000Z"
 }, {
   "title" : "Checklist para viagem",
@@ -231,7 +231,7 @@
   "language" : "pt-br",
   "path" : "travel-stuff.md",
   "creation_date" : "2019-12-01T10:20:19.000Z",
-  "last_updated_date" : "2025-06-03T10:58:06.000Z",
+  "last_updated_date" : "2025-06-04T11:27:17.000Z",
   "original_date" : "2019-06-20T15:00:00.000Z"
 }, {
   "title" : "Backpack EDC",
@@ -239,7 +239,7 @@
   "language" : "en",
   "path" : "backpack_edc.md",
   "creation_date" : "2021-12-02T10:55:49.000Z",
-  "last_updated_date" : "2025-06-03T10:58:06.000Z",
+  "last_updated_date" : "2025-06-04T11:27:17.000Z",
   "original_date" : "2021-12-02T10:55:49.000Z"
 }, {
   "title" : "Apresentaçāo de sucesso",
@@ -254,7 +254,7 @@
   "language" : "pt-br",
   "path" : "best_musician.md",
   "creation_date" : "2020-10-01T11:33:01.000Z",
-  "last_updated_date" : "2025-06-03T10:58:06.000Z",
+  "last_updated_date" : "2025-06-04T11:27:17.000Z",
   "original_date" : "2020-10-01T11:33:01.000Z"
 }, {
   "title" : "Revisão Semanal",
@@ -262,7 +262,7 @@
   "language" : "pt-br",
   "path" : "weekly_review.md",
   "creation_date" : "2019-06-16T10:57:29.000Z",
-  "last_updated_date" : "2025-06-03T10:58:06.000Z",
+  "last_updated_date" : "2025-06-04T11:27:17.000Z",
   "original_date" : "2019-06-16T10:57:29.000Z"
 }, {
   "title" : "PROMETHEE",
@@ -277,7 +277,7 @@
   "language" : "pt-br",
   "path" : "useful-links.md",
   "creation_date" : "2019-06-13T20:38:21.000Z",
-  "last_updated_date" : "2025-06-03T10:58:06.000Z",
+  "last_updated_date" : "2025-06-04T11:27:17.000Z",
   "original_date" : "2019-06-13T20:38:21.000Z"
 }, {
   "title" : "Referências para estudos de idiomas",
@@ -285,7 +285,7 @@
   "language" : "pt-br",
   "path" : "lang-ref.md",
   "creation_date" : "2019-06-13T20:41:36.000Z",
-  "last_updated_date" : "2025-06-03T10:58:06.000Z",
+  "last_updated_date" : "2025-06-04T11:27:17.000Z",
   "original_date" : "2019-06-13T20:41:36.000Z"
 }, {
   "title" : "Interesting Links",
@@ -293,7 +293,7 @@
   "language" : "en",
   "path" : "not-so-useful-links.md",
   "creation_date" : "2019-09-15T10:40:53.000Z",
-  "last_updated_date" : "2025-06-03T10:58:06.000Z",
+  "last_updated_date" : "2025-06-04T11:28:35.000Z",
   "original_date" : "2019-09-15T10:40:53.000Z"
 }, {
   "title" : "World Building Game",
