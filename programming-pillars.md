@@ -43,3 +43,4 @@ Assim, vai saber o que deve ser prioridade e o que é importante.
 ## Use as ferramentas certas
 
 Toda ferramenta é um martelo se você tentar, mas lembre-se que há martelos melhores que outros.
+

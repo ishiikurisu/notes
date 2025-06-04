@@ -1,12 +1,12 @@
 # Cult of Done
 
-=> https://medium.com/@bre/the-cult-of-done-manifesto-724ca1c2ff13 Original manifesto
+* [Original manifesto](https://medium.com/@bre/the-cult-of-done-manifesto-724ca1c2ff13)
 
 Dear Members of the Cult of Done,
 
 I present to you a manifesto of done. This was written in collaboration with Kio Stark in 20 minutes because we only had 20 minutes to get it done.
 
-=> http://www.kiostark.com/ Kio Stark's website
+* [Kio Stark's website](http://www.kiostark.com/)
 
 # The Cult of Done Manifesto
 

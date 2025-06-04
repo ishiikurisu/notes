@@ -8,9 +8,9 @@ In Unix compatible systems, the following command is used to create a named pipe
 mkfifo fifo_name
 ```
 
-Where "fifo_name" is the name of your pipe. Then an application "app" can read from it as if it were a regular file. In this case, it is usual to use "tail".
+Where `fifo_name` is the name of your pipe. Then an application `app` can read from it as if it were a regular file. In this case, it is usual to use `tail`.
 
-As such, while starting our "app" in the background:
+As such, while starting our `app` in the background:
 
 ```
 tail -f fifo_name | app &
@@ -30,5 +30,5 @@ rm fifo_name
 
 ## References
 
-=> https://man7.org/linux/man-pages/man7/fifo.7.html fifo manual page
+* [fifo manual page](https://man7.org/linux/man-pages/man7/fifo.7.html)
 

@@ -18,6 +18,8 @@
 - Dry bag (for electronics, drones, charging kits)
 
 Tips:
+
 - Use 2 pairs of socks to prevent blisters
 - Plan for 3 day cycles (food, clothing)
 - No surplus
+

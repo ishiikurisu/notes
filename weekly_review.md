@@ -1,12 +1,12 @@
 # Revisão Semanal
 
-Clarificar
+## Clarificar
 
 * Coletar papéis perdidos e materiais
 * Esvaziar caixa de entrada
 * Limpar sua mente
 
-Atualizar
+## Atualizar
 
 * Risque os itens concluídos
 * Procurar por lembretes de ações futuras
@@ -16,8 +16,9 @@ Atualizar
 * Revisar lista de projetos e resultados maiores
 * Revisar quaisquer checklists relevantes
 
-Seja criativo
+## Seja criativo
 
 * Revisar a lista "algum dia/talvez"
 * Apagar itens que não são mais relevantes
 * Ser criativo e corajoso
+

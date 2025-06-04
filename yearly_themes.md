@@ -3,6 +3,7 @@
 Sugestão: em vez de fazer resoluções de ano novo que não serão seguidas nunca, que tal escolher um tema para o ano?
 
 Como funciona?
+
 * Escolha um tema e o deixe guiar as decisões que tomará ao longo do ano
 * Não precisa durar exatamente um ano, pode ser o período de tempo que for necessário
 * A ideia é deixar o tema fazer parte da grande narrativa da vida
@@ -12,6 +13,7 @@ Como funciona?
 * Pode começar em qualquer momento da vida, não necessariamente somente quando o ano muda
 
 Ideias de temas:
+
 * ano da saúde
 * ano da felicidade
 * ano da expressão

@@ -1,6 +1,6 @@
 # Running commands in parallel in the Unix command line
 
-When using the Unix command line, it is possible to run a command in the background by indicating it with an ampersand "&" as such:
+When using the Unix command line, it is possible to run a command in the background by indicating it with an ampersand `&` as such:
 
 ```
 command_1 &
@@ -14,7 +14,7 @@ command_2 &
 command_3 &
 ```
 
-To wait for their completion, the built-in instruction "wait" can be used:
+To wait for their completion, the built-in instruction `wait` can be used:
 
 ```
 command_1 &
@@ -24,9 +24,7 @@ wait
 
 This will block the terminal until all processes in the background are complete.
 
-For more complex usages, it might be possible to use GNU Parallel.
-
-=> https://www.gnu.org/software/parallel/ GNU Parallel
+For more complex usages, it might be possible to use [GNU Parallel](https://www.gnu.org/software/parallel/).
 
 For example:
 

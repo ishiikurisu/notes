@@ -6,7 +6,7 @@ Essa é uma ideia muito poderosa pois dizer que algo é permanente é praticamen
 
 O grande desafio em fazer isso acontecer é que este sistema deve ser *sustentável*, ou seja:
 
-* ele deve ter todas as condições para se manter sozinho; 
+* ele deve ter todas as condições para se manter sozinho;
 * ele deve suportar diferenças no seu ambiente de forma flexível sem prejudicar sua capacidade de produção; e
 * deve fazer tudo isso sem consumir mais do que é capaz de produzir;
 
@@ -38,8 +38,8 @@ Por mais absurdas que ideias assim sejam, elas podem a única chance que teremos
 
 Se esta ideia lhe interessou, seguem alguns links que tratam deste assunto de uma forma mais profunda (todos em inglês):
 
-=> http://viznut.fi/texts-en/permacomputing.html Primeira introdução à ideia
-=> https://permacomputing.net/ Permacomputing Wiki
-=> https://wiki.xxiivv.com/site/permacomputing.html Introdução à permacomputação por Devine Lu Linvega
-=> https://compudanzas.net/permacomputing.html Compudanzas sobre permacomputação
+* [Primeira introdução à ideia](http://viznut.fi/texts-en/permacomputing.html)
+* [Permacomputing Wiki](https://permacomputing.net/)
+* [Introdução à permacomputação por Devine Lu Linvega](https://wiki.xxiivv.com/site/permacomputing.html)
+* [Compudanzas sobre permacomputação](https://compudanzas.net/permacomputing.html)
 
