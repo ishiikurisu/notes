@@ -95,3 +95,4 @@ Please check [thefanlistings.org](https://thefanlistings.org/tfl101.php) for mor
 ![This user loves Mimikkyu](./web_graphics/user_loves_mimikkyu.jpg)
 
 [![ひゃくまんさん](./web_graphics/hyakumansan.png)](https://hyakumansan.jp/)
+[![Privacy please](./web_graphics/privacy-please-badge-new.svg)](https://www.startpage.com/)
