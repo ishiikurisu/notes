@@ -55,6 +55,7 @@ Digital experiences:
 * [Cut / Fold Templates](https://cutfoldtemplates.com/index.html)
 * [Rotating Sandwiches](https://rotatingsandwiches.com/)
 * [Make Frontend Shit Again](https://makefrontendshitagain.party/)
+* [このファイルは存在しません](https://404errornotfound.web.fc2.com/home.html)
 
 Other stuff:
 
