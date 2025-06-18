@@ -11,6 +11,7 @@
 
 ![Pirate AAA](./web_graphics/pirate_aaa.gif)
 [![Petscop](./web_graphics/petscop.gif)](https://pixelsafari.neocities.org/buttons/)
+[![petscop forensics](./web_graphics/pscf.gif)](https://petscop-forensics.neocities.org/)
 ![Sburb](./web_graphics/sburb.gif)
 ![Deltarune](./web_graphics/deltarune.gif)
 ![Gameboy](./web_graphics/gb.png)
