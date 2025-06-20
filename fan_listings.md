@@ -27,6 +27,7 @@
 [![Tumblr](./web_graphics/tumblr.gif)](https://pixelsafari.neocities.org/buttons/)
 [![Internet Archive](./web_graphics/internet_archive.jpg)](https://web.archive.org/)
 [![Irish Artist Shops](./web_graphics/irish_artist_shops.png)](https://irishartistshops.carrd.co/)
+[![Plastic Love](./web_graphics/plasticlove.gif)](https://pixelmoondust.neocities.org/)
 
 ## Fan Listings
 
