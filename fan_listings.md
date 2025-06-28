@@ -90,6 +90,8 @@ Please check [thefanlistings.org](https://thefanlistings.org/tfl101.php) for mor
 
 ## Pixel Art
 
+[![I married my best friend](./web_graphics/bestfriend.gif)](https://boypussy.neocities.org/)
+
 ![Aquarium](./web_graphics/aquarium.gif)
 
 [![Kopimi](./web_graphics/kopimi.gif)](https://kopimi.com/)
