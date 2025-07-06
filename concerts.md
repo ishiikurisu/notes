@@ -26,4 +26,5 @@
 * Boris & Merzbow (東京, 2023-07-19)
 * ~~AC/DC (Dublin, 2024-08-17)~~
 * Pantera + Power Trip + King Parrot (Dublin, 2025-02-21)
+* Lucy Dacus + Jasmine 4T (Dublin, 2025-07-03)
 
