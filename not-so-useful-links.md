@@ -40,6 +40,8 @@ Personal websites:
 * [DataPacRat](https://www.datapacrat.com/)
 * [Rambles.NET](https://www.rambles.net/)
 * [Android Arts: Arne's webpage](https://androidarts.com/)
+* [アルフの部屋](https://alf-s-room.com/)
+* [アオキさんのサイト](http://aoki2.si.gunma-u.ac.jp/)
 
 Digital experiences:
 
