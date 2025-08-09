@@ -42,6 +42,7 @@ Personal websites:
 * [Android Arts: Arne's webpage](https://androidarts.com/)
 * [アルフの部屋](https://alf-s-room.com/)
 * [アオキさんのサイト](http://aoki2.si.gunma-u.ac.jp/)
+* [Hügelton Instruments](https://hugelton.com/)
 
 Digital experiences:
 
