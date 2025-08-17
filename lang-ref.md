@@ -16,6 +16,7 @@
 * [Jisho](https://jisho.org)
 * [IMABI](https://www.imabi.net)
 * [Estar](https://estar.jp)
+* [コトバンク](https://kotobank.jp/)
 
 ## Esperanto & Toki Pona
 
