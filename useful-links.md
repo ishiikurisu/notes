@@ -1,6 +1,6 @@
 # Links
 
-Everyday stuff:
+Dia-a-dia:
 
 * [SearXNG](https://searx.space/)
 * [ProtonMail](https://mail.proton.me/login)
@@ -8,7 +8,7 @@ Everyday stuff:
 * [Dropbox](https://dropbox.com/home)
 * [Benri](https://www.benri.com/)
 
-Note-taking:
+Anotações:
 
 * [Simplenote](https://app.simplenote.com)
 * [Evernote](https://evernote.com)
@@ -25,15 +25,16 @@ Design:
 * [Photo Gradient](https://photogradient.com)
 * [いらすとや](https://www.irasutoya.com/)
 
-Code:
+Código:
 
 * [5apps](https://5apps.com/)
 * [Gitlab](https://gitlab.com)
 * [Github](https://github.com/login)
 * [crontab guru](https://crontab.guru/)
 * [RDAP](https://www.icann.org/rdap/)
+* [OEIS](https://oeis.org/)
 
-Inspiration:
+Inspiração:
 
 * [Design Milk](http://design-milk.com/)
 * [Apartment Therapy](http://www.apartmenttherapy.com/)
