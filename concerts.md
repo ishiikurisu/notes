@@ -28,4 +28,5 @@
 * Pantera + Power Trip + King Parrot (Dublin, 2025-02-21)
 * Lucy Dacus + Jasmine 4T (Dublin, 2025-07-03)
 * Queens of the Stone Age + Cliffords + So Good (Dublin, 2025-08-20)
+* One Ok Rock + Paledusk (Brussels, 2025-10-18)
 

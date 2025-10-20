@@ -32,7 +32,7 @@
   "description" : "Proposal of a single makefile format for all project",
   "language" : "en",
   "path" : "standard_makefile.md",
-  "creation_date" : "2025-06-04T11:27:17.000Z",
+  "creation_date" : "2025-06-03T10:58:06.000Z",
   "last_updated_date" : "2025-06-04T11:27:17.000Z",
   "original_date" : "2025-04-09T21:37:14.000Z"
 }, {
@@ -47,7 +47,7 @@
   "description" : "How to run programs in parallel in Unix",
   "language" : "en",
   "path" : "parallel_linux.md",
-  "creation_date" : "2025-06-04T11:27:17.000Z",
+  "creation_date" : "2025-06-03T10:58:06.000Z",
   "last_updated_date" : "2025-06-04T11:27:17.000Z",
   "original_date" : "2025-02-03T18:04:56.000Z"
 }, {
@@ -55,7 +55,7 @@
   "description" : "A way to send data across processes",
   "language" : "en",
   "path" : "named_pipes.md",
-  "creation_date" : "2025-06-04T11:27:17.000Z",
+  "creation_date" : "2025-06-03T10:58:06.000Z",
   "last_updated_date" : "2025-06-04T11:27:17.000Z",
   "original_date" : "2024-12-26T17:18:58.000Z"
 }, {
@@ -63,7 +63,7 @@
   "description" : "Uma maneira diferente de compreender e organizar informações em um site",
   "language" : "pt-br",
   "path" : "digital_garden.pt.md",
-  "creation_date" : "2025-06-04T11:27:17.000Z",
+  "creation_date" : "2025-06-03T10:58:06.000Z",
   "last_updated_date" : "2025-06-04T11:27:17.000Z",
   "original_date" : "2024-10-28T14:55:47.000Z"
 }, {
@@ -85,7 +85,7 @@
   "description" : "Anything done is better than nothing done",
   "language" : "en",
   "path" : "cult_of_done.md",
-  "creation_date" : "2025-06-04T11:27:17.000Z",
+  "creation_date" : "2025-06-03T10:58:06.000Z",
   "last_updated_date" : "2025-06-04T11:27:17.000Z",
   "original_date" : "2023-09-21T08:13:37.000Z"
 }, {
@@ -93,7 +93,7 @@
   "description" : "Uma alternativa gentil a resoluções de ano novo",
   "language" : "pt-br",
   "path" : "yearly_themes.md",
-  "creation_date" : "2025-06-04T11:27:17.000Z",
+  "creation_date" : "2025-06-03T10:58:06.000Z",
   "last_updated_date" : "2025-06-04T11:27:17.000Z",
   "original_date" : "2023-08-28T09:34:07.000Z"
 }, {
@@ -101,7 +101,7 @@
   "description" : "Principles for a life in community",
   "language" : "en",
   "path" : "buen_vivir.md",
-  "creation_date" : "2025-06-04T11:27:17.000Z",
+  "creation_date" : "2025-06-03T10:58:06.000Z",
   "last_updated_date" : "2025-06-04T11:27:17.000Z",
   "original_date" : "2023-08-23T10:09:19.000Z"
 }, {
@@ -109,7 +109,7 @@
   "description" : "Como fazer computação que sobreviva ao fim dos tempos",
   "language" : "pt-br",
   "path" : "permacomputing.md",
-  "creation_date" : "2025-06-04T11:27:17.000Z",
+  "creation_date" : "2025-06-03T10:58:06.000Z",
   "last_updated_date" : "2025-06-04T11:27:17.000Z",
   "original_date" : "2022-12-08T17:09:36.000Z"
 }, {
@@ -131,7 +131,7 @@
   "description" : "Um estilo de vida honesto e simples",
   "language" : "pt-br",
   "path" : "dokkodo.md",
-  "creation_date" : "2025-06-04T11:27:17.000Z",
+  "creation_date" : "2025-06-03T10:58:06.000Z",
   "last_updated_date" : "2025-06-04T11:27:17.000Z",
   "original_date" : "2022-03-30T11:43:54.000Z"
 }, {
@@ -146,7 +146,7 @@
   "description" : "notes from that video",
   "language" : "en",
   "path" : "how_to_have_a_personality.md",
-  "creation_date" : "2025-06-04T11:27:17.000Z",
+  "creation_date" : "2025-06-03T10:58:06.000Z",
   "last_updated_date" : "2025-06-04T11:27:17.000Z",
   "original_date" : "2022-03-06T11:02:51.000Z"
 }, {
@@ -328,6 +328,6 @@
   "language" : "en",
   "path" : "concerts.md",
   "creation_date" : "2025-06-27T21:38:28.000Z",
-  "last_updated_date" : "2025-08-21T15:22:33.000Z",
+  "last_updated_date" : "2025-10-20T15:36:23.000Z",
   "original_date" : "2019-12-27T12:00:58.000Z"
 } ]
