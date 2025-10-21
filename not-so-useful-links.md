@@ -43,6 +43,7 @@ Personal websites:
 * [アルフの部屋](https://alf-s-room.com/)
 * [アオキさんのサイト](http://aoki2.si.gunma-u.ac.jp/)
 * [Hügelton Instruments](https://hugelton.com/)
+* [John Tromp's website](https://tromp.github.io/)
 
 Digital experiences:
 
@@ -59,6 +60,10 @@ Digital experiences:
 * [Rotating Sandwiches](https://rotatingsandwiches.com/)
 * [Make Frontend Shit Again](https://makefrontendshitagain.party/)
 * [このファイルは存在しません](https://404errornotfound.web.fc2.com/home.html)
+* [Tixl](https://tixl.app/)
+* [Trompyst](https://gwennlbh.github.io/trompyst/)
+* [Lambda 2D](https://github.com/NeuralCoder3/lambda-2d)
+* [Powder Toy](https://powdertoy.co.uk/)
 
 Other stuff:
 
@@ -69,5 +74,4 @@ Other stuff:
 * [Photo Gradient](https://photogradient.com)
 * [Gemini to HTTP proxy](https://portal.mozz.us)
 * [My personal Listography](https://listography.com/ishiikurisu)
-* [Marginalia](https://old-search.marginalia.nu/)
 

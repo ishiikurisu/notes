@@ -7,6 +7,7 @@ Dia-a-dia:
 * [Spotify](https://play.spotify.com)
 * [Dropbox](https://dropbox.com/home)
 * [Benri](https://www.benri.com/)
+* [Marginalia](https://old-search.marginalia.nu/)
 
 Anotações:
 
