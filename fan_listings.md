@@ -97,7 +97,8 @@ Please check [thefanlistings.org](https://thefanlistings.org/tfl101.php) for mor
 [![Kopimi](./web_graphics/kopimi.gif)](https://kopimi.com/)
 
 ![This user loves Mimikkyu](./web_graphics/user_loves_mimikkyu.jpg)
-[![Project Euler](https://projecteuler.net/profile/boxofjoe.png)](https://projecteuler.net/)
+![My Pokémon team](./web_graphics/jumbo_proportional_hex_1x.png)
 
 [![ひゃくまんさん](./web_graphics/hyakumansan.png)](https://hyakumansan.jp/)
+[![Project Euler](https://projecteuler.net/profile/boxofjoe.png)](https://projecteuler.net/)
 
