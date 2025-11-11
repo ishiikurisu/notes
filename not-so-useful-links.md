@@ -64,6 +64,7 @@ Digital experiences:
 * [Trompyst](https://gwennlbh.github.io/trompyst/)
 * [Lambda 2D](https://github.com/NeuralCoder3/lambda-2d)
 * [Powder Toy](https://powdertoy.co.uk/)
+* [Omniglot](https://www.omniglot.com/)
 
 Other stuff:
 
